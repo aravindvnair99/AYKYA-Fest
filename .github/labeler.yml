@@ -3,3 +3,5 @@ frontend:
   all: ['!functions/index.js']
 images:
 - any: ['*.png', '*.jpg', '*.jpeg']
+workflows:
+- any: ['workflows/*']
