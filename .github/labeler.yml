@@ -4,4 +4,4 @@ frontend:
 images:
 - any: ['*.png', '*.jpg', '*.jpeg']
 workflows:
-- any: ['workflows/*']
+- any: ['.github/workflows/*']
