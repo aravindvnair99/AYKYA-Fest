@@ -1,9 +1,52 @@
-const functions = require('firebase-functions');
+const functions = require("firebase-functions"),
+	express = require("express"),
+	app = express(),
+	morgan = require("morgan");
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+/*=============================================>>>>>
+
+				= init and config =
+
+===============================================>>>>>*/
+
+app.use(morgan("dev"));
+app.set("views", "./views");
+app.set("view engine", "ejs");
+
+/*=============================================>>>>>
+
+				= basic routes =
+
+===============================================>>>>>*/
+
+app.get("/", (req, res) => {
+	res.render("index");
+});
+app.get("/offline", (req, res) => {
+	res.render("offline");
+});
+
+/*=============================================>>>>>
+
+				= legal routes =
+
+===============================================>>>>>*/
+
+app.get("/privacyPolicy", (req, res) => {
+	res.render("legal/privacyPolicy");
+});
+app.get("/termsConditions", (req, res) => {
+	res.render("legal/termsConditions");
+});
+
+/*=============================================>>>>>
+
+				= errors =
+
+===============================================>>>>>*/
+
+app.use((req, res) => {
+	res.status(404).render("errors/404");
+});
+
+exports.app = functions.https.onRequest(app);
