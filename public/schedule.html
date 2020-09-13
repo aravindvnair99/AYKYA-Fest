@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AYKYA</title>
+
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="assets/styles/css/slick.css">
+  <link rel="stylesheet" href="assets/styles/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/styles/css/animate.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+<header >
+    <div class="extra-container">
+        <div class="header">
+            <div class="header__menu-icon">
+                <div class="header__menu-icon__dot">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--skew">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
+                    <span ></span>
+                    <span ></span>
+                </div>
+            </div>
+            <div class="position-fixed"></div>
+            <div class="header__logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+            </div>
+
+            <a class="header__buy-ticket " href="#">BUY TICKETS</a>
+
+        </div>
+    </div>
+</header>
+<section class="header-posistion"></section>
+<section>
+
+<div class="menu-nav">
+    <div class="extra-container">
+        <div class="menu-nav-close"></div>
+        <nav>
+            <ul>
+                <li>
+                    <a class="menu-link link--kukuri" href="#" data-letters="Home">Home</a><i class="fa fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li><a class="menu-link link--kukuri" data-letters="Home" href="index.html">Home</a></li>
+                        <li><a class="menu-link link--kukuri" data-letters="Home Portfolio" href="index-2.html">Home Portfolio</a></li>
+                        <li><a class="menu-link link--kukuri" href="creative-agency.html" data-letters="Home Creative">Home Creative</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-link link--kukuri" href="#" data-letters="Portfolio">Portfolio</a><i class="fa fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li><a class="menu-link link--kukuri" data-letters="Portfolio" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="menu-link link--kukuri" data-letters="Portfolio Single" href="portfolio-single.html">Portfolio Single</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-link link--kukuri" data-letters="Speaker" href="#">Speaker</a><i class="fa fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li><a class="menu-link link--kukuri" data-letters="Speaker1" href="speaker-1.html">Speaker1</a></li>
+                        <li><a class="menu-link link--kukuri" data-letters="Speaker2" href="speaker-2.html">Speaker2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-link link--kukuri" href="#" data-letters="Blog">Blog</a><i class="fa fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li><a class="menu-link link--kukuri" data-letters="Blog Single" href="blog-single.html">Blog Single</a></li>
+                        <li><a class="menu-link link--kukuri" data-letters="Blog Grid" href="blog.html">Blog Grid</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu-link link--kukuri" href="venue.html" data-letters="Venue">Venue</a></li>
+                <li><a class="menu-link link--kukuri" href="schedule.html" data-letters="Schedule">Schedule</a></li>
+                <li>
+                    <a class="menu-link link--kukuri" href="#" data-letters="Pages">Pages</a>
+                    <i class="fa fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li><a class="menu-link link--kukuri" href="contact.html" data-letters="Contact">Contact</a></li>
+                        <li><a class="menu-link link--kukuri" data-letters="404" href="404.html">404</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</section>
+
+<div class="loading">
+    <div class="sp sp-3balls"></div>
+</div>
+
+
+
+
+
+
+<section>
+    <div class="extra-container">
+        <div class="schedule__tittle">
+            <h1>Conference Schedule</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="schedule-tab">
+            <div class="schedule-tab__item tab-active" data-tab="tab-1">
+                <h2>Day 01</h2>
+                <p>Monday, 26th Dec</p>
+            </div>
+            <div class="schedule-tab__item" data-tab="tab-2">
+                <h2>Day 02</h2>
+                <p>Tuesday, 27th Dec</p>
+            </div>
+            <div class="schedule-tab__item" data-tab="tab-3">
+                <h2>Day 03</h2>
+                <p>Wednesday, 28th Dec</p>
+            </div>
+        </div>
+        <div id="tab-1" class="schedule-table tab-current">
+            <!-- greating row 1st -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__greating ">
+                        <h3>8:30am - 9:00am</h3>
+                        <p>(In Lobby A)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event schedule-table__greating schedule-table__greating--event">
+                        <h3>Welcome & Registration</h3>
+                        <p>Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2nd--- normal -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>9:00am - 10:30am </h3>
+                        <p>(At Hall A)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Workshop for Designer: Web Trends for 2019 </h3>
+                        <p>Fusce consectetur, sapien nec congue convallis, enim turpis dap. Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule1.png" alt="speaker1">
+                            <div class="schedule-table__speaker__name">
+                                <p>Amy Roberts</p>
+                                <span>Product Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3rd--- Break -->
+            <div class="break-time wow flipInX">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>10:30am - 11:00am</h3>
+                            <p>(In Lobby A)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 4th--- normal -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>11:00am - 12:00am</h3>
+                        <p>(At Hall B)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Keynote: UX/UI Design</h3>
+                        <p>Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule2.png" alt="speaker2">
+                            <div class="schedule-table__speaker__name">
+                                <p>Gerald Alvarez</p>
+                                <span>UX/UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 5th --- Break -->
+            <div class="break-time break-time--lunch wow flipInX">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>12:00am</h3>
+                            <p>(At L.U.X Restaurant)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Lunch Time</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 6th--- normal -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>2:00pm - 3:30pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Prototype Everything</h3>
+                        <p>Nunc scelerisque diam fringilla aliquam tincidunt. Curabitur ut pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule3.png" alt="speaker3">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule4.png" alt="speaker4">
+                            <div class="schedule-table__speaker__name">
+                                <p>Joe Baker</p>
+                                <span>Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 7th--- Break -->
+            <div class="break-time wow flipInX">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="schedule-table__time">
+                            <h3>3:30pm - 4:00pm</h3>
+                            <p>(In Lobby D)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-8">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 8th--- normal -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-4">
+                    <div class="schedule-table__time">
+                        <h3>4:00pm - 5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8">
+                    <div class="schedule-table__event">
+                        <h3>Design Systems with Soul</h3>
+                        <p>Pellentesque sollicitudin massa lectus, pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule5.png" alt="speaker5">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end row 8th -->
+            <div class="row wow flipInX">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__end ">
+                        <h3>5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event ">
+                        <h3>Day One Done</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="schedule-table__speaker">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="tab-2" class="schedule-table">
+            <!-- greating row 1st -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__greating ">
+                        <h3>9:00am - 9:30am</h3>
+                        <p>(In Lobby C)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event schedule-table__greating schedule-table__greating--event">
+                        <h3>Welcome & Outdoor Activities</h3>
+                        <p>Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2nd--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>9:00am - 10:30am </h3>
+                        <p>(At Hall A)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Workshop for Programer: Web Trends for 2020 </h3>
+                        <p>Fusce consectetur, sapien nec congue convallis, enim turpis dap. Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule2.png" alt="speaker1">
+                            <div class="schedule-table__speaker__name">
+                                <p>Amy Roberts</p>
+                                <span>Product Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3rd--- Break -->
+            <div class="break-time ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>10:30am - 11:00am</h3>
+                            <p>(In Lobby A)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 4th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>11:00am - 12:00am</h3>
+                        <p>(At Hall B)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Keynote: UX/UI Design</h3>
+                        <p>Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule1.png" alt="speaker2">
+                            <div class="schedule-table__speaker__name">
+                                <p>Gerald Alvarez</p>
+                                <span>UX/UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 5th --- Break -->
+            <div class="break-time break-time--lunch ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>12:00am</h3>
+                            <p>(At L.U.X Restaurant)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Lunch Time</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 6th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>2:00pm - 3:30pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Prototype Everything</h3>
+                        <p>Nunc scelerisque diam fringilla aliquam tincidunt. Curabitur ut pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule3.png" alt="speaker3">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule4.png" alt="speaker4">
+                            <div class="schedule-table__speaker__name">
+                                <p>Joe Baker</p>
+                                <span>Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 7th--- Break -->
+            <div class="break-time ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="schedule-table__time">
+                            <h3>3:30pm - 4:00pm</h3>
+                            <p>(In Lobby D)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-8">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 8th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-4">
+                    <div class="schedule-table__time">
+                        <h3>4:00pm - 5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8">
+                    <div class="schedule-table__event">
+                        <h3>Design Systems with Soul</h3>
+                        <p>Pellentesque sollicitudin massa lectus, pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule5.png" alt="speaker5">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end row 8th -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__end ">
+                        <h3>5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event ">
+                        <h3>Day One Done</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="schedule-table__speaker">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="tab-3" class="schedule-table">
+            <!-- greating row 1st -->
+            <div class="row">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__greating ">
+                        <h3>9:00am - 9:50am</h3>
+                        <p>(In Lobby A)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event schedule-table__greating schedule-table__greating--event">
+                        <h3>Epilogue & Souvenir</h3>
+                        <p>Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2nd--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>9:00am - 10:30am </h3>
+                        <p>(At Hall A)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Workshop for Developer </h3>
+                        <p>Fusce consectetur, sapien nec congue convallis, enim turpis dap. Continental breakfast and registration for conference. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule4.png" alt="speaker1">
+                            <div class="schedule-table__speaker__name">
+                                <p>Amy Roberts</p>
+                                <span>Product Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3rd--- Break -->
+            <div class="break-time ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>10:30am - 11:00am</h3>
+                            <p>(In Lobby A)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 4th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>11:00am - 12:00am</h3>
+                        <p>(At Hall B)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Keynote: UX/UI Design</h3>
+                        <p>Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule2.png" alt="speaker2">
+                            <div class="schedule-table__speaker__name">
+                                <p>Gerald Alvarez</p>
+                                <span>UX/UI Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 5th --- Break -->
+            <div class="break-time break-time--lunch ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="schedule-table__time">
+                            <h3>12:00am</h3>
+                            <p>(At L.U.X Restaurant)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-7">
+                        <div class="break-time__coffee">
+                            <h3>Lunch Time</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 6th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time">
+                        <h3>2:00pm - 3:30pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event">
+                        <h3>Prototype Everything</h3>
+                        <p>Nunc scelerisque diam fringilla aliquam tincidunt. Curabitur ut pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. Vivamus eget ante metus. Nulla luctus vitae nulla et vulputate. Pick up your name badge and goodie bag.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule3.png" alt="speaker3">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule1.png" alt="speaker4">
+                            <div class="schedule-table__speaker__name">
+                                <p>Joe Baker</p>
+                                <span>Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 7th--- Break -->
+            <div class="break-time ">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="schedule-table__time">
+                            <h3>3:30pm - 4:00pm</h3>
+                            <p>(In Lobby D)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-8">
+                        <div class="break-time__coffee">
+                            <h3>Coffee Break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 8th--- normal -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-4">
+                    <div class="schedule-table__time">
+                        <h3>4:00pm - 5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8">
+                    <div class="schedule-table__event">
+                        <h3>Design Systems with Soul</h3>
+                        <p>Pellentesque sollicitudin massa lectus, pellentesque sollicitudin massa lectus, sed lacinia ligula lobo. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="schedule-table__speaker">
+                        <div class="schedule-table__speaker__info">
+                            <img src="assets/images/uploads/schedule/schedule5.png" alt="speaker5">
+                            <div class="schedule-table__speaker__name">
+                                <p>Kathleen Watson</p>
+                                <span>UX Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end row 8th -->
+            <div class="row ">
+                <div class="col-lg-3 col-sm-5">
+                    <div class="schedule-table__time schedule-table__end ">
+                        <h3>5:00pm</h3>
+                        <p>(At Hall D)</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-7">
+                    <div class="schedule-table__event ">
+                        <h3>Day One Done</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="schedule-table__speaker">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="extra-container">
+        <div class="sponsor__tittle">
+            <h1>Our Sponsor</h1>
+        </div>
+        <div class="sponsor">
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor1.png" alt="sponsor1"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor2.png" alt="sponsor2"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor3.png" alt="sponsor3"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor4.png" alt="sponsor4"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor5.png" alt="sponsor5"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor6.png" alt="sponsor6"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor7.png" alt="sponsor7"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor8.png" alt="sponsor8"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor9.png" alt="sponsor9"></div>
+            <div class="sponsor__item"><img src="assets/images/uploads/sponsor/sponsor10.png" alt="sponsor10"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="container">
+        <div class="footer ">
+            <a class="footer__logo" href="index.html"><img class="footer-move-up" src="assets/images/logo.png" alt="logo"></a>
+            <div class="footer__site-text">
+                <p class="footer-move-up">Web Design Conference 2019.</p>
+                <p class="footer-move-up">International conference for UX/UI designers</p>
+            </div>
+            <div class="footer__get-ticket footer-move-up">
+                <a href="#">GET TICKETS</a>
+            </div>
+            <div class="footer__menu footer-move-up">
+                <ul>
+                    <li><a href="#">Become a sponsor</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Teams of service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="container">
+            <div class="copy-right__area">
+                <p class="copy-right__left">
+                    <i class="fa fa-copyright"></i> 2020 <span>AYKYA</span>. All Rights Reserved. Made by Aditya, Aravind, Priyaa, Subharish, Suneel, Vinayak
+                </p>
+                <div class="copy-right__right">
+                    <a href="#"><img src="assets/images/footer-face.png" alt="face"></a>
+                    <a href="#"><img src="assets/images/footer-ins.png" alt="ins"></a>
+                    <a href="#"><img src="assets/images/footer-in.png" alt="in"></a>
+                    <a href="#"><img src="assets/images/footer-twit.png" alt="twit"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/scripts/jquery-3.4.1.js"> </script>
+
+<script src="assets/scripts/slick.min.js"></script>
+<script src="assets/scripts/isotope.pkgd.min.js"></script>
+<script src="assets/scripts/packery-mode.pkgd.min.js" ></script>
+<script src="assets/scripts/cells-by-row.js" ></script>
+<script src="assets/scripts/flickity.pkgd.min.js"></script>
+<script src="assets/scripts/anime.min.js"></script>
+<script src="assets/scripts/ScrollMagic.min.js" ></script>
+<script src="assets/scripts/TimelineMax.min.js"></script>
+<script src="assets/scripts/TweenMax.min.js" ></script>
+<script src="assets/scripts/animation.gsap.min.js"></script>
+<script src="assets/scripts/charming.min.js"></script>
+<script src="assets/scripts/wow.js"></script>
+<script src="assets/scripts/lightbox.js"></script>
+
+<script src="assets/scripts/app.js"></script>
+
+</body>
+
+</html>
