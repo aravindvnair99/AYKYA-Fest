@@ -1,0 +1,5 @@
+frontend:
+- any: ['*.js', '*.css']
+  all: ['!functions/index.js']
+images:
+- any: ['*.png', '*.jpg', '*.jpeg']
