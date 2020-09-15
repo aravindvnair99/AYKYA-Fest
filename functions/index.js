@@ -69,15 +69,6 @@ app.get("/template/speaker2", (req, res) => {
 app.get("/template/venue", (req, res) => {
 	res.render("template/venue");
 });
-app.get("/template/errors/401", (req, res) => {
-	res.render("template/errors/401");
-});
-app.get("/template/errors/404", (req, res) => {
-	res.render("template/errors/404");
-});
-app.get("/template/errors/500", (req, res) => {
-	res.render("template/errors/500");
-});
 
 /*=============================================>>>>>
 
