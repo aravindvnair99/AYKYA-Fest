@@ -1,11 +1,11 @@
 HTML:
-- any: ['/**/*.html']
+- any: ['**/**/*.html']
 EJS:
-- any: ['**/*.ejs']
+- any: ['**/**/*.ejs']
 CSS:
-- any: ['**/*.css']
+- any: ['**/**/*.css']
 JavaScript:
-- any: ['**/*.js']
+- any: ['**/**/*.js']
   all: ['!functions/index.js']
 images:
 - any: ['**/*.png', '**/*.jpg', '**/*.jpeg', '/**/*.svg', '**/*.gif']
