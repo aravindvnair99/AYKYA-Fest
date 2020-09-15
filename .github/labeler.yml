@@ -10,7 +10,7 @@ JavaScript:
 images:
 - any: ['**/**/**/**/**/*.png', '**/**/**/**/**/*.jpg', '**/**/**/**/**/*.jpeg', '**/**/**/**/**/*.svg', '**/**/**/**/**/*.gif']
 workflows:
-- any: ['.github/workflows/**/**/**/**/**/*']
+- .github/workflows/**/**/**/**/**/*
 front-end:
 - any: ['public/**/**/**/**/**/*']
 back-end:
