@@ -1,188 +1,276 @@
-
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
+	<body>
+		<header id="header-3">
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__logo">
+						<a href="index"
+							><img src="../assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<head>
-   <%- include('components/meta') -%>
-  <title>AYKYA</title>
-  <%- include('components/corecss') -%>
-</head>
-<body>
-<header id="header-3">
-    <div class="extra-container ">
-        <div class="header-2 ">
-            <div class="header__logo">
-                <a href="index"><img src="../assets/images/logo.png" alt="logo"></a>
-            </div>
+					<div id="header-trans2__btn" class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
 
-            <div id="header-trans2__btn" class="header__menu-icon">
-                <div class="header__menu-icon__dot ">
-                    <span ></span>
-                    <span ></span>
-                </div>
-                <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-                    <span ></span>
-                    <span ></span>
-                </div>
-                <div class="header__menu-icon__dot header__menu-icon__dot--skew">
-                    <span ></span>
-                    <span ></span>
-                </div>
-                <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-                    <span ></span>
-                    <span ></span>
-                </div>
-            </div>
+		<section>
+			<div class="portfolio-3">
+				<div class="extra-container">
+					<div class="portfolio-3__tittle">
+						<h1>Showcase Our Work</h1>
+					</div>
+					<ul class="portfolio-3__categoties">
+						<li data-filter="*" class="port3-filter">Show All</li>
+						<li data-filter=".webdesign">Web Design</li>
+						<li data-filter=".branding">Branding</li>
+						<li data-filter=".marketing">Marketing</li>
+						<li data-filter=".illustration">Illustration</li>
+					</ul>
+					<div class="portfolio-3__grid">
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__2h2w branding"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio11.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-        </div>
-    </div>
-</header>
-<section class="header-posistion"></section>
-<%- include('components/nav') -%>
-<div class="loading">
-    <div class="sp sp-3balls"></div>
-</div>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor illustration"
+						>
+							<img
+								src="../assets/images/uploads/testi/testi-1.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-<section>
-    <div class="portfolio-3">
-        <div class="extra-container">
-            <div class="portfolio-3__tittle">
-                <h1>Showcase Our Work</h1>
-            </div>
-            <ul class="portfolio-3__categoties">
-                <li data-filter="*" class="port3-filter">Show All </li>
-                <li data-filter=".webdesign">Web Design</li>
-                <li data-filter=".branding">Branding</li>
-                <li data-filter=".marketing">Marketing</li>
-                <li data-filter=".illustration">Illustration</li>
-            </ul>
-            <div class="portfolio-3__grid">
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__2h illustration"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio13.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor webdesign"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio14.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__2h2w branding">
-                    <img src="../assets/images/uploads/porfolio/porfolio11.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__2h marketing"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio1.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor illustration">
-                    <img src="../assets/images/uploads/testi/testi-1.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor marketing"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio2.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Why Not</h5>
+								<p>Branding</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__2h illustration">
-                    <img src="../assets/images/uploads/porfolio/porfolio13.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor webdesign"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio3.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor webdesign">
-                    <img src="../assets/images/uploads/porfolio/porfolio14.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor branding"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio4.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__2h marketing">
-                    <img src="../assets/images/uploads/porfolio/porfolio1.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__nor illustration"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio5.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor marketing">
-                    <img src="../assets/images/uploads/porfolio/porfolio2.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Why Not</h5>
-                        <p>Branding</p>
-                    </div>
-                </a>
+						<a
+							href="portfolioSingle"
+							class="portfilio-3__item portfilio-3__item__2w marketing"
+						>
+							<img
+								src="../assets/images/uploads/porfolio/porfolio6.jpg"
+								alt="portfolio3"
+							/>
+							<div class="portfilio-3__item__category">
+								<h5>Sunday</h5>
+								<p>Analytical Develop</p>
+							</div>
+						</a>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor webdesign">
-                    <img src="../assets/images/uploads/porfolio/porfolio3.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+						<div class="portfilio-3__item-sizer"></div>
+					</div>
+					<div class="portfolio__load-all">
+						<div class="link-draw__hover">
+							<svg viewBox="4 0 118 98.6" class="hand-draw">
+								<path
+									class="hand-med-hover"
+									d="M33.2,31.2C53.8,14.1,78.4,9.5,96.9,19.4c12.2,6.5,26.7,21.9,23.9,37.8c-3.9,22.2-39.1,37.1-65.6,34.5c-8.8-0.9-17.6-3.8-25.3-8.2C16.7,76,4.5,63.1,4.4,47.2C4.3,32.4,15,19.3,27.2,12.1c3.6-2.1,7.5-3.9,11.5-5.3c15.2-5.5,27.7-2.5,32.7-1.3c3.6,0.9,18,4.9,29.9,19c5.4,6.3,11.2,13.1,12.5,24.5c0.3,2.6,2,20.2-10.5,34.1C93.9,93.4,82,94,70,94.7c-9.9,0.6-25.8,1.5-39.3-10.1c-2.3-2-20.5-18.1-16-38.8c2.4-10.8,10-18.2,12.4-20.5c6.8-6.6,13.6-8.9,19.7-11C52,12.7,63,9.1,76.3,11.8c5,1,14.8,3.1,23.4,11.9c2.4,2.5,9.2,9.7,11.6,22c0.8,4.2,2.2,11.4-0.4,19.1c-4.9,14.2-20.9,19.7-28.3,22.4c-6,2.1-18,6.4-31.1,1.9c-16.1-5.4-33.7-23.9-28.8-44.2C25.5,33.2,35,24,44.6,19.9c14.3-6.2,26.1,0,28,1"
+								/>
+							</svg>
+							<a class="moving-btn" href="#">Load More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor branding">
-                    <img src="../assets/images/uploads/porfolio/porfolio4.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+		<footer>
+			<div class="cursor"></div>
+			<div class="cursor-follower"></div>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__nor illustration">
-                    <img src="../assets/images/uploads/porfolio/porfolio5.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
+			<div class="container">
+				<div class="footer-3">
+					<h5 class="t-upcase t-dusty wow fadeInUp">
+						<a href="#">Let’s work together</a>
+					</h5>
+					<h4 class="t-white wow fadeInUp">
+						<a href="#">hey@richardgreen.com</a>
+					</h4>
+					<h3 class="t-dusty wow fadeInUp">
+						<a href="#">(082)-1536-2704</a>
+					</h3>
+				</div>
+			</div>
+			<div class="copy-right">
+				<div class="container">
+					<div class="copy-right__area">
+						<p class="copy-right__left">
+							<i class="fa fa-copyright"></i> 2020
+							<span>AYKYA</span>. All Rights Reserved. Made by
+							Aditya, Aravind, Priyaa, Subharish, Suneel, Vinayak
+						</p>
+						<div class="copy-right__right">
+							<a href="#"
+								><img
+									src="../assets/images/footer-face.png"
+									alt="face"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/images/footer-ins.png"
+									alt="ins"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/images/footer-in.png"
+									alt="in"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/images/footer-twit.png"
+									alt="twit"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-                <a href="portfolioSingle" class="portfilio-3__item portfilio-3__item__2w marketing">
-                    <img src="../assets/images/uploads/porfolio/porfolio6.jpg" alt="portfolio3">
-                    <div class="portfilio-3__item__category">
-                        <h5>Sunday</h5>
-                        <p>Analytical Develop</p>
-                    </div>
-                </a>
-
-                <div class="portfilio-3__item-sizer"></div>
-            </div>
-            <div class="portfolio__load-all">
-                <div class="link-draw__hover">
-                    <svg viewBox="4 0 118 98.6" class="hand-draw"><path class="hand-med-hover" d="M33.2,31.2C53.8,14.1,78.4,9.5,96.9,19.4c12.2,6.5,26.7,21.9,23.9,37.8c-3.9,22.2-39.1,37.1-65.6,34.5c-8.8-0.9-17.6-3.8-25.3-8.2C16.7,76,4.5,63.1,4.4,47.2C4.3,32.4,15,19.3,27.2,12.1c3.6-2.1,7.5-3.9,11.5-5.3c15.2-5.5,27.7-2.5,32.7-1.3c3.6,0.9,18,4.9,29.9,19c5.4,6.3,11.2,13.1,12.5,24.5c0.3,2.6,2,20.2-10.5,34.1C93.9,93.4,82,94,70,94.7c-9.9,0.6-25.8,1.5-39.3-10.1c-2.3-2-20.5-18.1-16-38.8c2.4-10.8,10-18.2,12.4-20.5c6.8-6.6,13.6-8.9,19.7-11C52,12.7,63,9.1,76.3,11.8c5,1,14.8,3.1,23.4,11.9c2.4,2.5,9.2,9.7,11.6,22c0.8,4.2,2.2,11.4-0.4,19.1c-4.9,14.2-20.9,19.7-28.3,22.4c-6,2.1-18,6.4-31.1,1.9c-16.1-5.4-33.7-23.9-28.8-44.2C25.5,33.2,35,24,44.6,19.9c14.3-6.2,26.1,0,28,1"/></svg>
-                    <a class="moving-btn" href="#">Load More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<footer>
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
-    <div class="container">
-        <div class="footer-3">
-            <h5 class="t-upcase t-dusty wow fadeInUp"><a href="#">Let’s work together</a></h5>
-            <h4 class="t-white wow fadeInUp"><a href="#">hey@richardgreen.com</a></h4>
-            <h3 class="t-dusty wow fadeInUp"><a href="#">(082)-1536-2704</a></h3>
-        </div>
-    </div>
-    <div class="copy-right">
-        <div class="container">
-            <div class="copy-right__area">
-                <p class="copy-right__left">
-                    <i class="fa fa-copyright"></i> 2020 <span>AYKYA</span>. All Rights Reserved. Made by Aditya, Aravind, Priyaa, Subharish, Suneel, Vinayak
-                </p>
-                <div class="copy-right__right">
-                    <a href="#"><img src="../assets/images/footer-face.png" alt="face"></a>
-                    <a href="#"><img src="../assets/images/footer-ins.png" alt="ins"></a>
-                    <a href="#"><img src="../assets/images/footer-in.png" alt="in"></a>
-                    <a href="#"><img src="../assets/images/footer-twit.png" alt="twit"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<%- include('components/corejs') -%>
-
-</body>
-
+		<%- include('components/corejs') -%>
+	</body>
 </html>
