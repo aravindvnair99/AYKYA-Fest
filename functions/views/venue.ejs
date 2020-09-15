@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <%- include('components/meta') -%>
+  <title>AYKYA</title>
+  <%- include('components/corecss') -%>
+</head>
+<body>
+<header >
+    <div class="extra-container">
+        <div class="header">
+            <div class="header__menu-icon">
+                <div class="header__menu-icon__dot">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--skew">
+                    <span ></span>
+                    <span ></span>
+                </div>
+                <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
+                    <span ></span>
+                    <span ></span>
+                </div>
+            </div>
+            <div class="position-fixed"></div>
+            <div class="header__logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+            </div>
+
+            <a class="header__buy-ticket " href="#">BUY TICKETS</a>
+
+        </div>
+    </div>
+</header>
+<section class="header-posistion"></section>
+<%- include('components/nav') -%>
+
+<div class="loading">
+    <div class="sp sp-3balls"></div>
+</div>
+
+
+
+
+
+
+<section>
+    <div class="extra-container">
+        <div class="venue-layout__tittle">
+            <h1>Conference Venue</h1>
+        </div>
+        <div class="venue-video">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="venue-video__iframe wow fadeInLeft">
+                        <video controls loop poster="assets/images/uploads/venue/footage.jpg">
+                            <source src="https://ak3.picdn.net/shutterstock/videos/1006899463/preview/stock-footage-wide-shot-of-a-conference-venue.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="venue-video__text wow fadeInRight">
+                        <div class="venue-video__text__tittle">
+                            <h2 class="venue-fadeinup">The A.X.A</h2>
+                            <h2 class="venue-fadeinup">Convention Centre</h2>
+                            <p class="venue-fadeinup">The A.X.A Convention Centre is part of an enormous complex located on the main artery of Barcedola, Spain</p>
+                        </div>
+
+                        <div class="venue-video__text__address venue-fadeinup">
+                            <iframe src="https://maps.google.com/maps?q=L'illa%20Diagonal%2C%20Avinguda%20Diagonal%2C%20547%2008029%20Barcelona%2C%20Spain&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                            <div class="venue-video__text__address__detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>L'illa Diagonal, Avinguda Diagonal, 547 08029 Barcelona, Spain</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="venue-layout-grid">
+
+                <div id="venue-item-1" class="venue-layout-grid__item wow fadeInLeft">
+                    <a href="#" class="venue-layout-grid__item__content">
+                        <div class="venue-layout-grid__item__thumb">
+                            <img src="assets/images/uploads/venue/venue1.jpg" alt="venue1">
+                        </div>
+                        <p>The avant-garde design and construction quality emerge from eac. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, iusto animi! Ea similique rerum quas provident.</p>
+                    </a>
+                </div>
+
+                <div id="venue-item-2" class="venue-layout-grid__item wow fadeInRight">
+                    <a href="#" class="venue-layout-grid__item__content">
+                        <div class="venue-layout-grid__item__thumb">
+                            <img src="assets/images/uploads/venue/venue2.jpg" alt="venue2">
+                        </div>
+                        <h3>Lobby A</h3>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes. Sequi, iusto animi! Ea similique rerum quas provident.</p>
+                    </a>
+                </div>
+
+                <div id="venue-item-3" class="venue-layout-grid__item wow fadeInLeft">
+                    <a href="#" class="venue-layout-grid__item__content">
+                        <div class="venue-layout-grid__item__thumb">
+                            <img src="assets/images/uploads/venue/venue3.jpg" alt="venue3">
+                        </div>
+                        <h3>Hall A</h3>
+                        <p>Sed pretium neque vel tortor hendrerit fermentum. Nullam ante dis parturient montes. Sequi, iusto animi! Ea similique rerum quas provident.</p>
+                    </a>
+                </div>
+
+                <div id="venue-item-4" class="venue-layout-grid__item wow fadeInRight">
+                    <a href="#" class="venue-layout-grid__item__content">
+                        <div class="venue-layout-grid__item__thumb">
+                            <img src="assets/images/uploads/venue/venue4.jpg" alt="venue4">
+                        </div>
+                        <h3>Hall D</h3>
+                        <p>Nulla facilisi Nam id risus condimentum, elementum nunc eu, se pretium neque vel tortor hendrerit fermentum.</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('components/sponsors') -%>
+
+
+
+<%- include('components/footer') -%>
+
+<%- include('components/corejs') -%>
+
+</body>
+
+</html>
