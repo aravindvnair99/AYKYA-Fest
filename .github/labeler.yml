@@ -16,6 +16,6 @@ front-end:
 back-end:
 - any: ['functions/**/*']
 dependencies:
-- any: ['functions/package.json', 'functions/package-lock.json']
+- any: ['/functions/package.json', '/functions/package-lock.json']
 documentation:
 - any: ['**/*.md']
