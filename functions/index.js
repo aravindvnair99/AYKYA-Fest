@@ -22,6 +22,24 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
 	res.render("index");
 });
+app.get("/about", (req, res) => {
+	res.render("about");
+});
+app.get("/upcomingEvents", (req, res) => {
+	res.render("upcomingEvents");
+});
+app.get("/eventGallery", (req, res) => {
+	res.render("eventGallery");
+});
+app.get("/fest", (req, res) => {
+	res.render("fest");
+});
+app.get("/members", (req, res) => {
+	res.render("members");
+});
+app.get("/contact", (req, res) => {
+	res.render("contact");
+});
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
