@@ -8,7 +8,7 @@ JavaScript:
 - any: ['**/**/*.js']
   all: ['!functions/index.js']
 images:
-- any: ['**/**/*.png', '**/**/*.jpg', '**/**/*.jpeg', '**/**/*.svg', '**/**/*.gif']
+- any: ['public/images/**/*']
 workflows:
 - any: ['.github/workflows/*']
 front-end:
