@@ -25,6 +25,17 @@ app.get("/", (req, res) => {
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
+/*=============================================>>>>>
+
+				= template routes =
+
+===============================================>>>>>*/
+app.get("/template/", (req, res) => {
+	res.render("template/");
+});
+app.get("/template/", (req, res) => {
+	res.render("template/");
+});
 
 /*=============================================>>>>>
 
