@@ -112,9 +112,9 @@ $(document).ready(function(){
                                 '<h4 class="info-move-in speaker__last-name">'+$(this).find('.speaker__last-name').text()+'</h4>'+
                                 '<h5 class="info-move-in speaker__career">'+$(this).find('.speaker__career').text()+'</h5>'+
                                 '<p class="info-move-in speaker__des">'+$(this).find('.speaker__des').text()+'</p>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="assets/images/speakers_detail_social1.png" alt="social1"></a>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="assets/images/speakers_detail_social2.png" alt="social2"></a>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="assets/images/speakers_detail_social3.png" alt="social3"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social1.png" alt="social1"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social2.png" alt="social2"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social3.png" alt="social3"></a>'+
                             '</div>'+
                         '</div>'+
                     '</div>'+
