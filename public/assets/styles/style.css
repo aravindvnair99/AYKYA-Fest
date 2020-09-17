@@ -17181,7 +17181,7 @@ HEADER
 
 .menu-nav .menu-link {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
+  /* -webkit-text-stroke-color: #ffffff; */
   font-family: "JosefinSans-600", sans-serif;
   overflow: hidden;
   outline: none;
@@ -17192,11 +17192,19 @@ HEADER
   display: inline-block;
 }
 
-.menu-nav .link--kukuri {
+.menu-nav .link--kukuri{
   transition: margin 0.5s;
 }
 
-.menu-nav .link--kukuri::after {
+/* Styling of Navbar Items */
+
+/* Home link */
+
+.menu-nav .home{
+  -webkit-text-stroke-color:#ffb300;
+}
+
+.menu-nav .home::after {
   content: '';
   position: absolute;
   height: 5px;
@@ -17204,30 +17212,203 @@ HEADER
   top: 50%;
   margin-top: -3px;
   right: 0;
-  background: #ffffff;
+  background:#ffb300;
   transform: translate3d(-101%, 0, 0);
   transition: transform 0.5s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
-.menu-nav .link--kukuri::before {
+.menu-nav .home::before {
   content: attr(data-letters);
   position: absolute;
   overflow: hidden;
-  color: #ffffff;
+  color: #ffb300;
   white-space: nowrap;
   width: 0%;
   transition: width 0.4s 0.3s;
 }
 
-.menu-nav .link--kukuri:hover::after {
+.menu-nav .home:hover{
+  text-shadow: 0 0 4px #ffb300;
+}
+
+.menu-nav .home:hover::after {
   transform: translate3d(101%, 0, 0);
 }
 
-.menu-nav .link--kukuri:hover::before {
+.menu-nav .home:hover::before {
   width: 100%;
 }
 
+/* About Aykya link */
+
+.menu-nav .about{
+  -webkit-text-stroke-color:#f7ff00;
+}
+
+.menu-nav .about::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 50%;
+  margin-top: -3px;
+  right: 0;
+  background: #f7ff00;
+  transform: translate3d(-101%, 0, 0);
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.menu-nav .about::before {
+  content: attr(data-letters);
+  position: absolute;
+  overflow: hidden;
+  color: #f7ff00;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+
+.menu-nav .about:hover{
+  text-shadow: 0 0 4px #f7ff00;
+}
+
+.menu-nav .about:hover::after {
+  transform: translate3d(101%, 0, 0);
+}
+
+.menu-nav .about:hover::before {
+  width: 100%;
+}
+
+/* Fest link */
+
+.menu-nav .fest{
+  -webkit-text-stroke-color:#00f9ff;
+}
+
+.menu-nav .fest::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 50%;
+  margin-top: -3px;
+  right: 0;
+  background: #00f9ff;
+  transform: translate3d(-101%, 0, 0);
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.menu-nav .fest::before {
+  content: attr(data-letters);
+  position: absolute;
+  overflow: hidden;
+  color: #00f9ff;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+
+.menu-nav .fest:hover{
+  text-shadow: 0 0 4px #00f9ff;
+}
+
+.menu-nav .fest:hover::after {
+  transform: translate3d(101%, 0, 0);
+}
+
+.menu-nav .fest:hover::before {
+  width: 100%;
+}
+
+/* Event Gallery link */
+
+.menu-nav .gallery{
+  -webkit-text-stroke-color:#23e000;
+}
+
+.menu-nav .gallery::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 50%;
+  margin-top: -3px;
+  right: 0;
+  background: #23e000;
+  transform: translate3d(-101%, 0, 0);
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.menu-nav .gallery::before {
+  content: attr(data-letters);
+  position: absolute;
+  overflow: hidden;
+  color: #23e000;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+
+.menu-nav .gallery:hover{
+  text-shadow: 0 0 4px #23e000;
+}
+
+.menu-nav .gallery:hover::after {
+  transform: translate3d(101%, 0, 0);
+}
+
+.menu-nav .gallery:hover::before {
+  width: 100%;
+}
+
+/* Upcoming Events link */
+
+.menu-nav .events{
+  -webkit-text-stroke-color:#b300ff;
+}
+
+.menu-nav .events::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 50%;
+  margin-top: -3px;
+  right: 0;
+  background: #b300ff;
+  transform: translate3d(-101%, 0, 0);
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.menu-nav .events::before {
+  content: attr(data-letters);
+  position: absolute;
+  overflow: hidden;
+  color: #b300ff;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+
+.menu-nav .events:hover{
+  text-shadow: 0 0 4px #b300ff;
+}
+
+.menu-nav .events:hover::after {
+  transform: translate3d(101%, 0, 0);
+}
+
+.menu-nav .events:hover::before {
+  width: 100%;
+}
+
+/* End Of Navbar items */
 .menu-nav-active {
   /* IE 9 */
   /* Safari 3-8 */
