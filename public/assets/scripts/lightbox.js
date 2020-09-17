@@ -384,10 +384,10 @@ $(document).ready(function(){
                         this.DOM.el.addEventListener('mouseleave', this.mouseleaveFn);
                         // this.DOM.el.addEventListener('touchend', this.mouseleaveFn);
                     }
-                };
+                }
 
                 items.forEach(item => new Item(item));
-            };
+            }
         }
     //------------------ end effcet fucntion---------------------------------
     //-----------------------------------------------------------------------------
