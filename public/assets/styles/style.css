@@ -345,6 +345,11 @@ summary {
   display: list-item;
 }
 
+img:hover {
+  /*webkit-filter: blur(4px); !* Chrome, Safari, Opera *!*/
+  filter: blur(4px);
+}
+
 /* Misc
    ========================================================================== */
 /**
@@ -13437,16 +13442,33 @@ body {
   transform: scale(1.05);
 }
 
-.speaker-grid-1__item .detail-direction:hover img {
+.speaker-grid-1__item .detail-direction:hover img
+{
   -moz-filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   /* IE 9 */
   /* Safari 3-8 */
+  /*-webkit-filter: blur(4px);*/
   transform: scale(1);
+
 }
 
-.speaker-grid-1__item .speaker-infomation {
+.text
+{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: white;
+  background-color: grey;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  font-weight: bold;
+
+  /*display: none;*/
+}
+
+.speaker-grid-1__item .speaker-information {
   display: none;
 }
 
@@ -13481,6 +13503,7 @@ body {
   .spk--height--530 {
     height: 29.4444444%;
   }
+
   .spk--height--400 {
     height: 22.222222%;
   }
@@ -13532,7 +13555,7 @@ body {
   text-align: center;
 }
 
-.speaker-grid-2__item .speaker-infomation {
+.speaker-grid-2__item .speaker-information {
   display: none;
 }
 
