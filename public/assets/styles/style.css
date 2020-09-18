@@ -50,6 +50,7 @@ html {
 body {
   margin: 0;
   background-color: black;
+  /* background-color: #211717; */
 }
 
 /**
@@ -12003,7 +12004,7 @@ body {
   letter-spacing: -4px;
   text-align: center;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #cc2b5e;
+  -webkit-text-stroke-color: #753a88;
   line-height: 130px;
   color: #ffffff;
   text-decoration: none;
