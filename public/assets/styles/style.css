@@ -12101,12 +12101,14 @@ body {
   bottom: -2px;
   background-color:#fff;
   z-index: -2;
-  filter: blur(40px);
+  filter: blur(60px);
 }
 
 .blog__item::before,
 .blog__item::after{
-  background: linear-gradient(235deg,#cc2b5e,#060c21,#753a88);
+  /* background: linear-gradient(235deg,#cc2b5e,#060c21,#753a88);
+  background: linear-gradient(235deg,#b030b0,#000272,#ff0000,#ffd700); */
+  background: linear-gradient(235deg,#b030b0,#000272,#ff0000);
 }
 /* End of Styling of Blog_items */
 .blog__item > a {
@@ -17356,7 +17358,7 @@ HEADER
 
 .menu-nav .about{
   -webkit-text-stroke-color:#f7ff00;
-  -webkit-text-stroke-color:#ff512f ;
+  -webkit-text-stroke-color:#ff512f;
 }
 
 .menu-nav .about::after {
@@ -17523,6 +17525,7 @@ HEADER
 }
 
 /* End Of Navbar items */
+
 .menu-nav-active {
   /* IE 9 */
   /* Safari 3-8 */
@@ -17569,7 +17572,7 @@ HEADER
   }
 }
 
-header {
+header{
   position: fixed;
   background-color: #000000;
   height: 100px;
@@ -17579,7 +17582,6 @@ header {
   /* border-bottom: 2px solid whitesmoke; */
   box-shadow:0 4px 4px whitesmoke;
 }
-
 .header-hide {
   visibility: hidden;
   transition: all 0.8s;
