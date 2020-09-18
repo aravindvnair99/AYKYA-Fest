@@ -17769,12 +17769,12 @@ header {
 FOOTER
 --------------------------------------------------------------*/
 footer {
-  background-color: #000000;
-  
+  background-color: black;
+
 }
 
 .footer {
-  padding: 110px 0 100px;
+  padding: 30px 0 0;
   text-align: center;
   border-top: 2px solid whitesmoke; 
 }
@@ -17819,7 +17819,7 @@ footer {
   color: #ffffff;
 }
 
-.footer__menu {
+/* .footer__menu {
   color: #ffffff;
   text-align: center;
 }
@@ -17836,7 +17836,7 @@ footer {
 
 .footer__menu a:hover {
   color: #ffffff;
-}
+}  */
 
 .copy-right {
   border-top: 1px solid #666666;
