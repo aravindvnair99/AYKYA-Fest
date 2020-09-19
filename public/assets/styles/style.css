@@ -11603,7 +11603,7 @@ body {
 }
 
 .pagebanner-brg {
-  height: 910px;
+  height:100vh;
   width: 100%;
   padding-top: 175px;
 }
@@ -11697,7 +11697,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("../images/uploads/pagebanner/pagebanner2-2.jpg");
+  background-image: url("../images/Landing_img.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -11708,13 +11708,13 @@ body {
   font-size: 170px;
   color: transparent;
   margin: 0;
-  background-image: url("../images/uploads/pagebanner/textbrg2.jpg");
+  background-image: url("../images/uploads/pagebanner/textbrg.jpg");
   background-position: center;
   background-size: cover;
   -webkit-animation: slide 20s linear infinite;
   animation: slide 20s linear infinite;
   -webkit-background-clip: text;
-  background-clip: text;
+  background-clip:text;
   line-height: 170px;
 }
 

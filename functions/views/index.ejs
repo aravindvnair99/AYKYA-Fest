@@ -1,100 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <%- include('components/meta') -%>
-  <title>AYKYA</title>
-  <%- include('components/corecss') -%>
+	<%- include('components/meta') -%>
+	<title>AYKYA</title>
+	<%- include('components/corecss') -%>
 </head>
+
 <body>
-<header id="header-trans" class="header-trans-1">
-	<div class="extra-container ">
-		<div class="header-2 ">
-			<div class="header__menu-icon">
-				<div class="header__menu-icon__dot ">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--skew">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-					<span ></span>
-					<span ></span>
-				</div>
-			</div>
-			<div class="position-fixed"></div>
-			<div class="header__logo">
-				<a href="index"><img src="assets/images/logo.png" alt="logo"></a>
-			</div>
-
-			<a href="#" class="header__buy-ticket ">
-				<span>BUY TICKETS</span>
-			</a>
-		</div>
-	</div>
-</header>
-<section class="header-posistion"></section>
-<%- include('components/nav') -%>
-<div class="loading">
-	<div class="sp sp-3balls"></div>
-</div>
-
-
-<section>
-	<div class="pagebanner-2">
-		<div class="pagebanner-2__item">
-			<div class="pagebanner-brg pagebanner-brg--1">
-				<div class="extra-container">
-					<div class="row">
-						<div class="col-lg-6">
-							<a href="#" class="pagebanner-brg--1__thumb wow fadeInLeft">
-								<img src="assets/images/uploads/pagebanner/sign.png" alt="sign">
-							</a>
-						</div>
-						<div class="col-lg-6">
-							<div class="pagebanner-brg--1__right wow fadeInRight">
-								<div class="pagebanner-brg--1__info">
-									<h5>#The leading startup event</h5>
-									<h2 class="pagebanner-brg--1__webdesign">Web Design</h2>
-									<h3 class="pagebanner-brg--1__conference">Conference 2019</h3>
-								</div>
-								<div class="pagebanner__count-down-area">
-									<div class="pagebanner__count-down">
-										<p id="CD__day"></p><span>DAYS</span>
-									</div>
-									<div class="pagebanner__count-down">
-										<p id="CD__hour"></p><span>HOURS</span>
-									</div>
-									<div class="pagebanner__count-down ">
-										<p id="CD__min"></p><span>MINS</span>
-									</div>
-									<div class="pagebanner__count-down ">
-										<p id="CD__sec"></p><span>SECS</span>
-									</div>
-								</div>
-								<a href="#">Registration</a>
-							</div>
-						</div>
+	<header id="header-trans" class="header-trans-1">
+		<div class="extra-container ">
+			<div class="header-2 ">
+				<div class="header__menu-icon">
+					<div class="header__menu-icon__dot ">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--skew">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
+						<span></span>
+						<span></span>
 					</div>
 				</div>
+				<div class="position-fixed"></div>
+				<div class="header__logo">
+					<a href="index"><img src="assets/images/logo.png" alt="logo"></a>
+				</div>
 
+				<a href="#" class="header__buy-ticket ">
+					<span>BUY TICKETS</span>
+				</a>
 			</div>
 		</div>
-		<div class="pagebanner-2__item">
-			<div class="pagebanner-brg pagebanner-brg--2">
-				<div class="extra-container">
-					<h1>Design <br> Conference</h1>
+	</header>
+	<section class="header-posistion"></section>
+	<%- include('components/nav') -%>
+	<div class="loading">
+		<div class="sp sp-3balls"></div>
+	</div>
+
+
+	<section>
+		<div class="cursor"></div>
+		<div class="cursor-follower"></div>
+		<div class="pagebanner-2">
+			<div class="pagebanner-2__item">
+				<div class="pagebanner-brg pagebanner-brg--2">
+					<div class="extra-container">
+						<h1>Logo Revealing in</h1>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="pagebanner-2__item">
+			<!-- <div class="pagebanner-2__item">
 			<div class="pagebanner-brg pagebanner-brg--3">
 				<div class="extra-container">
 					<div class="row">
@@ -132,241 +96,10 @@
 				</div>
 
 			</div>
+		</div> -->
 		</div>
-	</div>
-</section>
-
-<section>
-	<div class="extra-container">
-		<div class="experience__tittle">
-			<div class="experience__tittle1"><h1>Barcelona, Spain</h1></div>
-			<h3 id="counting" class="tittle-eff2">26 - 28</h3>
-			<div class="experience__tittle2"><h1>December, 2019</h1></div>
-		</div>
-	</div>
-
-	<div class="experience">
-		<div class="extra-container">
-			<div class="row">
-				<div class="col-lg-6 col-sm-6">
-					<a href="#" class="experience__thumb movein-ex--1">
-						<img src="assets/images/uploads/experience/experience1.jpg" alt="experience1">
-					</a>
-				</div>
-				<div class="col-lg-6 col-sm-6">
-					<a href="#" class="experience__thumb experience__thumb--right movein-ex--2">
-						<img src="assets/images/uploads/experience/experience2.jpg" alt="experience2">
-					</a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-xl-3 col-lg-4 col-sm-6">
-					<a href="#" class="experience__thumb experience__thumb--left movein-ex--3">
-						<img src="assets/images/uploads/experience/experience3.jpg" alt="experience3">
-					</a>
-				</div>
-				<div class="col-xl-6 col-lg-4 col-sm-12">
-					<div class="experience__text">
-						<h1>Experience</h1>
-						<p>Nulla elementum rutrum velit. Mauris a turpis mollis. Soluta hic velit optio reiciendis ullam impedit veniam quam quibusdam ducimus sint!</p>
-						<div class="link-draw__hover">
-							<svg viewBox="4 0 118 98.6" class="hand-draw"><path class="hand-med-hover" d="M33.2,31.2C53.8,14.1,78.4,9.5,96.9,19.4c12.2,6.5,26.7,21.9,23.9,37.8c-3.9,22.2-39.1,37.1-65.6,34.5c-8.8-0.9-17.6-3.8-25.3-8.2C16.7,76,4.5,63.1,4.4,47.2C4.3,32.4,15,19.3,27.2,12.1c3.6-2.1,7.5-3.9,11.5-5.3c15.2-5.5,27.7-2.5,32.7-1.3c3.6,0.9,18,4.9,29.9,19c5.4,6.3,11.2,13.1,12.5,24.5c0.3,2.6,2,20.2-10.5,34.1C93.9,93.4,82,94,70,94.7c-9.9,0.6-25.8,1.5-39.3-10.1c-2.3-2-20.5-18.1-16-38.8c2.4-10.8,10-18.2,12.4-20.5c6.8-6.6,13.6-8.9,19.7-11C52,12.7,63,9.1,76.3,11.8c5,1,14.8,3.1,23.4,11.9c2.4,2.5,9.2,9.7,11.6,22c0.8,4.2,2.2,11.4-0.4,19.1c-4.9,14.2-20.9,19.7-28.3,22.4c-6,2.1-18,6.4-31.1,1.9c-16.1-5.4-33.7-23.9-28.8-44.2C25.5,33.2,35,24,44.6,19.9c14.3-6.2,26.1,0,28,1"/></svg>
-							<a class="experience__text__link" href="#">Discover more</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-4 col-sm-6">
-					<a href="#" class="experience__thumb experience__thumb--middle movein-ex--4">
-						<img src="assets/images/uploads/experience/experience4.jpg" alt="experience4">
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xl-5">
-					<a href="#" class="experience__thumb experience__thumb--center movein-ex--5">
-						<img src="assets/images/uploads/experience/experience5.jpg" alt="experience5">
-					</a>
-				</div>
-			</div>
-		</div>
-
-
-	</div>
-
-</section>
-
-
-
-<section id="schedule">
-	<div class="extra-container">
-		<div class="schedule-list__tittle">
-			<h1>Conference Schedule</h1>
-		</div>
-	</div>
-	<div class="schedule-list">
-		<div class="container">
-			<div class="row">
-				<div id="schedulelist-reveal1" class="col-lg-6">
-					<h2>DAY 1</h2>
-					<div class="schedule-list__box">
-						<h3>26th Dec</h3>
-						<ul class="min-list">
-							<li><span>Badge Pickup / Breakfast</span><span>8:30am</span></li>
-							<li><span>Welcome From The Chairs</span><span>9:30am</span></li>
-							<li><span>Products Design</span><span>10:00am</span></li>
-							<li><span>Lunch</span><span>12:00am</span></li>
-							<li><span>Keynote: Development</span><span>2:00pm</span></li>
-							<li><span>Break Out: Sessions</span><span>4:00pm</span></li>
-							<li><span>Group Discussion</span><span>5:00pm</span></li>
-						</ul>
-					</div>
-
-				</div>
-				<div id="schedulelist-reveal2" class="col-lg-6">
-					<h2 class="schedule-list--lower">DAY 2</h2>
-					<div class="schedule-list__box schedule-list__box--lower">
-						<h3>27th Dec</h3>
-						<ul class="min-list">
-							<li><span>Badge Pickup</span><span>8:30am</span></li>
-							<li><span>21st Century Design</span><span>9:30am</span></li>
-							<li><span>Workshops Award</span><span>10:00am</span></li>
-							<li><span>Lunch</span><span>12:00am</span></li>
-							<li><span>Keynote: Development</span><span>2:00pm</span></li>
-							<li><span>Break Out: Sessions</span><span>4:00pm</span></li>
-							<li><span>Group Discussion</span><span>5:00pm</span></li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-</section>
-
-<section>
-	<div class="extra-container">
-		<div class="speaker-slider__tittle">
-			<h1>Speakers</h1>
-		</div>
-
-	</div>
-	<div class="container">
-		<div class="speaker-slider-area">
-			<div class="speaker-slider__arrow speaker-slider__arrow--up"><i class="fa fa-angle-up"></i></div>
-			<div class="speaker-slider__arrow speaker-slider__arrow--down"><i class="fa fa-angle-down"></i></div>
-			<div class="speaker-slider">
-
-				<div class="speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers_v23.jpg" alt="speakers_v23">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Brie Larson</h4>
-								<h5 > UX & UI Designer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers2.jpg" alt="speakers2">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Utada Hikaru</h4>
-								<h5>UX & UI Designer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers3.jpg" alt="speakers3">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Scarlett Scarlett</h4>
-								<h5>C.E.O</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers4.jpg" alt="speakers4">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Michael Scottfield</h4>
-								<h5>Senior Developer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers_v26.jpg" alt="speakers4">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Jennifer Gray</h4>
-								<h5>C.E.O</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 col-md-6">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers5.jpg" alt="speakers5">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Layla Johnson</h4>
-								<h5>UI Designer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4 ">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers6.jpg" alt="speakers6">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Daniel Bryan</h4>
-								<h5>Senior Developer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class=" speaker-slider__item">
-					<div class=" col-lg-4">
-						<a href="#" class="speaker-slider__item__thumb">
-							<img src="assets/images/uploads/speaker/speakers9.jpg" alt="speakers9">
-							<div class="speaker-slider__item__thumb__info">
-								<h4>Jenifer Lawrence</h4>
-								<h5>Senior Developer</h5>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</section>
-
-<%- include('components/sponsors') -%>
-
-
-
-<%- include('components/footer') -%>
-
-<%- include('components/corejs') -%>
+	</section>
+	<%- include('components/corejs') -%>
 
 </body>
 
