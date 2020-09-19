@@ -47,7 +47,7 @@ app.get("/techWeek", (req, res) => {
 	res.render("techWeek");
 });
 app.get("/managementWeek", (req, res) => {
-	res.render("management");
+	res.render("managementWeek");
 });
 app.get("/offline", (req, res) => {
 	res.render("offline");
