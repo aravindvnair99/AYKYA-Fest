@@ -49,6 +49,7 @@ html {
  */
 body {
   margin: 0;
+  background-color: #000000; 
 }
 
 /**
@@ -11371,9 +11372,9 @@ a {
   cursor: none;
 }
 
-a:hover, a:focus, a:active {
+/* a:hover, a:focus, a:active {
   color: #000000;
-}
+} */
 
 a:focus {
   outline: thin dotted;
@@ -11443,7 +11444,7 @@ body {
   position: fixed;
   width: 5px;
   height: 5px;
-  background-color: #000000;
+  background-color: whitesmoke;
   border-radius: 50%;
   mix-blend-mode: difference;
   z-index: 999;
@@ -11454,7 +11455,7 @@ body {
   position: fixed;
   height: 30px;
   width: 30px;
-  border: 2px solid #000000;
+  border: 2px solid whitesmoke;
   border-radius: 50%;
   z-index: 999;
 }
@@ -15851,16 +15852,21 @@ body {
   width: 70px;
   height: 5px;
   background-color: #000000;
+  background-color:#cc2b5e;
 }
 
 .portfolio-2__tittle h2, .testi-2__qoute__tittle h2 {
   display: inline-block;
   font-size: 60px;
   line-height: 75px;
+  color:#c33764;
+  color:#cc2b5e;
 }
 
 .portfolio-2__tittle__text {
   font-size: 20px;
+  color:#cc2b5e;
+  color:#89216B;
 }
 
 .portfolio-2-sizer {
@@ -15891,6 +15897,7 @@ body {
 
 .portfolio-2__item__category {
   display: none;
+  visibility: hidden;
 }
 
 .portfolio-2__img-fade img {
