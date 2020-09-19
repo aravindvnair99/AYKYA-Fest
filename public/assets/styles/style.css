@@ -12487,7 +12487,11 @@ body {
     margin: 30px 0;
   }
   .blog-single-content .blog-single-content__quote__text {
+<<<<<<< HEAD
     padding: 15px 0 0 0;
+=======
+    padding: 15px 0 0;
+>>>>>>> 4ee0c4560ce95155c0a7abab2f492a5b65bb2806
   }
   .blog-single-content .blog-single-content__quote__main {
     padding: 30px;
@@ -17779,7 +17783,11 @@ footer {
 .footer {
   padding: 30px 0 0;
   text-align: center;
+<<<<<<< HEAD
   border-top: 2px solid whitesmoke; 
+=======
+  border-top: 2px solid whitesmoke;
+>>>>>>> 4ee0c4560ce95155c0a7abab2f492a5b65bb2806
 }
 
 .footer__logo img {
