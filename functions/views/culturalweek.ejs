@@ -1,89 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-    <%- include('components/meta') -%>
-    <title>AYKYA</title>
-    <%- include('components/corecss') -%>
-</head>
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="index"
+							><img src="../assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<body>
-    <header>
-        <div class="extra-container">
-            <div class="header-2">
-                <div class="header__menu-icon">
-                    <div class="header__menu-icon__dot">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="position-fixed"></div>
-                <div class="header__logo">
-                    <a href="index"><img src="../assets/images/logo.png" alt="logo" /></a>
-                </div>
+					<a href="#" class="header__buy-ticket">
+						<span>BUY TICKETS</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
 
-                <a href="#" class="header__buy-ticket">
-                    <span>BUY TICKETS</span>
-                </a>
-            </div>
-        </div>
-    </header>
-    <section class="header-posistion"></section>
-    <%- include('components/nav') -%>
-    <div class="loading">
-        <div class="sp sp-3balls"></div>
-    </div>
+		<section>
+			<div class="container">
+				<div class="blog-single-content wow fadeInUp">
+					<div class="blog-single-content__thumb">
+						<img
+							src="../assets/images/uploads/blog/blogthumb88.jpg"
+							alt="blogthumb88"
+						/>
+					</div>
+					<div class="blog-single-content__time">
+						<span
+							><i class="far fa-calendar-check"></i> 14<sup
+								>th</sup
+							>
+							August 2020 - 28<sup>th</sup> August 2020</span
+						>
+						<!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
+					</div>
+					<h4 style="color: aliceblue">Cultural Week</h4>
+					<div class="blog-single-content__paragraph">
+						<p>
+							It began with the
+							<strong>"OPEN MIC"</strong> conducted on the
+							Instagram Live platform on 14 <sup>th</sup> , in
+							which many participants presented themselves by
+							playing different instruments and singing songs,
+							leaving the audience mesmerized by their
+							performance. The next event was
+							<strong>"HAPPY INDEPENDENCE DAY"</strong> conducted
+							on 15<sup> th </sup> August 2020 on Instagram again,
+							it was a tribute to Bharat Mata through various
+							activities on patriotic themes that included
+							singing, dancing, painting, and musical acts.
+						</p>
+						<p>
+							The next was <strong>"AAJA NACHLE"</strong> which
+							was conducted on 15 <sup>th</sup> August 2020 on
+							Instagram, a dance competition without any barriers,
+							performed by both, boys and girls. Next on 17
+							<sup>th</sup> August, the
+							<strong>“LIGHTS CAMERA ACTION’’</strong> event was
+							conducted on Microsoft teams platform, which
+							included a Mono Act competition in which a number of
+							people performed their acts. On 19
+							<sup>th</sup> August
+							<strong>“DOODLE WITH NIDHI’’</strong> was conducted
+							on Microsoft teams. Through this AYKYA, Mrs. Nidhi
+							Aggarwal conducted a doodling webinar where 25
+							enthusiastic participants learned how to enhance
+							their creativity.
+						</p>
 
-    <section>
-        <div class="container">
-            <div class="blog-single-content wow fadeInUp">
-                <div class="blog-single-content__thumb">
-                    <img src="../assets/images/uploads/blog/blogthumb88.jpg" alt="blogthumb88" />
-                </div>
-                <div class="blog-single-content__time">
-                    <span><i class="far fa-calendar-check"></i>  14<sup>th</sup> August 2020 - 28<sup>th</sup> August 2020</span>
-                    <!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
-                </div>
-                <h4 style="color:aliceblue;">Cultural Week</h4>
-                <div class="blog-single-content__paragraph">
-                    <p>
-                        It began with the <strong>"OPEN MIC"</strong> conducted on the Instagram Live platform on 14 <sup>th</sup> , in
-                        which many participants presented themselves by playing different instruments and singing
-                        songs, leaving the audience mesmerized by their performance. The next event was <strong>"HAPPY
-                        INDEPENDENCE DAY"</strong> conducted on 15<sup> th </sup> August 2020 on Instagram again, it was a
-                        tribute to Bharat Mata through various activities on patriotic themes that included singing,
-                        dancing, painting, and musical acts.
-                    </p>
-                    <p>
-                        The next was <strong>"AAJA NACHLE"</strong> which was conducted
-                        on 15 <sup>th</sup> August 2020 on Instagram, a dance competition without any barriers, performed by
-                        both, boys and girls. Next on 17 <sup>th</sup> August, the <strong>“LIGHTS CAMERA ACTION’’</strong> event was
-                        conducted on Microsoft teams platform, which included a Mono Act competition in which a
-                        number of people performed their acts. On 19 <sup>th</sup> August <strong>“DOODLE WITH NIDHI’’</strong> was
-                        conducted on Microsoft teams. Through this AYKYA, Mrs. Nidhi Aggarwal conducted a
-                        doodling webinar where 25 enthusiastic participants learned how to enhance their creativity.
-                    </p>
-
-                    <div class="blog-single-content__quote">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <img src="../assets/images/uploads/blog/blog_single1.jpg" alt="blog_single1" />
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="blog-single-content__quote__text">
-                                    <!-- <div
+						<div class="blog-single-content__quote">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<img
+										src="../assets/images/uploads/blog/blog_single1.jpg"
+										alt="blog_single1"
+									/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div
+										class="blog-single-content__quote__text"
+									>
+										<!-- <div
 											class="blog-single-content__quote__main"
 										>
 											<p>
@@ -94,32 +128,55 @@
 												elit.
 											</p>
 										</div> -->
-                                    <p>
-                                        For all the chess masters, a super fun event - <strong>“CONQUER THE SQUARE”</strong> was conducted on
-                                        21 <sup>st</sup> August on the platform, lichess.org. For all the creative minds out there who can find
-                                        creativity in anything, AYKYA had for them. The <strong>“BEST OUT OF WASTE”</strong> was conducted
-                                        from 20 <sup>th</sup> to 22 <sup>nd</sup> August on Instagram. This two-day event made the participants bring out
-                                        their innovative side and were scored based on a short video they had sent.
-                                    </p>
-                                    <p>
-                                        Since the cultural week covered every corner, how can we leave the skillful photographers aside!AYKYA
-                                        cultural week came to a glorious end by conducting the last event called <strong>“PAW-
-                                        TOGRAPHY”</strong> that captured the photography skills of all the animal lovers on Instagram.
-                                        Participants clicked pictures of their pets sided by a sweet note, that helped them fetch a
-                                        number of exciting prizes. This way, our cultural week captured every essence of talent and
-                                        ability!
-                                    </p>
-                                    <!-- <p>
-                                        Et ducimus nulla, earum quam
-                                        accusantium adipisci itaque ullam,
-                                        beatae libero voluptates!
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+										<p>
+											For all the chess masters, a super
+											fun event -
+											<strong
+												>“CONQUER THE SQUARE”</strong
+											>
+											was conducted on 21
+											<sup>st</sup> August on the
+											platform, lichess.org. For all the
+											creative minds out there who can
+											find creativity in anything, AYKYA
+											had for them. The
+											<strong>“BEST OUT OF WASTE”</strong>
+											was conducted from 20
+											<sup>th</sup> to 22
+											<sup>nd</sup> August on Instagram.
+											This two-day event made the
+											participants bring out their
+											innovative side and were scored
+											based on a short video they had
+											sent.
+										</p>
+										<p>
+											Since the cultural week covered
+											every corner, how can we leave the
+											skillful photographers aside!AYKYA
+											cultural week came to a glorious end
+											by conducting the last event called
+											<strong>“PAW- TOGRAPHY”</strong>
+											that captured the photography skills
+											of all the animal lovers on
+											Instagram. Participants clicked
+											pictures of their pets sided by a
+											sweet note, that helped them fetch a
+											number of exciting prizes. This way,
+											our cultural week captured every
+											essence of talent and ability!
+										</p>
+										<!-- <p>
+										Et ducimus nulla, earum quam
+										accusantium adipisci itaque ullam,
+										beatae libero voluptates!
+									</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <!-- <div class="blog-single-content__tags">
+						<!-- <div class="blog-single-content__tags">
 							<span>Tags:</span>
 							<a href="#">Conference</a>
 							<a href="#">/</a>
@@ -127,11 +184,13 @@
 							<a href="#">/</a>
 							<a href="#">Art</a>
 						</div> -->
-                </div>
+					</div>
 
-                <div class="blog-single-content__paging">
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--prev">
-                        <a
+					<div class="blog-single-content__paging">
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+						>
+							<a
 								href="managementweek"
 								class="blog-single-content__paging__btn"
 							>
@@ -141,16 +200,23 @@
 								>
 								<h5>Management Week</h5>
 							</a>
-                    </div>
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--next">
-                        <a href="#" class="blog-single-content__paging__btn">
-                            <span>Next<i class="fa fa-angle-double-right"></i></span>
-                            <h5>Next event Name</h5>
-                        </a>
-                    </div>
-                </div>
+						</div>
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+						>
+							<a
+								href="#"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									>Next<i class="fa fa-angle-double-right"></i
+								></span>
+								<h5>Next event Name</h5>
+							</a>
+						</div>
+					</div>
 
-                <!-- <div class="blog-single-content__writer">
+					<!-- <div class="blog-single-content__writer">
 						<div class="blog-single-content__writer__avatar">
 							<img
 								src="../assets/images/uploads/blog/witter.png"
@@ -179,7 +245,7 @@
 							<a href="#"><i class="fa fa-twitter"></i></a>
 						</div>
 					</div> -->
-                <!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
+					<!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
 						<div class="fillin-form">
 							<form action="#">
 								<div class="fillin-form__fields">
@@ -206,13 +272,11 @@
 								</div>
 							</form>
 						</div> -->
-            </div>
-        </div>
-        </div>
-    </section>
+				</div>
+			</div>
+		</section>
 
-    <%- include('components/footer') -%> <%- include('components/corejs')
+		<%- include('components/footer') -%> <%- include('components/corejs')
 		-%>
-</body>
-
+	</body>
 </html>

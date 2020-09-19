@@ -1,86 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-    <%- include('components/meta') -%>
-    <title>AYKYA</title>
-    <%- include('components/corecss') -%>
-</head>
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="index"
+							><img src="../assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<body>
-    <header>
-        <div class="extra-container">
-            <div class="header-2">
-                <div class="header__menu-icon">
-                    <div class="header__menu-icon__dot">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="position-fixed"></div>
-                <div class="header__logo">
-                    <a href="index"><img src="../assets/images/logo.png" alt="logo" /></a>
-                </div>
+					<a href="#" class="header__buy-ticket">
+						<span>BUY TICKETS</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
 
-                <a href="#" class="header__buy-ticket">
-                    <span>BUY TICKETS</span>
-                </a>
-            </div>
-        </div>
-    </header>
-    <section class="header-posistion"></section>
-    <%- include('components/nav') -%>
-    <div class="loading">
-        <div class="sp sp-3balls"></div>
-    </div>
+		<section>
+			<div class="container">
+				<div class="blog-single-content wow fadeInUp">
+					<div class="blog-single-content__thumb">
+						<img
+							src="../assets/images/uploads/blog/blogthumb88.jpg"
+							alt="blogthumb88"
+						/>
+					</div>
+					<div class="blog-single-content__time">
+						<span
+							><i class="far fa-calendar-check"></i> 11<sup
+								>th</sup
+							>
+							May 2020 - 17<sup>th</sup> May 2020</span
+						>
+						<!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
+					</div>
+					<h4 style="color: aliceblue">Tech Week</h4>
+					<div class="blog-single-content__paragraph">
+						<p>
+							Various exciting events and workshops were conducted
+							over the due course,some of which also dealt with
+							non-technical aspects such as personality
+							development. Instagram served as a great medium to
+							conduct fun quizzes such as the Daily Science
+							Picture Quiz and the Science Fiction Quiz.
+						</p>
+						<p>
+							Numerous insightful webinars were conducted on vital
+							topics. The one on Equity gave us clear
+							understanding on basic financial matters. The
+							Robotics Webinar highlighted the key components of
+							robotics and other domains such as self-driving. The
+							webinars of Emerging Technologies and Augmented and
+							Virtual Reality dealt with the up and coming fields
+							in technology such as IoT,AI/ML and Data Analytics.
+						</p>
 
-    <section>
-        <div class="container">
-            <div class="blog-single-content wow fadeInUp">
-                <div class="blog-single-content__thumb">
-                    <img src="../assets/images/uploads/blog/blogthumb88.jpg" alt="blogthumb88" />
-                </div>
-                <div class="blog-single-content__time">
-                    <span><i class="far fa-calendar-check"></i>  11<sup>th</sup> May 2020 - 17<sup>th</sup> May 2020</span>
-                    <!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
-                </div>
-                <h4 style="color:aliceblue;">Tech Week</h4>
-                <div class="blog-single-content__paragraph">
-                    <p>
-                        Various exciting events and workshops were conducted over the due course,some
-                        of which also dealt with non-technical aspects such as personality development.
-                        Instagram served as a great medium to conduct fun quizzes such as the Daily
-                        Science Picture Quiz and the Science Fiction Quiz.
-                    </p>
-                    <p>
-                        Numerous insightful webinars were conducted on vital topics. The one on Equity
-                        gave us clear understanding on basic financial matters. The Robotics Webinar
-                        highlighted the key components of robotics and other domains such as self-driving.
-                        The webinars of Emerging Technologies and Augmented and Virtual Reality dealt
-                        with the up and coming fields in technology such as IoT,AI/ML and Data
-                        Analytics.
-                    </p>
-
-                    <div class="blog-single-content__quote">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <img src="../assets/images/uploads/blog/blog_single1.jpg" alt="blog_single1" />
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="blog-single-content__quote__text">
-                                    <!-- <div
+						<div class="blog-single-content__quote">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<img
+										src="../assets/images/uploads/blog/blog_single1.jpg"
+										alt="blog_single1"
+									/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div
+										class="blog-single-content__quote__text"
+									>
+										<!-- <div
 											class="blog-single-content__quote__main"
 										>
 											<p>
@@ -91,29 +115,33 @@
 												elit.
 											</p>
 										</div> -->
-                                    <!-- <p>
+										<!-- <p>
                                         Enthralling workshops on TinkerCad, Python and Blender were conducted as well.
                                         One of the main events was the meeting conducted on Solutions for Real-time
                                         Issues. People discussed various pressing problems on this platform and came up
                                         with amicable ideas to deal with the same.
                                     </p> -->
-                                    <p>
-                                        Enthralling workshops on TinkerCad, Python and Blender were conducted as well.
-                                        One of the main events was the meeting conducted on Solutions for Real-time
-                                        Issues. People discussed various pressing problems on this platform and came up
-                                        with amicable ideas to deal with the same.
-                                    </p>
-                                    <!-- <p>
+										<p>
+											Enthralling workshops on TinkerCad,
+											Python and Blender were conducted as
+											well. One of the main events was the
+											meeting conducted on Solutions for
+											Real-time Issues. People discussed
+											various pressing problems on this
+											platform and came up with amicable
+											ideas to deal with the same.
+										</p>
+										<!-- <p>
                                         Et ducimus nulla, earum quam
                                         accusantium adipisci itaque ullam,
                                         beatae libero voluptates!
                                     </p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <!-- <div class="blog-single-content__tags">
+						<!-- <div class="blog-single-content__tags">
 							<span>Tags:</span>
 							<a href="#">Conference</a>
 							<a href="#">/</a>
@@ -121,11 +149,13 @@
 							<a href="#">/</a>
 							<a href="#">Art</a>
 						</div> -->
-                </div>
+					</div>
 
-                <div class="blog-single-content__paging">
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--prev">
-                        <!-- <a
+					<div class="blog-single-content__paging">
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+						>
+							<!-- <a
 								href="#"
 								class="blog-single-content__paging__btn"
 							>
@@ -135,16 +165,23 @@
 								>
 								<h5>FOG Art and Design</h5>
 							</a> -->
-                    </div>
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--next">
-                        <a href="managementweek" class="blog-single-content__paging__btn">
-                            <span>Next<i class="fa fa-angle-double-right"></i></span>
-                            <h5>Management Week</h5>
-                        </a>
-                    </div>
-                </div>
+						</div>
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+						>
+							<a
+								href="managementweek"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									>Next<i class="fa fa-angle-double-right"></i
+								></span>
+								<h5>Management Week</h5>
+							</a>
+						</div>
+					</div>
 
-                <!-- <div class="blog-single-content__writer">
+					<!-- <div class="blog-single-content__writer">
 						<div class="blog-single-content__writer__avatar">
 							<img
 								src="../assets/images/uploads/blog/witter.png"
@@ -173,7 +210,7 @@
 							<a href="#"><i class="fa fa-twitter"></i></a>
 						</div>
 					</div> -->
-                <!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
+					<!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
 						<div class="fillin-form">
 							<form action="#">
 								<div class="fillin-form__fields">
@@ -200,13 +237,11 @@
 								</div>
 							</form>
 						</div> -->
-            </div>
-        </div>
-        </div>
-    </section>
+				</div>
+			</div>
+		</section>
 
-    <%- include('components/footer') -%> <%- include('components/corejs')
+		<%- include('components/footer') -%> <%- include('components/corejs')
 		-%>
-</body>
-
+	</body>
 </html>

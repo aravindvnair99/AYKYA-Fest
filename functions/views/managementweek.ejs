@@ -1,83 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-    <%- include('components/meta') -%>
-    <title>AYKYA</title>
-    <%- include('components/corecss') -%>
-</head>
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="index"
+							><img src="../assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<body>
-    <header>
-        <div class="extra-container">
-            <div class="header-2">
-                <div class="header__menu-icon">
-                    <div class="header__menu-icon__dot">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew">
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="position-fixed"></div>
-                <div class="header__logo">
-                    <a href="index"><img src="../assets/images/logo.png" alt="logo" /></a>
-                </div>
+					<a href="#" class="header__buy-ticket">
+						<span>BUY TICKETS</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
 
-                <a href="#" class="header__buy-ticket">
-                    <span>BUY TICKETS</span>
-                </a>
-            </div>
-        </div>
-    </header>
-    <section class="header-posistion"></section>
-    <%- include('components/nav') -%>
-    <div class="loading">
-        <div class="sp sp-3balls"></div>
-    </div>
+		<section>
+			<div class="container">
+				<div class="blog-single-content wow fadeInUp">
+					<div class="blog-single-content__thumb">
+						<img
+							src="../assets/images/uploads/blog/blogthumb88.jpg"
+							alt="blogthumb88"
+						/>
+					</div>
+					<div class="blog-single-content__time">
+						<span
+							><i class="far fa-calendar-check"></i> 23<sup
+								>th</sup
+							>
+							July 2020 - 28<sup>th</sup> July 2020</span
+						>
+						<!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
+					</div>
+					<h4 style="color: aliceblue">Management Week</h4>
+					<div class="blog-single-content__paragraph">
+						<p>
+							The AYKYA'20 team has come up with an initiative of
+							organising the Management Week. The idea of the
+							Management Week is to provide the students
+							interested in Management an insight about Managing,
+							Analytics, Entrepreneurship and similar aspects in
+							Management.
+						</p>
+						<p>
+							The Management week was loaded up with interactive
+							webinars on
+							<strong>"Insight in Amrita's Management"</strong>
+							addressed by <em>Dr.Balakrishnan </em> (Dean of
+							Amrita Vishwavidyapeetham,Amritapuri),<strong
+								>"How to start a STARTUP in India?"</strong
+							>
+							by <em>Mr.Deepak </em> (Founder and Managing
+							consultant of Mavensmark) and a Webinar on
+							Analytics.
+						</p>
 
-    <section>
-        <div class="container">
-            <div class="blog-single-content wow fadeInUp">
-                <div class="blog-single-content__thumb">
-                    <img src="../assets/images/uploads/blog/blogthumb88.jpg" alt="blogthumb88" />
-                </div>
-                <div class="blog-single-content__time">
-                    <span><i class="far fa-calendar-check"></i>  23<sup>th</sup> July 2020 - 28<sup>th</sup> July 2020</span>
-                    <!-- <span><i class="far fa-comment-alt"></i> 2 comment</span> -->
-                </div>
-                <h4 style="color:aliceblue;">Management Week</h4>
-                <div class="blog-single-content__paragraph">
-                    <p>
-                        The AYKYA'20 team has come up with an initiative of organising the Management Week. The
-                        idea of the Management Week is to provide the students interested in Management an insight
-                        about Managing, Analytics, Entrepreneurship and similar aspects in Management.
-                    </p>
-                    <p>
-                        The Management week was loaded up with interactive webinars on <strong>"Insight in Amrita's
-                        Management"</strong> addressed by <em>Dr.Balakrishnan </em>  (Dean of Amrita
-                        Vishwavidyapeetham,Amritapuri),<strong>"How to start a STARTUP in India?"</strong> by <em>Mr.Deepak </em>  (Founder
-                        and Managing consultant of Mavensmark) and a Webinar on Analytics.
-                    </p>
-
-                    <div class="blog-single-content__quote">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <img src="../assets/images/uploads/blog/blog_single1.jpg" alt="blog_single1" />
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="blog-single-content__quote__text">
-                                    <!-- <div
+						<div class="blog-single-content__quote">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<img
+										src="../assets/images/uploads/blog/blog_single1.jpg"
+										alt="blog_single1"
+									/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div
+										class="blog-single-content__quote__text"
+									>
+										<!-- <div
 											class="blog-single-content__quote__main"
 										>
 											<p>
@@ -88,32 +117,53 @@
 												elit.
 											</p>
 										</div> -->
-                                    <p>
-                                        Along with these webinars, The AYKYA team also organised the following fun filled events
-                                        where the participants could show their respective skills.
-                                        <strong>"Visleshana"</strong> an Analytics Competition conducted virtually ,
-                                        <strong>"Mr and Ms Decisive"</strong> - Participants were given a task where they can prove their Problem solving
-                                        skills and Critical Thinking.
-                                    </p>
-                                    <p>
-                                        Aykya also provided an opportunity open to everyone to share their Business Ideas and prove
-                                        themselves to stand as the <strong>"Best Entrepreneur"</strong> amongst the participants.
-                                        With all these events and webinars, the interesting part of the Management week was the <strong>"Wolf
-                                        of Sales"</strong>. Here the participants were asked to advertise their own product and post it on Aykya’s
-                                        official instagram page. The winners were judged based on the number of interactions collected
-                                        in instagram and their uniqueness.
-                                    </p>
-                                    <!-- <p>
-                                        Et ducimus nulla, earum quam
-                                        accusantium adipisci itaque ullam,
-                                        beatae libero voluptates!
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+										<p>
+											Along with these webinars, The AYKYA
+											team also organised the following
+											fun filled events where the
+											participants could show their
+											respective skills.
+											<strong>"Visleshana"</strong> an
+											Analytics Competition conducted
+											virtually ,
+											<strong
+												>"Mr and Ms Decisive"</strong
+											>
+											- Participants were given a task
+											where they can prove their Problem
+											solving skills and Critical
+											Thinking.
+										</p>
+										<p>
+											Aykya also provided an opportunity
+											open to everyone to share their
+											Business Ideas and prove themselves
+											to stand as the
+											<strong>"Best Entrepreneur"</strong>
+											amongst the participants. With all
+											these events and webinars, the
+											interesting part of the Management
+											week was the
+											<strong>"Wolf of Sales"</strong>.
+											Here the participants were asked to
+											advertise their own product and post
+											it on Aykya’s official instagram
+											page. The winners were judged based
+											on the number of interactions
+											collected in instagram and their
+											uniqueness.
+										</p>
+										<!-- <p>
+										Et ducimus nulla, earum quam
+										accusantium adipisci itaque ullam,
+										beatae libero voluptates!
+									</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <!-- <div class="blog-single-content__tags">
+						<!-- <div class="blog-single-content__tags">
 							<span>Tags:</span>
 							<a href="#">Conference</a>
 							<a href="#">/</a>
@@ -121,11 +171,13 @@
 							<a href="#">/</a>
 							<a href="#">Art</a>
 						</div> -->
-                </div>
+					</div>
 
-                <div class="blog-single-content__paging">
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--prev">
-                        <a
+					<div class="blog-single-content__paging">
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+						>
+							<a
 								href="techweek"
 								class="blog-single-content__paging__btn"
 							>
@@ -135,16 +187,23 @@
 								>
 								<h5>Tech Week</h5>
 							</a>
-                    </div>
-                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--next">
-                        <a href="culturalweek" class="blog-single-content__paging__btn">
-                            <span>Next<i class="fa fa-angle-double-right"></i></span>
-                            <h5>Cultural Week</h5>
-                        </a>
-                    </div>
-                </div>
+						</div>
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+						>
+							<a
+								href="culturalweek"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									>Next<i class="fa fa-angle-double-right"></i
+								></span>
+								<h5>Cultural Week</h5>
+							</a>
+						</div>
+					</div>
 
-                <!-- <div class="blog-single-content__writer">
+					<!-- <div class="blog-single-content__writer">
 						<div class="blog-single-content__writer__avatar">
 							<img
 								src="../assets/images/uploads/blog/witter.png"
@@ -173,7 +232,7 @@
 							<a href="#"><i class="fa fa-twitter"></i></a>
 						</div>
 					</div> -->
-                <!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
+					<!-- <h5 class="comment__leave-comment">Leave A Comment</h5>
 						<div class="fillin-form">
 							<form action="#">
 								<div class="fillin-form__fields">
@@ -200,13 +259,11 @@
 								</div>
 							</form>
 						</div> -->
-            </div>
-        </div>
-        </div>
-    </section>
+				</div>
+			</div>
+		</section>
 
-    <%- include('components/footer') -%> <%- include('components/corejs')
+		<%- include('components/footer') -%> <%- include('components/corejs')
 		-%>
-</body>
-
+	</body>
 </html>
