@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-   <%- include('components/meta') -%>
-  <title>AYKYA</title>
-  <%- include('components/corecss') -%>
+	<%- include('components/meta') -%>
+	<title>AYKYA</title>
+	<%- include('components/corecss') -%>
 </head>
-<body>
+<body style="background-color: grey">
 <header >
 	<div class="extra-container ">
 		<div class="header-2 ">
@@ -48,14 +48,22 @@
 
 
 <script>
-	function h()
+
+	function nameOnHover(obj)
 	{
-		document.getElementById("spk1").style.visibility = "visible";
+		var divId = "spk"+obj.id.substring(3,obj.id.length)
+		console.log(divId)
+		document.getElementById(divId).style.visibility = "visible";
+		// document.getElementById("spk2").style.visibility = "visible";
 	}
-	function h1()
+	function nameOnLeave(obj)
 	{
-		document.getElementById("spk1").style.visibility = "hidden";
+		var divId = "spk"+obj.id.substring(3,obj.id.length)
+		console.log(divId)
+		document.getElementById(divId).style.visibility = "hidden";
+		// document.getElementById("spk2").style.visibility = "hidden";
 	}
+
 </script>
 
 
@@ -63,180 +71,102 @@
 <section>
 	<div class="speaker-grid-1">
 		<!-- item 1 -->
-		<div class="speaker-grid-1__item spk--width600 spk--height--500">
+		<div style="height: fit-content" class="speaker-grid-1__item">
 			<div class="detail-direction">
-				<img onmouseover="h()" onmouseleave="h1()" src="assets/images/uploads/speaker/speakers1.jpg" alt="speakers1" >
-				<div class="text" id="spk1">Utada Hikaru</div>
+				<img id="img1" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers1.jpg" alt="speakers1" >
+				<div id="spk1" class="text">Kevin Nichoce</div>
 			</div>
 		</div>
-		<!-- item 2 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" >
-				<img src="assets/images/uploads/speaker/speakers2.jpg" alt="speakers2">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Utada</h4>
-					<h4 class="speaker__last-name">Hikaru</h4>
-					<h5 class="speaker__career"> UX & UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-				</div>
-			</a>
+		<!--		 item 2 -->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img2" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers2.jpg" alt="speakers2">
+				<div id="spk2" class="text">Utada Hikaru</div>
+			</div>
 		</div>
-		<!-- item 3 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--600">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers3.jpg">
-				<img src="assets/images/uploads/speaker/speakers3.jpg" alt="speakers3">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Scarlett</h4>
-					<h4 class="speaker__last-name">Scarlett</h4>
-					<h5 class="speaker__career"> UX & UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 3-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<dive class="detail-direction">
+				<img id="img3" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers3.jpg" alt="speakers3">
+				<div id="spk3" class="text">Scarlett Scarlett</div>
+			</dive>
 		</div>
-		<!-- item 4 -->
-		<div class="speaker-grid-1__item spk--width520 spk--height--530">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers4.jpg">
-				<img src="assets/images/uploads/speaker/speakers4.jpg" alt="speakers3">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Michael</h4>
-					<h4 class="speaker__last-name">Scottfield</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 4-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img4" style="height: 450px;width: 300px;margin: 20px"  onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers4.jpg" alt="speakers3">
+				<div id="spk4" class="text">Michael Scottfield</div>
+			</div>
 		</div>
-		<!-- item 5 -->
-		<div class="speaker-grid-1__item spk--width600 spk--height--300">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers5.jpg">
-				<img src="assets/images/uploads/speaker/speakers5.jpg" alt="speakers5">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Layla</h4>
-					<h4 class="speaker__last-name">Johnson</h4>
-					<h5 class="speaker__career">UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 5-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img5" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers5.jpg" alt="speakers5">
+				<div id="spk5" class="text">Layla Johnson</div>
+			</div>
 		</div>
-		<!-- item 6 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers6.jpg">
-				<img src="assets/images/uploads/speaker/speakers6.jpg" alt="speakers6">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Daniel</h4>
-					<h4 class="speaker__last-name">Bryan</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 6-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img6" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers6.jpg" alt="speakers6">
+				<div id="spk6" class="text">Daniel Bryan</div>
+			</div>
 		</div>
-
-		<!-- item 8 -->
-		<div class="speaker-grid-1__item spk--width520 spk--height--770">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers8.jpg">
-				<img src="assets/images/uploads/speaker/speakers8.jpg" alt="speakers8">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Jenifer</h4>
-					<h4 class="speaker__last-name">Han</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 8-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img8" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers8.jpg" alt="speakers8">
+				<div id="spk8" class="text">Jennifer Han</div>
+			</div>
 		</div>
-		<!-- item 7 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers7.jpg">
-				<img src="assets/images/uploads/speaker/speakers7.jpg" alt="speakers7">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Brie</h4>
-					<h4 class="speaker__last-name">Larson</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 7-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img7" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers7.jpg" alt="speakers7">
+				<div id="spk7" class="text">Brie Larson</div>
+			</div>
 		</div>
-		<!-- item 9 -->
-		<div class="speaker-grid-1__item spk--width500 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers9.jpg">
-				<img src="assets/images/uploads/speaker/speakers9.jpg" alt="speakers9">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Jenifer</h4>
-					<h4 class="speaker__last-name">Lawrence</h4>
-					<h5 class="speaker__career">UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 9-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img9" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers9.jpg" alt="speakers9">
+				<div id="spk9" class="text">Jennifer Lawrence</div>
+			</div>
 		</div>
-		<!-- item 10 -->
-		<div class="speaker-grid-1__item spk--width500 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers10.jpg">
-				<img src="assets/images/uploads/speaker/speakers10.jpg" alt="speakers10">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Tyler</h4>
-					<h4 class="speaker__last-name">Scottfield</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 10-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img10" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers10.jpg" alt="speakers10">
+				<div id="spk10" class="text">Tyler Scottfield</div>
+			</div>
 		</div>
-		<!-- item 11 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--300">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers11.jpg">
-				<img src="assets/images/uploads/speaker/speakers11.jpg" alt="speakers11">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Travis</h4>
-					<h4 class="speaker__last-name">Scott</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 11-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img11" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers11.jpg" alt="speakers11">
+				<div id="spk11" class="text">Travis Scott</div>
+			</div>
 		</div>
-		<!-- item 12 -->
-		<div class="speaker-grid-1__item spk--width1000 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers12.jpg">
-				<img src="assets/images/uploads/speaker/speakers12.jpg" alt="speakers12">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Bob</h4>
-					<h4 class="speaker__last-name">Marley</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 12-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img12" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers12.jpg" alt="speakers12">
+				<div id="spk12" class="text">Bob Marley</div>
+			</div>
 		</div>
-		<!-- item 13 -->
-		<div class="speaker-grid-1__item spk--width520 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers13.jpg">
-				<img src="assets/images/uploads/speaker/speakers13.jpg" alt="speakers13">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Katy</h4>
-					<h4 class="speaker__last-name">Perry</h4>
-					<h5 class="speaker__career">UX Disigner</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 13-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img13" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers13.jpg" alt="speakers13">
+				<div id="spk13" class="text">Katy Perry</div>
+			</div>
 		</div>
-		<!-- item 14 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers14.jpg">
-				<img src="assets/images/uploads/speaker/speakers14.jpg" alt="speakers14">
-				<div class="speaker-information">
-					<h4 class="speaker__first-name">Luke</h4>
-					<h4 class="speaker__last-name">Perterson</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
+		<!--		 item 14-->
+		<div style="height: fit-content" class="speaker-grid-1__item">
+			<div class="detail-direction">
+				<img id="img14" style="height: 450px;width: 300px;margin: 20px" onmouseover="nameOnHover(this)" onmouseleave="nameOnLeave(this)" src="assets/images/uploads/speaker/speakers14.jpg" alt="speakers14">
+				<div id="spk14" class="text">Luke Peterson</div>
+			</div>
 		</div>
 
 	</div>
