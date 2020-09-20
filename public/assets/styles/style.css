@@ -11857,11 +11857,12 @@ body {
 
 .logo-text {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	z-index: 1;
+  z-index: 1;
+
 	/* box-shadow: 0 5px 15px rgba(0,0,0,0.5);
   overflow: hidden; */
 }
@@ -11999,10 +12000,19 @@ body {
 }
 
 .pagebanner__count-down-area {
-	margin: 40px 0 50px;
-	max-width: 450px;
-	display: flex;
-	justify-content: space-between;
+  position: absolute;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* margin: 40px 0 50px; */
+	max-width: 650px;
+  display: flex;
+  justify-content:space-between;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  overflow: hidden;
+  border-radius:5px;
+}
+  
 }
 
 .pagebanner__count-down {
@@ -12013,16 +12023,19 @@ body {
 .pagebanner__count-down p {
 	line-height: 60px;
 	font-family: Lato-700;
-	font-size: 50px;
-	color: #ffffff;
-	margin: 0;
+	font-size: 80px;
+	color: #333333;
+  margin: 0;
+  line-height:1.6;
+  padding:0 20px;
 }
 
 .pagebanner__count-down span {
 	font-family: Lato-regular;
 	font-size: 20px;
 	color: #999999;
-	margin: 0;
+  margin: 0;
+  padding:0 40px;
 }
 
 @media (max-width: 1751px) {
@@ -12033,7 +12046,7 @@ body {
 		left: 0;
 	}
 	.logo-text h1 {
-		font-size: 140px !important;
+		font-size: 120px !important;
 	}
 }
 
