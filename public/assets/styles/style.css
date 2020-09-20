@@ -15964,13 +15964,14 @@ body {
   display: inline-block;
   width: 70px;
   height: 5px;
-  background-color: #000000;
+  background-color:#cc2b5e;
 }
 
 .portfolio-2__tittle h2, .testi-2__qoute__tittle h2 {
   display: inline-block;
   font-size: 60px;
   line-height: 75px;
+  color:#cc2b5e;
 }
 
 .portfolio-2__tittle__text {
@@ -16986,7 +16987,7 @@ body {
 }
 
 .testimonial__text {
-  padding: 70px 0 0 70px;
+  padding: 0 0 0 70px;
 }
 
 .testimonial__text p {
