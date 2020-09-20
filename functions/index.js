@@ -40,6 +40,15 @@ app.get("/members", (req, res) => {
 app.get("/contact", (req, res) => {
 	res.render("contact");
 });
+app.get("/culturalWeek", (req, res) => {
+	res.render("culturalWeek");
+});
+app.get("/techWeek", (req, res) => {
+	res.render("techWeek");
+});
+app.get("/managementWeek", (req, res) => {
+	res.render("managementWeek");
+});
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
