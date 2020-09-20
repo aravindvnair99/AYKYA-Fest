@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-	<%- include('components/meta') -%>
-	<title>AYKYA</title>
-	<%- include('components/corecss') -%>
-</head>
+	<body>
+		<header id="header-trans2" class="header-trans-1">
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__logo">
+						<a href="index"
+							><img src="assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<body>
-	<header id="header-trans2" class="header-trans-1">
-		<div class="extra-container">
-			<div class="header-2">
-				<div class="header__logo">
-					<a href="index"><img src="assets/images/logo.png" alt="logo" /></a>
-				</div>
-
-				<div id="header-trans2__btn" class="header__menu-icon">
-					<div class="header__menu-icon__dot">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-						<span></span>
-						<span></span>
+					<div id="header-trans2__btn" class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
 					</div>
 				</div>
 			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
 		</div>
-	</header>
-	<section class="header-posistion"></section>
-	<%- include('components/nav') -%>
-	<div class="loading">
-		<div class="sp sp-3balls"></div>
-	</div>
 
-	<!--<section>
+		<!--<section>
 			<div class="pagebanner-4">
 				<div class="extra-container">
 					<div class="pagebanner-3__text wow fadeInUp">
@@ -53,40 +60,53 @@
 			</div>
 		</section>-->
 
-	<section>
-
-		<div class="testi-2__qoute">
-			<div class="extra-container">
-				<div class="testi-2__qoute__tittle">
-					<div class="portfolio-2__tittle__slogan wow fadeInUp">
-						<hr class="portfolio-2__tittle__cross" />
-						<h2>AMRITA VISHWA VIDYAPEETHAM</h2>
+		<section>
+			<div class="testi-2__qoute">
+				<div class="extra-container">
+					<div class="testi-2__qoute__tittle">
+						<div class="portfolio-2__tittle__slogan wow fadeInUp">
+							<hr class="portfolio-2__tittle__cross" />
+							<h2>AMRITA VISHWA VIDYAPEETHAM</h2>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="testimonial-area wow zoomIn">
-					<div class="testimonial">
-						<div class="testimonial__item">
-							<div class="row">
-								<div class="col-lg-3 col-md-3">
-									<div class="testimonial__qoute">
-										<img src="assets/images/ASEB.jpg" alt="quote" />
+				<div class="container">
+					<div class="testimonial-area wow zoomIn">
+						<div class="testimonial">
+							<div class="testimonial__item">
+								<div class="row">
+									<div class="col-lg-3 col-md-3">
+										<div class="testimonial__qoute">
+											<img
+												src="assets/images/ASEB.jpg"
+												alt="quote"
+											/>
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-9 col-md-9">
-									<div class="testimonial__text">
-										<p class="t-nd-dark" style="color: #89216B; font-weight: 600;">
-											Amrita Bengaluru is one of the schools under Amrita Vishwa Vidyapeetham.<br>
-											Nestled in the tech city of Bengaluru , this university offers a wide
-											variety of
-											disciplines in B.Tech and M.Tech Engineering programmes and an MBA programme
-											in the
-											Amrita school of business.
-											<br>The university offers ample research
-											opportunities as
-											well.
-										</p>
+									<div class="col-lg-9 col-md-9">
+										<div class="testimonial__text">
+											<p
+												class="t-nd-dark"
+												style="
+													color: #89216b;
+													font-weight: 600;
+												"
+											>
+												Amrita Bengaluru is one of the
+												schools under Amrita Vishwa
+												Vidyapeetham.<br />
+												Nestled in the tech city of
+												Bengaluru , this university
+												offers a wide variety of
+												disciplines in B.Tech and M.Tech
+												Engineering programmes and an
+												MBA programme in the Amrita
+												school of business.
+												<br />The university offers
+												ample research opportunities as
+												well.
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -94,43 +114,60 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="testi-2__qoute">
-			<div class="extra-container">
-				<div class="testi-2__qoute__tittle">
-					<div class="portfolio-2__tittle__slogan wow fadeInUp">
-						<hr class="portfolio-2__tittle__cross" />
-						<h2>AYKYA</h2>
+			<div class="testi-2__qoute">
+				<div class="extra-container">
+					<div class="testi-2__qoute__tittle">
+						<div class="portfolio-2__tittle__slogan wow fadeInUp">
+							<hr class="portfolio-2__tittle__cross" />
+							<h2>AYKYA</h2>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="testimonial-area wow zoomIn">
-					<div class="testimonial">
-						<div class="testimonial__item">
-							<div class="row">
-								<div class="col-lg-3 col-md-3">
-									<div class="testimonial__qoute">
-										 <img src="assets/images/home1.jpg" alt="quote" />
+				<div class="container">
+					<div class="testimonial-area wow zoomIn">
+						<div class="testimonial">
+							<div class="testimonial__item">
+								<div class="row">
+									<div class="col-lg-3 col-md-3">
+										<div class="testimonial__qoute">
+											<img
+												src="assets/images/home1.jpg"
+												alt="quote"
+											/>
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-9 col-md-9">
-									<div class="testimonial__text">
-										<p class="t-nd-dark" style="color: #89216B; font-weight: 600;">
-											Amrita Bengaluru has initiated a step to be the forefront of this change
-											introducing you the first ever completely online “DIGITAL MUTLI FEST -
-											AYKYA”.
-											<br>Our motive is to handle such unprecedented changes through a delightful
-											platform.
-											AYKYA is a synergy of all the protons of Amrita Bengaluru campus (B.Tech,
-											M.Tech and
-											MBA students).
-											<br>It is a fusion of amazing unlimited challenges and events.
-											The first ever biggest livestream fest in India, filled with many surprising
-											and challenging events that gives a feast for the eyes.
-											<br>Talents showcased, fears overcomed, hearts overwhelmed with pride.
-
-										</p>
+									<div class="col-lg-9 col-md-9">
+										<div class="testimonial__text">
+											<p
+												class="t-nd-dark"
+												style="
+													color: #89216b;
+													font-weight: 600;
+												"
+											>
+												Amrita Bengaluru has initiated a
+												step to be the forefront of this
+												change introducing you the first
+												ever completely online “DIGITAL
+												MUTLI FEST - AYKYA”.
+												<br />Our motive is to handle
+												such unprecedented changes
+												through a delightful platform.
+												AYKYA is a synergy of all the
+												protons of Amrita Bengaluru
+												campus (B.Tech, M.Tech and MBA
+												students). <br />It is a fusion
+												of amazing unlimited challenges
+												and events. The first ever
+												biggest livestream fest in
+												India, filled with many
+												surprising and challenging
+												events that gives a feast for
+												the eyes. <br />Talents
+												showcased, fears overcomed,
+												hearts overwhelmed with pride.
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -138,52 +175,66 @@
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="extra-container">
-			<div class="portfolio-2">
-				<a href="#" class="wow fadeInUp portfolio-2__item portfolio-2__item__h">
-					<img src="assets/images/home2.jpg" alt="portfolio" />
-					<!-- <div class="portfolio-2__item__category">
+			<div class="extra-container">
+				<div class="portfolio-2">
+					<a
+						href="#"
+						class="wow fadeInUp portfolio-2__item portfolio-2__item__h"
+					>
+						<img src="assets/images/home2.jpg" alt="portfolio" />
+						<!-- <div class="portfolio-2__item__category">
 							<h5 class="t-upcase">Senjani project</h5>
 							<p>Branding</p>
 						</div> -->
-				</a>
+					</a>
 
-				<a href="#" class="wow fadeInUp portfolio-2__item portfolio-2__item__v">
-					<img src="assets/images/home4.jpg" alt="portfolio" />
-					<!--<div class="portfolio-2__item__category">
+					<a
+						href="#"
+						class="wow fadeInUp portfolio-2__item portfolio-2__item__v"
+					>
+						<img src="assets/images/home4.jpg" alt="portfolio" />
+						<!--<div class="portfolio-2__item__category">
 						<h5 class="t-upcase">Freedom project</h5>
 						<p>Web Design</p>
 					</div>-->
-				</a>
+					</a>
 
-				<a href="#" class="wow fadeInUp portfolio-2__item portfolio-2__item__h">
-					<img src="assets/images/home3.jpg" alt="portfolio" />
-					<!--<div class="portfolio-2__item__category">
+					<a
+						href="#"
+						class="wow fadeInUp portfolio-2__item portfolio-2__item__h"
+					>
+						<img src="assets/images/home3.jpg" alt="portfolio" />
+						<!--<div class="portfolio-2__item__category">
 						<h5 class="t-upcase">Virtual Reality</h5>
 						<p>Analytical Develop</p>
 					</div>-->
-				</a>
-				<div class="portfolio-2-sizer"></div>
+					</a>
+					<div class="portfolio-2-sizer"></div>
+				</div>
 			</div>
-		</div>
 
-		<div class="portfolio-2__head">
-			<div class="extra-container">
-				<div class="row">
-					<div class="portfolio-2__tittle wow fadeInUp" style="padding-top:30px;">
-						<div class="portfolio-2__tittle__slogan">
-							<hr class="portfolio-2__tittle__cross" />
-							<h2>JOIN US IN ENJOYING THE SWEETNESS OF VICTORY AND JOY IN TOGETHERNESS</h2>
+			<div class="portfolio-2__head">
+				<div class="extra-container">
+					<div class="row">
+						<div
+							class="portfolio-2__tittle wow fadeInUp"
+							style="padding-top: 30px"
+						>
+							<div class="portfolio-2__tittle__slogan">
+								<hr class="portfolio-2__tittle__cross" />
+								<h2>
+									JOIN US IN ENJOYING THE SWEETNESS OF VICTORY
+									AND JOY IN TOGETHERNESS
+								</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!--<section>
+		<!--<section>
 		<div class="testi-2">
 			<div class="extra-container">
 				<div class="portfolio-2__tittle">
@@ -320,7 +371,7 @@
 					</div>
 				</div>
 			</div> -->
-	<!-- <div class="sponsor">
+		<!-- <div class="sponsor">
 				<div class="sponsor__item">
 					<img
 						src="assets/images/uploads/sponsor/sponsor1.png"
@@ -382,9 +433,9 @@
 					/>
 				</div>
 		</div> -->
-	<!--</section>-->
+		<!--</section>-->
 
-	<!-- <footer>
+		<!-- <footer>
 			<div class="cursor"></div>
 			<div class="cursor-follower"></div>
 
@@ -436,8 +487,7 @@
 			</div>
 		</footer> -->
 
-	<%- include('components/footer') -%>
-	<%- include('components/corejs') -%>
-</body>
-
+		<%- include('components/footer') -%> <%- include('components/corejs')
+		-%>
+	</body>
 </html>
