@@ -775,26 +775,26 @@ $(document).ready(function(){
     });
 
     // categori apperance
-    $('.portfolio-2__item').on('mouseover',function(e){
-        $(this).append(
-            '<div class="portfolio-2__cate-follow">'+
-                '<h5>'+$(this).find('h5').text()+'</h5><br/>'+
-                '<p>'+$(this).find('p').text()+'</p>'
-            +'</div>'
-            );
-        $('.cursor-follower').addClass('remove-trans');
-        var port2_trans = $('.portfolio-2__cate-follow');
-        $(window).on('mousemove', function(e){
-            TweenMax.to( port2_trans, 0, {
-                css: { left: e.clientX, top: e.clientY  }
-            });
-        });
-    });
+    // $('.portfolio-2__item').on('mouseover',function(e){
+    //     $(this).append(
+    //         '<div class="portfolio-2__cate-follow">'+
+    //             '<h5>'+$(this).find('h5').text()+'</h5><br/>'+
+    //             '<p>'+$(this).find('p').text()+'</p>'
+    //         +'</div>'
+    //         );
+    //     $('.cursor-follower').addClass('remove-trans');
+    //     var port2_trans = $('.portfolio-2__cate-follow');
+    //     $(window).on('mousemove', function(e){
+    //         TweenMax.to( port2_trans, 0, {
+    //             css: { left: e.clientX, top: e.clientY  }
+    //         });
+    //     });
+    // });
 
-    $('.portfolio-2__item').on('mouseout',function(){
-        $('.cursor-follower').removeClass('remove-trans');
-        $(this).find('.portfolio-2__cate-follow').remove();
-    });
+    // $('.portfolio-2__item').on('mouseout',function(){
+    //     $('.cursor-follower').removeClass('remove-trans');
+    //     $(this).find('.portfolio-2__cate-follow').remove();
+    // });
 
 //=========================== END PORTFOLIO 2 ==============================
 
