@@ -16988,7 +16988,11 @@ body {
 }
 
 .testimonial__qoute {
-  width: calc(100% + 30px);
+  width: calc(100% + 30px); 
+}
+
+.testimonial__qoute img{
+  margin-top: 70px;
 }
 
 .testimonial__text {
@@ -17045,6 +17049,7 @@ body {
 @media (max-width: 1200px) {
   .testimonial__qoute {
     width: 100%;
+    
   }
   .testimonial__text {
     padding: 0;
@@ -17062,7 +17067,7 @@ body {
 
 @media (max-width: 768px) {
   .testimonial__qoute img {
-    max-width: 80px;
+    /* max-width: 80px; */
     margin: 0 auto 15px;
   }
 }
