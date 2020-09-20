@@ -11603,7 +11603,7 @@ body {
 }
 
 .pagebanner-brg {
-  height:100vh;
+  height:800px;
   width: 100%;
   padding-top: 175px;
 }
@@ -11710,8 +11710,9 @@ body {
   transform: translate(-50%,-50%);
   text-align: center;
   z-index:1;
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  overflow: hidden; */
 }
-
 .logo-text h1 {
   text-transform: uppercase;
   font-family: myriad;
