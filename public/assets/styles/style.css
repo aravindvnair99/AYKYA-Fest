@@ -11847,8 +11847,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-image: url("../images/Landing_img.JPG");
-	filter: blur(5px);
+	background-image: url("../images/bg1.jpg");
+	/* filter: blur(1px); */
 	opacity:0.8;
 	background-position: center;
 	background-size: cover;
@@ -12021,7 +12021,6 @@ body {
 
 .pagebanner__count-down p {
 	font-family: 'Orbitron', sans-serif;
-	font-size: 50px;
 	font-size: clamp(20px, 8vw, 50px);
 	color: #333333;
 	color: whitesmoke;
@@ -12045,7 +12044,6 @@ body {
 
 .pagebanner__count-down span {
 	font-family: 'Teko', sans-serif;
-	font-size:20px;
 	font-size: clamp(10px, 3vw, 20px);
 	color: #999999;
 	margin: 0;
@@ -12060,7 +12058,7 @@ body {
 		left: 0;
 	}
 	.logo-text h1 {
-		font-size: 120px !important;
+		font-size: 8vw !important;
 	}
 
 }
