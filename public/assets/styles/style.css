@@ -11847,8 +11847,9 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-image: url("../images/Landing_img.jpg");
-	filter: grayscale(50%) blur(5px) ;
+	background-image: url("../images/Landing_img.JPG");
+	filter: blur(5px);
+	opacity:0.8;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12020,7 +12021,8 @@ body {
 
 .pagebanner__count-down p {
 	font-family: 'Orbitron', sans-serif;
-	font-size: 3rem;
+	font-size: 50px;
+	font-size: clamp(20px, 8vw, 50px);
 	color: #333333;
 	color: whitesmoke;
   	margin: 0;
@@ -12028,9 +12030,11 @@ body {
 	
 }
 .pagebanner__count-down .clock-box{
-	width:110px;
-	height:110px;
-	margin: 0 20px;
+	width:20vw;
+	height:20vw;
+	max-width: 110px;
+	max-height: 110px;
+	margin: 0 1vw;
 	border-top: 5px solid slategrey;
 	z-index: 10;
 	background: #000000;  /* fallback for old browsers */
@@ -12041,7 +12045,8 @@ body {
 
 .pagebanner__count-down span {
 	font-family: 'Teko', sans-serif;
-	font-size: 20px;
+	font-size:20px;
+	font-size: clamp(10px, 3vw, 20px);
 	color: #999999;
 	margin: 0;
 	border-top: 2px solid red;
@@ -12057,6 +12062,7 @@ body {
 	.logo-text h1 {
 		font-size: 120px !important;
 	}
+
 }
 
 @media (max-width: 992px) {
@@ -12116,17 +12122,10 @@ body {
 		max-height: 320px;
 		top: -30px;
 	}
-	.pagebanner__count-down p {
-		font-size: 20px ;
+	.pagebanner__count-down p{
+		line-height:1.5;
 	}
-	.pagebanner__count-down span {
-		font-size: 15px;
-	}
-	.pagebanner__count-down .clock-box{
-		width: 60px;
-		height:60px;
-		margin: 0 5px;
-	}
+	
 }
 
 .pagebanner-3,
