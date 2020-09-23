@@ -11869,7 +11869,7 @@ body {
 .logo-text h1 {
 	text-transform: uppercase;
 	font-family: myriad;
-	font-size: 170px;
+	/* font-size: 170px; */
 	color: transparent;
 	margin: 0;
 	background-image: url("../images/uploads/pagebanner/textbrg.jpg");
@@ -11879,7 +11879,7 @@ body {
 	animation: slide 25s linear infinite;
 	-webkit-background-clip: text;
 	background-clip: text;
-	line-height: 170px;
+	/* line-height: 170px; */
 }
 
 @keyframes slide {
@@ -12015,22 +12015,22 @@ body {
 }
 
 .pagebanner__count-down {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	text-align: center;
 }
 
 .pagebanner__count-down p {
 	font-family: 'Orbitron', sans-serif;
-	font-size: clamp(20px, 8vw, 50px);
+	font-size: clamp(22px, 3vw, 50px);
 	color: #333333;
 	color: whitesmoke;
-  	margin: 0;
-  	line-height:1.6;
+	margin: 0;
+	line-height:1.5;
 	
 }
 .pagebanner__count-down .clock-box{
-	width:20vw;
-	height:20vw;
 	max-width: 110px;
 	max-height: 110px;
 	margin: 0 1vw;
@@ -12038,15 +12038,16 @@ body {
 	z-index: 10;
 	background: #000000;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to top, #434343, #000000); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 	-webkit-box-reflect:below 2px linear-gradient(to bottom,transparent,#0004);
+	/* line-height:1.6; */
 }
 
 .pagebanner__count-down span {
 	font-family: 'Teko', sans-serif;
-	font-size: clamp(10px, 3vw, 20px);
+	font-size: clamp(10px, 1.5vw, 20px);
 	color: #999999;
-	margin: 0;
+	margin:0;
 	border-top: 2px solid red;
 }
 
@@ -12058,8 +12059,12 @@ body {
 		left: 0;
 	}
 	.logo-text h1 {
-		font-size: 8vw !important;
+		font-size: 8vw;
 	}
+	.pagebanner__count-down .clock-box{
+		height:7vw;
+		width: 7vw;
+	} 
 
 }
 
@@ -12078,23 +12083,19 @@ body {
 	.pagebanner-brg--3 .row {
 		align-items: center;
 	}
-	.logo-text h1 {
-		font-size: 98px !important;
-		line-height: 100px !important;
-	}
-	.pagebanner__count-down-area {
-		margin: 30px 0;
-	}
 	.pagebanner-brg {
 		padding-top: 140px;
 	}
 }
-
 @media (max-width: 768px) {
 	.logo-text h1 {
-		font-size: 70px !important;
-		line-height: 80px !important;
+		font-size: 70px;
 	}
+	.pagebanner__count-down .clock-box{
+		height:60px;
+		width: 60px;
+	} 
+
 }
 
 @media (max-width: 576px) {
@@ -12102,8 +12103,7 @@ body {
 		height: 100vh;
 	}
 	.logo-text h1 {
-		font-size: 35px !important;
-		line-height: 50px !important;
+		font-size: 12.5vw;
 	}
 	.pagebanner-brg--1__right {
 		padding-top: 0 !important;
@@ -12119,9 +12119,6 @@ body {
 	.pagebanner-brg--3__left img {
 		max-height: 320px;
 		top: -30px;
-	}
-	.pagebanner__count-down p{
-		line-height:1.5;
 	}
 	
 }
