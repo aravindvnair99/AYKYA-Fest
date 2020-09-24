@@ -12087,15 +12087,6 @@ body {
 	}
 }
 
-@media (max-width:961){
-	.pagebanner__count-down p{
-		line-height:1.2 !important;
-	}
-	.pagebanner__count-down .clock-box{
-		height:5vw;
-		width: 5vw;
-	}
-}
 @media (max-width: 768px) {
 	.logo-text h1 {
 		font-size: 70px;
