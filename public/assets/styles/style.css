@@ -12062,9 +12062,9 @@ body {
 		font-size: 8vw;
 	}
 	.pagebanner__count-down .clock-box{
-		height:7vw;
+		/* height:7vw; */
 		width: 7vw;
-	} 
+	}
 
 }
 
@@ -12085,6 +12085,16 @@ body {
 	}
 	.pagebanner-brg {
 		padding-top: 140px;
+	}
+}
+
+@media (max-width:961){
+	.pagebanner__count-down p{
+		line-height:1.2 !important;
+	}
+	.pagebanner__count-down .clock-box{
+		height:5vw;
+		width: 5vw;
 	}
 }
 @media (max-width: 768px) {
