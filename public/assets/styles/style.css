@@ -15966,7 +15966,23 @@ body {
   height: 5px;
   background-color:#cc2b5e;
 }
+.fest-subtitle_1 hr{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.fest-subtitle_2 hr{
+  background: #ffd200;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fest-subtitle_3 hr{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .portfolio-2__tittle h2, .testi-2__qoute__tittle h2 {
   display: inline-block;
   font-size: 60px;
@@ -16994,6 +17010,31 @@ body {
   font-size: 20px;
 }
 
+.fest-text_1 p{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+
+}
+
+.fest-text_2 p{
+  background: #ffd200;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-text_3 p{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
 .testimonial__text__author {
   margin-top: 25px;
   display: inline-flex;
@@ -17103,6 +17144,30 @@ body {
 
 .testi-2 .portfolio-2__tittle__slogan h2 {
   color: #ffffff;
+}
+
+.fest-subtitle_1 h2{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-subtitle_2 h2{
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-subtitle_3 h2{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
 
 .testi-2 .portfolio-2__tittle__cross {
