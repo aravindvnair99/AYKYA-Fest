@@ -11848,8 +11848,8 @@ body {
 	justify-content: center;
 	text-align: center;
 	background-image: url("../images/bg1.jpg");
-	/* filter: blur(1px); */
-	opacity:0.8;
+	filter: blur(10px);
+	/* opacity:0.8; */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12201,14 +12201,14 @@ body {
 	letter-spacing: -4px;
 	text-align: center;
 	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #753a88;
+	-webkit-text-stroke-color: #DA4453;
 	line-height: 130px;
 	color: #ffffff;
 	text-decoration: none;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(0deg, #cc2b5e, #753a88 50%, #000000 50%);
+	background-image: linear-gradient(0deg, #89216B, #DA4453 20%, #000000 50%);
 	background-size: 100% 200%;
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
