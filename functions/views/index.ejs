@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-	<%- include('components/meta') -%>
-	<title>AYKYA</title>
-	<%- include('components/corecss') -%>
-</head>
+	<body>
+		<header id="header-trans" class="header-trans-1">
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="index"
+							><img src="assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
 
-<body>
-	<header id="header-trans" class="header-trans-1">
-		<div class="extra-container ">
-			<div class="header-2 ">
-				<div class="header__menu-icon">
-					<div class="header__menu-icon__dot ">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-						<span></span>
-						<span></span>
-					</div>
+					<a href="#" class="header__buy-ticket">
+						<span>BUY TICKETS</span>
+					</a>
 				</div>
-				<div class="position-fixed"></div>
-				<div class="header__logo">
-					<a href="index"><img src="assets/images/logo.png" alt="logo"></a>
-				</div>
-
-				<a href="#" class="header__buy-ticket ">
-					<span>BUY TICKETS</span>
-				</a>
 			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
 		</div>
-	</header>
-	<section class="header-posistion"></section>
-	<%- include('components/nav') -%>
-	<div class="loading">
-		<div class="sp sp-3balls"></div>
-	</div>
-
-
 	<section>
 		<div class="cursor"></div>
 		<div class="cursor-follower"></div>
@@ -54,52 +59,33 @@
 			<div class="pagebanner-2__item">
 				<div class="pagebanner-brg pagebanner-brg--2"></div>
 				<div class="extra-container logo-text">
-					<h1>Logo Revealing in</h1>
+					<h1>Logo Reveal<br>In</h1>
 				</div>
-			</div>
-			<!-- <div class="pagebanner-2__item">
-			<div class="pagebanner-brg pagebanner-brg--3">
-				<div class="extra-container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="pagebanner-brg--3__left">
-								<img src="assets/images/uploads/pagebanner/sign2.png" alt="sign2">
-								<div class="pagebanner-brg--1__info">
-									<h5>#The leading startup event</h5>
-									<h2 class="pagebanner-brg--1__webdesign">Web Design</h2>
-									<h3 class="pagebanner-brg--1__conference">Conference 2019</h3>
-								</div>
-								<div class="pagebanner__count-down-area">
-									<div class="pagebanner__count-down">
-										<p id="CD2__day"></p><span>DAYS</span>
-									</div>
-									<div class="pagebanner__count-down">
-										<p id="CD2__hour"></p><span>HOURS</span>
-									</div>
-									<div class="pagebanner__count-down ">
-										<p id="CD2__min"></p><span>MINS</span>
-									</div>
-									<div class="pagebanner__count-down ">
-										<p id="CD2__sec"></p><span>SECS</span>
-									</div>
-								</div>
-								<a href="#">Registration</a>
-							</div>
+				<div class="pagebanner__count-down-area">
+					<div class="pagebanner__count-down">
+						<div class="clock-box">
+							<p id="CD2__day"></p><span>DAYS</span>
 						</div>
-						<div class="col-lg-6">
-							<div class="pagebanner-brg--3__right">
-								<img src="assets/images/uploads/pagebanner/human.jpg" alt="human">
-							</div>
+					</div>
+					<div class="pagebanner__count-down">
+						<div class="clock-box">
+							<p id="CD2__hour"></p><span>HOURS</span>
+						</div>
+					</div>
+					<div class="pagebanner__count-down ">
+						<div class="clock-box">
+							<p id="CD2__min"></p><span>MINS</span>
+						</div>
+					</div>
+					<div class="pagebanner__count-down ">
+						<div class="clock-box">
+							<p id="CD2__sec"></p><span>SECS</span>
 						</div>
 					</div>
 				</div>
-
 			</div>
-		</div> -->
 		</div>
 	</section>
 	<%- include('components/corejs') -%>
-
 </body>
-
 </html>
