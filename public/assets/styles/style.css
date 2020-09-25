@@ -13868,7 +13868,7 @@ body {
 
 .speaker-grid-2__item h4 {
 	margin-top: 50px;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .speaker-grid-2__item .speaker-grid-2__item__thumb:hover img {
@@ -13896,7 +13896,8 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)
+{
 	.speaker-grid-2 {
 		padding: 40px 0;
 	}
@@ -13914,6 +13915,8 @@ body {
 
 @media (max-width: 610px)
 {
+
+
 	.container
 	{
 		max-width: 75%;
@@ -13932,7 +13935,7 @@ body {
 	}
 	.speaker-grid-2__item h4
 	{
-		font-size: 20px;
+		font-size: 16px;
 		margin-top: 15px;
 	}
 	.speaker-grid-2__item h5
