@@ -12993,10 +12993,59 @@ body {
 	background-color: violet;
 }
 .Event-card_1 {
-	margin: 50px 20px;
-	padding: 10px;
+	margin: 50px;
+	/* width:1400px; */
 	height:500px;
 	background: white;
+}
+.Event-card-img img{
+	float: left;
+	margin: 40px 0 ;
+}
+.Event-card-content{
+	border: 2px solid blue;
+	margin: 40px 0;
+}
+.Event-card_title h2{
+
+}
+.Event-tickets{
+	position: absolute;
+	top: 85%;
+	left:80% ;
+}
+
+.tickets {
+	color: #000000;
+	font-family: "JosefinSans-600", sans-serif;
+	display: inline-block;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ffffff;
+	border: 1.5px solid #ffffff;
+	height: 45px;
+	width: 130px;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		to right,
+		#000000,
+		#000000 50%,
+		#ffffff 50%
+	);
+	background-size: 210% 100%;
+	background-position: 99%;
+}
+
+.tickets:hover {
+	transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
+	background-position: 0%;
+	color: #ffffff;
+}
+
+.Event-card-text{
+	margin:40px 0;
+	padding:10px;
+	border: 2px solid rebeccapurple;
 }
 .Event-card_2 {
 	margin:50px 20px;
@@ -16841,7 +16890,6 @@ body {
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
 	font-size: 120px;
-	color: #ffffff;
 	margin: 150px 0 130px;
 }
 
