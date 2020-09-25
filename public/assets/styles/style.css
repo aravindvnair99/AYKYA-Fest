@@ -16208,51 +16208,61 @@ body {
 }
 
 @-webkit-keyframes drawReverse {
-	from {
-		stroke-dashoffset: 0;
-	}
-	to {
-		stroke-dashoffset: 1000;
-	}
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
 }
 
-.portfolio-2__tittle a,
-.testi-2__qoute__tittle a {
-	position: relative;
-	color: #000000;
-	text-transform: uppercase;
-	font-family: "JosefinSans-600", sans-serif;
-	display: inline-block;
+.portfolio-2__tittle a, .testi-2__qoute__tittle a {
+  position: relative;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "JosefinSans-600", sans-serif;
+  display: inline-block;
 }
 
-.portfolio-2__tittle a::before,
-.testi-2__qoute__tittle a::before {
-	bottom: 3px;
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	border-bottom: 1.5px solid #000000;
+.portfolio-2__tittle a::before, .testi-2__qoute__tittle a::before {
+  bottom: 3px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-bottom: 1.5px solid #000000;
 }
 
-.portfolio-2__tittle hr,
-.testi-2__qoute__tittle hr {
-	flex-shrink: 0;
-	margin: 35px 30px 0 0;
-	display: inline-block;
-	width: 70px;
-	height: 5px;
-	background-color: #000000;
-	background-color: #cc2b5e;
+.portfolio-2__tittle hr, .testi-2__qoute__tittle hr {
+  flex-shrink: 0;
+  margin: 35px 30px 0 0;
+  display: inline-block;
+  width: 70px;
+  height: 5px;
+  background-color:#cc2b5e;
+}
+.fest-subtitle_1 hr{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.portfolio-2__tittle h2,
-.testi-2__qoute__tittle h2 {
-	display: inline-block;
-	font-size: 60px;
-	line-height: 75px;
-	color: #c33764;
-	color: #cc2b5e;
+.fest-subtitle_2 hr{
+  background: #ffd200;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fest-subtitle_3 hr{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.portfolio-2__tittle h2, .testi-2__qoute__tittle h2 {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 75px;
+  color:#cc2b5e;
 }
 
 .portfolio-2__tittle__text {
@@ -17279,15 +17289,40 @@ body {
 }
 
 .testimonial__qoute img {
-	margin-top: 70px;
+	/*margin-top: 70px;*/
 }
 
 .testimonial__text {
-	padding: 70px 0 0 70px;
+  padding: 0 0 0 70px;
 }
 
 .testimonial__text p {
 	font-size: 20px;
+}
+
+.fest-text_1 p{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+
+}
+
+.fest-text_2 p{
+  background: #ffd200;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-text_3 p{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
 
 .testimonial__text__author {
@@ -17398,11 +17433,37 @@ body {
 }
 
 .testi-2 .portfolio-2__tittle__slogan h2 {
-	color: #ffffff;
+	/*color: #ffffff;*/
+	background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fest-subtitle_1 h2{
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-subtitle_2 h2{
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fest-subtitle_3 h2{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
 
 .testi-2 .portfolio-2__tittle__cross {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 }
 
 .testi-2__content {
