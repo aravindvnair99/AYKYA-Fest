@@ -5,15 +5,15 @@
 		<div class="footer">
 			<a class="footer__logo" href="/">
 				<img
-					class="footer-move-up"
-					src="assets/images/logo.png"
-					alt="logo"
-			/></a>
+						class="footer-move-up"
+						src="assets/images/logo.png"
+						alt="logo"
+				/></a>
 			<div class="footer__site-text">
 				<p class="footer-move-up">Rising Together</p>
 			</div>
 			<div class="footer__get-ticket footer-move-up">
-				<a href="#">GET TICKETS</a>
+				<a onclick="onClick()" href="#">GET TICKETS</a>
 			</div>
 			<!-- <div class="footer__menu footer-move-up">
 				<ul>
@@ -26,23 +26,35 @@
 		</div>
 	</div>
 
-	<script>
-		function mouseOver(obj) {
-			var divId = "img" + obj.id.substring(3, obj.id.length);
 
-			document.getElementById(divId).style.visibility = "visible";
-			// devId = obj.id
-			console.log(divId);
+	<script>
+
+		function onClick()
+		{
+			var w = window.innerWidth;
+			var h = window.innerHeight;
+			console.log(w, h)
 		}
 
-		function mouseLeave(obj) {
-			var divId = "img" + obj.id.substring(3, obj.id.length);
+		function mouseOver(obj)
+		{
+			var divId = "img"+obj.id.substring(3,obj.id.length)
 
-			document.getElementById(divId).style.visibility = "hidden";
+			document.getElementById(divId).style.visibility = "visible"
 			// devId = obj.id
-			console.log(divId);
+			console.log(divId)
+		}
+
+		function mouseLeave(obj)
+		{
+			var divId = "img"+obj.id.substring(3,obj.id.length)
+
+			document.getElementById(divId).style.visibility = "hidden"
+			// devId = obj.id
+			console.log(divId)
 		}
 	</script>
+
 
 	<div class="copy-right">
 		<div class="container">
@@ -51,104 +63,56 @@
 					<i class="fa fa-copyright"></i> 2020 <span>AYKYA</span>. All
 					Rights Reserved. Made by&nbsp;
 
-					<span
-						style="letter-spacing: 1.5px"
-						id="dev1"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img1"
-							src="../assets/images/uploads/speaker/templatePics/speakers1.jpg"
-						/>
-						Aditya S,&nbsp;
+					<span style="letter-spacing: 1.5px" id="dev1" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img1" src="../assets/images/uploads/speaker/templatePics/speakers1.jpg">
+						<a style="color: darkgrey" href="https://linkedin.com/in/adithya-suresh-956956156/" target="_blank" rel="noopener">Aditya S,</a>&nbsp;&nbsp;
 					</span>
 
-					<span
-						style="letter-spacing: 1.5px"
-						id="dev2"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img2"
-							src="../assets/images/uploads/speaker/templatePics/speakers2.jpg"
-						/>
-						<a
-							href="https://linkedin.com/in/aravindvnair99/"
-							target="_blank"
-							rel="noopener"
-							>Aravind V. Nair</a
-						>,&nbsp;
+
+					<span style="letter-spacing: 1.5px" id="dev2" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img2" src="../assets/images/uploads/speaker/templatePics/speakers2.jpg">
+						  <a style="color: darkgrey" href="https://linkedin.com/in/aravindvnair99/" target="_blank" rel="noopener">Aravind V N,</a>&nbsp;
 					</span>
 
-					<span
-						id="dev3"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img3"
-							src="../assets/images/uploads/speaker/templatePics/speakers3.jpg"
-						/>
-						Priyaa R G&nbsp;,&nbsp;
+
+					<span id="dev3" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img3" src="../assets/images/uploads/speaker/templatePics/speakers3.jpg">
+						<a style="color: darkgrey" href="https://linkedin.com/in/r-g-priyaa-37432b188/" target="_blank" rel="noopener">Priyaa R G,</a>&nbsp;
 					</span>
 
-					<span
-						id="dev4"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img4"
-							src="../assets/images/uploads/speaker/templatePics/speakers4.jpg"
-						/>
-						Subaharish R K,&nbsp;
+
+					<span id="dev4" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img4" src="../assets/images/uploads/speaker/templatePics/speakers4.jpg">
+						<a style="color: darkgrey" href="https://linkedin.com/in/harish-r-k-44708a190/" target="_blank" rel="noopener">Subaharish R K,</a>&nbsp;						&nbsp;
 					</span>
 
-					<span
-						id="dev5"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img5"
-							src="../assets/images/uploads/speaker/templatePics/speakers5.jpg"
-						/>
-						Suneel N,&nbsp;
+
+					<span id="dev5" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img5" src="../assets/images/uploads/speaker/templatePics/speakers5.jpg">
+						<a style="color: darkgrey" href="https://linkedin.com/in/suneel-nadipalli-a45b981b6/" target="_blank" rel="noopener">Suneel N,&nbsp;</a>&nbsp;
 					</span>
 
-					<span
-						id="dev6"
-						onmouseover="mouseOver(this)"
-						onmouseleave="mouseLeave(this)"
-					>
-						<img
-							class="image"
-							id="img6"
-							src="../assets/images/uploads/speaker/templatePics/speakers6.jpg"
-						/>
-						Vinayak T
+
+					<span id="dev6" onmouseover="mouseOver(this)" onmouseleave="mouseLeave(this)">
+						<img class="image" id="img6" src="../assets/images/uploads/speaker/templatePics/speakers6.jpg">
+						<a style="color: darkgrey" href="https://linkedin.com/in/vinayak-tekade/" target="_blank" rel="noopener">Vinayak T</a>&nbsp;
 					</span>
+
+
 				</p>
 				<div class="copy-right__right">
 					<a href="#"
-						><img src="assets/images/footer-face.png" alt="face"
-					/></a>
+					><img src="assets/images/footer-face.png" alt="face"
+						/></a>
 					<a href="#"
-						><img src="assets/images/footer-ins.png" alt="ins"
-					/></a>
+					><img src="assets/images/footer-ins.png" alt="ins"
+						/></a>
 					<a href="#"
-						><img src="assets/images/footer-in.png" alt="in"
-					/></a>
+					><img src="assets/images/footer-in.png" alt="in"
+						/></a>
 					<a href="#"
-						><img src="assets/images/footer-twit.png" alt="twit"
-					/></a>
+					><img src="assets/images/footer-twit.png" alt="twit"
+						/></a>
 				</div>
 			</div>
 		</div>
