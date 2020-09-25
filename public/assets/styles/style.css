@@ -13912,31 +13912,23 @@ body {
 	}
 }
 
-@media (max-width: 610px)
-{
-	.container
-	{
+@media (max-width: 610px) {
+	.container {
 		max-width: 75%;
 		padding-bottom: 60px;
-
 	}
-	.speaker-grid-2
-	{
+	.speaker-grid-2 {
 		padding: 40px 0;
 	}
-	.speaker-grid-2__item
-	{
+	.speaker-grid-2__item {
 		margin-top: 30px;
 		width: 47.5%;
-
 	}
-	.speaker-grid-2__item h4
-	{
+	.speaker-grid-2__item h4 {
 		font-size: 20px;
 		margin-top: 15px;
 	}
-	.speaker-grid-2__item h5
-	{
+	.speaker-grid-2__item h5 {
 		font-size: 15px;
 	}
 }
