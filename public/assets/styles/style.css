@@ -13038,12 +13038,8 @@ body {
 	/* background-color: salmon; */
 }
 
-/* .Event-card_title h2{
-
-} */
-
 .Event-tickets{
-	margin: 50px 0 0;
+	margin: 100px 30px 10px 0;
 	direction: rtl;
 }
 
