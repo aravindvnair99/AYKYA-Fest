@@ -11426,11 +11426,16 @@ img {
 	padding: 0 95px;
 }
 
-.moving-btn {
+.moving-btn
+{
+	color: white;
 	position: relative;
+	margin-bottom: 60px;
 }
 
-.loader-spin {
+.loader-spin
+{
+	color: white;
 	width: 45px;
 	height: 45px;
 	display: inline-block;
@@ -12984,19 +12989,25 @@ body {
 	}
 }
 
-.contact-info h4 {
+.contact-info h4
+{
 	font-size: 40px;
 	margin-bottom: 27px;
+	color: white;
 }
 
-.contact-info__link {
+.contact-info__link
+{
+	color: white;
 	display: flex;
 	align-items: center;
 	padding: 14px 0;
 	text-shadow: 0 0.5px #adadad;
 }
 
-.contact-info__link img {
+.contact-info__link img
+{
+	filter: contrast(0%)  brightness(500%);
 	flex-shrink: 0;
 	margin-right: 30px;
 }
