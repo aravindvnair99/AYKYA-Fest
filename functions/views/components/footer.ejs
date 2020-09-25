@@ -13,7 +13,7 @@
 				<p class="footer-move-up">Rising Together</p>
 			</div>
 			<div class="footer__get-ticket footer-move-up">
-				<a href="#">GET TICKETS</a>
+				<a onclick="onClick()" href="#">GET TICKETS</a>
 			</div>
 			<!-- <div class="footer__menu footer-move-up">
 				<ul>
@@ -25,13 +25,161 @@
 			</div> -->
 		</div>
 	</div>
+
+	<script>
+		function onClick() {
+			var w = window.innerWidth;
+			var h = window.innerHeight;
+			console.log(w, h);
+		}
+
+		function mouseOver(obj) {
+			var divId = "img" + obj.id.substring(3, obj.id.length);
+
+			document.getElementById(divId).style.visibility = "visible";
+			// devId = obj.id
+			console.log(divId);
+		}
+
+		function mouseLeave(obj) {
+			var divId = "img" + obj.id.substring(3, obj.id.length);
+
+			document.getElementById(divId).style.visibility = "hidden";
+			// devId = obj.id
+			console.log(divId);
+		}
+	</script>
+
 	<div class="copy-right">
 		<div class="container">
 			<div class="copy-right__area">
 				<p class="copy-right__left">
-					<i class="fa fa-copyright"></i> 2020 <span>AYKYA</span>. All
-					Rights Reserved. Made by Aditya, Aravind, Priyaa,
-					Subaharish, Suneel, Vinayak
+					Copyright&nbsp;
+					<i class="fa fa-copyright"></i>
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+					<span>AYKYA</span>&nbsp;|&nbsp;All Rights
+					Reserved&nbsp;|&nbsp;Made with&nbsp;<i
+						class="fa fa-heart"
+						style="color: red"
+						aria-hidden="true"
+					></i>
+					by
+					<span
+						id="dev1"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img1"
+							src="/assets/images/footer/adithya.jpg"
+							alt="Adithya Suresh"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/adithya-suresh-956956156"
+							target="_blank"
+							rel="noopener"
+							>Adithya Suresh</a
+						> </span
+					>,&nbsp;
+					<span
+						id="dev2"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img2"
+							src="/assets/images/footer/aravind_v_nair.jpg"
+							alt="Aravind V Nair"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/aravindvnair99"
+							target="_blank"
+							rel="noopener"
+							>Aravind V Nair</a
+						> </span
+					>,&nbsp;
+					<span
+						id="dev3"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img3"
+							src="/assets/images/footer/priyaa.jpg"
+							alt="Priyaa R G"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/r-g-priyaa-37432b188"
+							target="_blank"
+							rel="noopener"
+							>Priyaa R G</a
+						> </span
+					>,&nbsp;
+					<span
+						id="dev4"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img4"
+							src="/assets/images/footer/subaharish.jpg"
+							alt="Subaharish R K"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/harish-r-k-44708a190"
+							target="_blank"
+							rel="noopener"
+							>Subaharish R K</a
+						> </span
+					>,&nbsp;
+					<span
+						id="dev5"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img5"
+							src="/assets/images/footer/suneel.jpg"
+							alt="Suneel Nadipalli"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/suneel-nadipalli-a45b981b6"
+							target="_blank"
+							rel="noopener"
+							>Suneel Nadipalli</a
+						></span
+					>&nbsp;and
+					<span
+						id="dev6"
+						onmouseover="mouseOver(this)"
+						onmouseleave="mouseLeave(this)"
+					>
+						<img
+							class="image"
+							id="img6"
+							src="/assets/images/footer/vinayak.jpg"
+							alt="Vinayak Tekade"
+						/>
+						<a
+							style="color: #fc0"
+							href="https://linkedin.com/in/vinayak-tekade"
+							target="_blank"
+							rel="noopener"
+							>Vinayak Tekade</a
+						>
+					</span>
 				</p>
 				<div class="copy-right__right">
 					<a href="#"
