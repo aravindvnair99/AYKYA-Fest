@@ -13912,13 +13912,32 @@ body {
 	}
 }
 
-@media (max-width: 576px) {
-	.speaker-grid-2__item {
-		width: 80%;
-		left: 50% !important;
-		/* IE 9 */
-		/* Safari 3-8 */
-		transform: translate(-50%, 0) !important;
+@media (max-width: 610px)
+{
+	.container
+	{
+		max-width: 75%;
+		padding-bottom: 60px;
+
+	}
+	.speaker-grid-2
+	{
+		padding: 40px 0;
+	}
+	.speaker-grid-2__item
+	{
+		margin-top: 30px;
+		width: 47.5%;
+
+	}
+	.speaker-grid-2__item h4
+	{
+		font-size: 20px;
+		margin-top: 15px;
+	}
+	.speaker-grid-2__item h5
+	{
+		font-size: 15px;
 	}
 }
 
