@@ -1,251 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta
+			http-equiv="content-type"
+			content="text/html; charset=ISO-8859-1"
+		/>
+		<meta
+			content="width=device-width; initial-scale=1.0; maximum-scale=1.0;  user-scalable=0;"
+			name="viewport"
+		/>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+		<!-- Link Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		/>
 
-<head>
-   <%- include('components/meta') -%>
-  <title>AYKYA</title>
-  <%- include('components/corecss') -%>
-</head>
-<body>
-<header >
-	<div class="extra-container ">
-		<div class="header-2 ">
-			<div class="header__menu-icon">
-				<div class="header__menu-icon__dot ">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--skew">
-					<span ></span>
-					<span ></span>
-				</div>
-				<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-					<span ></span>
-					<span ></span>
+		<!-- Link Bootstrap JS and JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="index"
+							><img src="../assets/images/logo.png" alt="logo"
+						/></a>
+					</div>
+
+					<a href="#" class="header__buy-ticket">
+						<span>BUY TICKETS</span>
+					</a>
 				</div>
 			</div>
-			<div class="position-fixed"></div>
-			<div class="header__logo">
-				<a href="index"><img src="assets/images/logo.png" alt="logo"></a>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
+
+		<section style="background-color: black">
+			<div class="container">
+				<div class="speaker-grid-2">
+					<!--speaker 1-->
+
+					<div class="speaker-grid-2__item wow fadeInLeft">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									class="imgRsp"
+									src="../assets/images/members/aravind.jpg"
+									alt="Aravind"
+								/>
+
+								<h4 style="color: white">Aravind</h4>
+							</div>
+						</div>
+					</div>
+					<div class="speaker-gutter-sizer"></div>
+
+					<!--speaker 2-->
+
+					<div class="speaker-grid-2__item wow fadeInRight">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/arjun.jpg"
+									alt="Arjun"
+								/>
+							</div>
+							<h4 style="color: white">Arjun</h4>
+						</div>
+					</div>
+					<!--			<div class="speaker-gutter-sizer"></div>-->
+
+					<!--speaker 3-->
+
+					<div class="speaker-grid-2__item wow fadeInLeft">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/karthika.jpg"
+									alt="Karthika"
+								/>
+							</div>
+							<h4 style="color: white">Karthika</h4>
+						</div>
+					</div>
+
+					<!--speaker 4-->
+
+					<div class="speaker-grid-2__item wow fadeInRight">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/koushik.jpg"
+									alt="Koushik"
+								/>
+							</div>
+							<h4 style="color: white">Koushik</h4>
+						</div>
+					</div>
+
+					<!--speaker 5-->
+
+					<div class="speaker-grid-2__item wow fadeInLeft">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/lakshmi.jpg"
+									alt="Lakshmi"
+								/>
+							</div>
+							<h4 style="color: white">Lakshmi</h4>
+						</div>
+					</div>
+
+					<!--speaker 6-->
+
+					<div class="speaker-grid-2__item wow fadeInRight">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/sanath.jpg"
+									alt="Sanath"
+								/>
+							</div>
+							<h4 style="color: white">Sanath</h4>
+						</div>
+					</div>
+
+					<!--speaker 7-->
+
+					<div class="speaker-grid-2__item wow fadeInLeft">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/vignesh.jpg"
+									alt="Vignesh"
+								/>
+							</div>
+							<h4 style="color: white">Vignesh</h4>
+						</div>
+					</div>
+
+					<!--speaker 8-->
+
+					<div class="speaker-grid-2__item wow fadeInRight">
+						<div class="speaker-grid-2__item__thumb">
+							<div class="speaker-grid-2__item__thumb__overflow">
+								<img
+									src="../assets/images/members/vikas.jpg"
+									alt="Vikas"
+								/>
+							</div>
+							<h4 id="div1" style="color: white">Vikas</h4>
+						</div>
+					</div>
+				</div>
 			</div>
+		</section>
 
-			<a href="#" class="header__buy-ticket ">
-				<span>BUY TICKETS</span>
-			</a>
-		</div>
-	</div>
-</header>
-<section class="header-posistion"></section>
-<%- include('components/nav') -%>
-<div class="loading">
-	<div class="sp sp-3balls"></div>
-</div>
-
-
-
-
-
-
-
-<section>
-	<div class="speaker-grid-1">
-		<!-- item 1 -->
-		<div class="speaker-grid-1__item spk--width600 spk--height--500 ">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers1.jpg">
-				<img src="assets/images/uploads/speaker/speakers1.jpg" alt="speakers1">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Kevin</h4>
-					<h4 class="speaker__last-name">Nichoce</h4>
-					<h5 class="speaker__career"> UX & UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-				</div>
-			</a>
-		</div>
-		<!-- item 2 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers2.jpg">
-				<img src="assets/images/uploads/speaker/speakers2.jpg" alt="speakers2">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Utada</h4>
-					<h4 class="speaker__last-name">Hikaru</h4>
-					<h5 class="speaker__career"> UX & UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 3 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--600">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers3.jpg">
-				<img src="assets/images/uploads/speaker/speakers3.jpg" alt="speakers3">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Scarlett</h4>
-					<h4 class="speaker__last-name">Scarlett</h4>
-					<h5 class="speaker__career"> UX & UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 4 -->
-		<div class="speaker-grid-1__item spk--width520 spk--height--530">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers4.jpg">
-				<img src="assets/images/uploads/speaker/speakers4.jpg" alt="speakers3">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Michael</h4>
-					<h4 class="speaker__last-name">Scottfield</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 5 -->
-		<div class="speaker-grid-1__item spk--width600 spk--height--300">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers5.jpg">
-				<img src="assets/images/uploads/speaker/speakers5.jpg" alt="speakers5">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Layla</h4>
-					<h4 class="speaker__last-name">Johnson</h4>
-					<h5 class="speaker__career">UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 6 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers6.jpg">
-				<img src="assets/images/uploads/speaker/speakers6.jpg" alt="speakers6">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Daniel</h4>
-					<h4 class="speaker__last-name">Bryan</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-
-		<!-- item 8 -->
-		<div class="speaker-grid-1__item spk--width520 spk--height--770">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers8.jpg">
-				<img src="assets/images/uploads/speaker/speakers8.jpg" alt="speakers8">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Jenifer</h4>
-					<h4 class="speaker__last-name">Han</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 7 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--400">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers7.jpg">
-				<img src="assets/images/uploads/speaker/speakers7.jpg" alt="speakers7">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Brie</h4>
-					<h4 class="speaker__last-name">Larson</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 9 -->
-		<div class="speaker-grid-1__item spk--width500 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers9.jpg">
-				<img src="assets/images/uploads/speaker/speakers9.jpg" alt="speakers9">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Jenifer</h4>
-					<h4 class="speaker__last-name">Lawrence</h4>
-					<h5 class="speaker__career">UI Designer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 10 -->
-		<div class="speaker-grid-1__item spk--width500 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers10.jpg">
-				<img src="assets/images/uploads/speaker/speakers10.jpg" alt="speakers10">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Tyler</h4>
-					<h4 class="speaker__last-name">Scottfield</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 11 -->
-		<div class="speaker-grid-1__item spk--width400 spk--height--300">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers11.jpg">
-				<img src="assets/images/uploads/speaker/speakers11.jpg" alt="speakers11">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Travis</h4>
-					<h4 class="speaker__last-name">Scott</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 12 -->
-		<div class="speaker-grid-1__item spk--width1000 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers12.jpg">
-				<img src="assets/images/uploads/speaker/speakers12.jpg" alt="speakers12">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Bob</h4>
-					<h4 class="speaker__last-name">Marley</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 13 -->
-		<div class="speaker-grid-1__item spk--width460 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers13.jpg">
-				<img src="assets/images/uploads/speaker/speakers13.jpg" alt="speakers13">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Katy</h4>
-					<h4 class="speaker__last-name">Perry</h4>
-					<h5 class="speaker__career">UX Disigner</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-		<!-- item 14 -->
-		<div class="speaker-grid-1__item spk--width460 spk--height--500">
-			<a class="detail-direction" href="assets/images/uploads/speaker/speakers14.jpg">
-				<img src="assets/images/uploads/speaker/speakers14.jpg" alt="speakers14">
-				<div class="speaker-infomation">
-					<h4 class="speaker__first-name">Luke</h4>
-					<h4 class="speaker__last-name">Perterson</h4>
-					<h5 class="speaker__career">Senior Developer</h5>
-					<p class="speaker__des">Repudiandae, enim quam corporis blanditiis voluptates, iusto vitae velit nesciunt placeat doloremque qui ipsa ut. Labore voluptas ut quo odit dolorem temporibus aspernatur nobis laboriosam nostrum.</p>
-
-				</div>
-			</a>
-		</div>
-
-	</div>
-</section>
-
-
-
-
-<%- include('components/footer') -%>
-
-<%- include('components/corejs') -%>
-
-</body>
-
+		<%- include('components/footer') -%> <%- include('components/corejs')
+		-%>
+	</body>
 </html>
