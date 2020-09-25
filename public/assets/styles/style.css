@@ -17377,7 +17377,9 @@ body {
 }
 
 .testi-2 .portfolio-2__tittle__slogan h2 {
-	color: #ffffff;
+	/*color: #ffffff;*/
+	background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .fest-subtitle_1 h2{
@@ -17405,7 +17407,7 @@ body {
 }
 
 .testi-2 .portfolio-2__tittle__cross {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 }
 
 .testi-2__content {
