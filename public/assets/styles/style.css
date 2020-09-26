@@ -13029,21 +13029,20 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: hotpink;
+	/* background-color: hotpink; */
 }
 
 .Event-card_1 {
 	margin: 50px;
 	padding: 0 20px;
-	background: white;
-	border: 2px solid springgreen;
+	/* background: white; */
 	/* box-shadow: 5px 0 10px #333333; */
 	/* border: 10px solid #666666;	 */
 }
 .Event-card_title h2{
 	padding: 20px 0 0;
 	color: lavender;
-	border: 2px solid steelblue;
+	/* border: 2px solid steelblue; */
 }
 
 .Event-card_title hr{
@@ -13061,7 +13060,7 @@ body {
 }
 
 .Event-card-content{
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 	margin: 40px 0;
 }
 
@@ -13069,17 +13068,18 @@ body {
 	/* color: ivory; */
 	margin:20px 0;
 	padding:10px;
-	border: 2px solid rebeccapurple;
+	/* border: 2px solid rebeccapurple; */
 }
 
 .Event-card_2 {
 	margin:50px;
 	padding: 0 20px;
-	background-color: salmon;
+	/* background-color: salmon; */
 }
 
 .Event-tickets{
-	margin: 100px 30px 10px 0;
+	position: relative;
+	top:20%;
 	direction: rtl;
 }
 
@@ -13111,9 +13111,6 @@ body {
 }
 
 @media (max-width:1200px){
-	.Event-tickets{
-		margin: 8vw 30px 10px 0;
-	}
 	.ticket{
 		line-height:33px;
 		text-align: center;
@@ -13122,25 +13119,17 @@ body {
 		width: 100px;
 	}
 	.Event-card-text p{
-		font-size:10px;
-		/* color: ivory; */
-		margin:0;
+		font-size:0.7rem;
+		margin: 10px 0;
 		padding:10px;
-		border: 2px solid rebeccapurple;
 	}
 	.Event-card_title h2{
 		padding: 20px 0 0;
-		font-size: 15px;
-		color: lavender;
-		border: 2px solid steelblue;
+		font-size: 20px;
 	}
 	.Event-card_title hr{
-		content: '';
-		/* margin: 25px 10px; */
-		display: inline-block;
 		width: 100px;
 		height: 3px;
-		background-color: lightsalmon;
 	}
 }
 
