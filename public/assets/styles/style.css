@@ -13033,11 +13033,9 @@ body {
 }
 
 .Event-card_1 {
-	margin: 50px;
+	margin: 50px 0;
 	padding: 0 20px;
 	/* background: white; */
-	/* box-shadow: 5px 0 10px #333333; */
-	/* border: 10px solid #666666;	 */
 }
 .Event-card_title h2{
 	padding: 20px 0 0;
@@ -13047,7 +13045,6 @@ body {
 
 .Event-card_title hr{
 	content: '';
-	/* margin: 25px 10px; */
 	display: inline-block;
 	width: 100px;
 	height: 5px;
@@ -13065,22 +13062,22 @@ body {
 }
 
 .Event-card-text p{
-	/* color: ivory; */
 	margin:20px 0;
 	padding:10px;
 	/* border: 2px solid rebeccapurple; */
 }
 
 .Event-card_2 {
-	margin:50px;
+	margin:50px 0;
 	padding: 0 20px;
 	/* background-color: salmon; */
 }
 
 .Event-tickets{
-	position: relative;
-	top:20%;
+	position: absolute;
+	bottom: 20px;
 	direction: rtl;
+	right:4%;
 }
 
 .ticket {
@@ -13111,6 +13108,45 @@ body {
 }
 
 @media (max-width:1200px){
+	/* .ticket{
+		line-height:33px;
+		text-align: center;
+		font-size: 10px;
+		height: 30px;
+		width: 100px;
+	} */
+	.Event-card-text p{
+		/* font-size:0.7rem; */
+		margin: 10px 0;
+		padding:10px;
+	}
+	.Event-card_title h2{
+		padding: 20px 0 0;
+		font-size: 30px;
+	}
+	.Event-card_title hr{
+		width: 80px;
+		height: 3px;
+	}
+}
+
+@media (max-width:992px){
+	.Event-card_title h2{
+		font-size: 20px;
+	}
+	.Event-card_title hr{
+		width: 80px;
+		height: 3px;
+	}
+	.Event-card-text p{
+		font-size:13px;
+		margin:0;
+		padding:10px;
+	}
+	.Event-card-content{
+		width:450px;
+		margin:20px 0;
+	}
 	.ticket{
 		line-height:33px;
 		text-align: center;
@@ -13118,27 +13154,36 @@ body {
 		height: 30px;
 		width: 100px;
 	}
-	.Event-card-text p{
-		font-size:0.7rem;
-		margin: 10px 0;
-		padding:10px;
-	}
-	.Event-card_title h2{
-		padding: 20px 0 0;
-		font-size: 20px;
-	}
-	.Event-card_title hr{
-		width: 100px;
-		height: 3px;
-	}
 }
 
 @media (max-width:768px){
-	.ticket{
-		width: 100px !important;
-		font-size: 13px;
-		height: 40px !important;
-		line-height: 42px !important;
+
+	.Event-card_1{
+		width: 450px;
+		margin: 0 10px;
+	}
+	
+	.Event-card_2{
+		width: 450px;
+	}
+
+	.Event-tickets{
+		bottom: 0;
+	}
+
+	.Event-card-content{
+		padding:0 0 40px;
+		margin:20px 0;
+	}
+	.Event-card_title h2{
+		padding: 20px 20px 0;
+		/* border: 2px solid steelblue; */
+	}
+	.Event-card_title hr{
+		margin: 0 20px;
+	}
+	.Event-card-text p{
+		margin: 0 10px;
 	}
 }
 
