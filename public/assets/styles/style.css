@@ -13025,14 +13025,8 @@ body {
 	}
 }
 
-.Event-cards{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* background-color: hotpink; */
-}
 
-.Event-card_1 {
+.Event-card {
 	margin: 50px 0;
 	padding: 0 20px;
 	/* background: white; */
@@ -13067,11 +13061,6 @@ body {
 	/* border: 2px solid rebeccapurple; */
 }
 
-.Event-card_2 {
-	margin:50px 0;
-	padding: 0 20px;
-	/* background-color: salmon; */
-}
 
 .Event-tickets{
 	position: absolute;
