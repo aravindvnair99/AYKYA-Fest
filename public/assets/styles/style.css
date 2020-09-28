@@ -12447,11 +12447,9 @@ body {
         transform: translateY(-2000px);
     }
     to {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 }
-
-
 
 
 .falling-star{
@@ -12668,13 +12666,11 @@ body {
 	background-image :linear-gradient(326deg, #861657 0%, #ffa69e 74%); */
 	/* background-color: #36096d; */
 	/* background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%); */
-/* background: #c31432;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #240b36, #c31432);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(150deg, #240b36, #c31432); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+	/* background: #c31432;  fallback for old browsers */
+	/* background: -webkit-linear-gradient(to right, #240b36, #c31432);  Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(150deg, #240b36, #c31432); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	/* background: black;
-	background-image: 
+	background-image:
 	radial-gradient(circle at 40% 40%, hsl(343, 80%, 7%) 0%, hsla(343, 80%, 10%, 0) 40%),
 	radial-gradient(circle at 25% 52%, hsl(243, 80%, 9%) 0%, hsla(243, 80%, 10%, 0) 50%),
 	radial-gradient(circle at 65% 56%, hsl(143, 80%, 8%) 0%, hsla(143, 80%, 10%, 0) 60%);
