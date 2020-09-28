@@ -11769,7 +11769,88 @@ body {
 .pagebanner-2__item{
 	display: block !important;
 }
+/* SVG animation */
+#eiimr19nil23_to {
+	animation: eiimr19nil23_to__to 3000ms linear 1 normal forwards
+}
 
+@keyframes eiimr19nil23_to__to {
+	0% {
+		transform: translate(200px, 76.335000px)
+	}
+
+	26.666667% {
+		transform: translate(200px, 76.335000px)
+	}
+
+	60% {
+		transform: translate(60.699130px, 76.335000px)
+	}
+
+	100% {
+		transform: translate(60.699130px, 76.335000px)
+	}
+}
+
+#eiimr19nil23_tr {
+	animation: eiimr19nil23_tr__tr 3000ms linear 1 normal forwards
+}
+
+@keyframes eiimr19nil23_tr__tr {
+	0% {
+		transform: rotate(90deg)
+	}
+
+	26.666667% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(0deg)
+	}
+}
+
+#eiimr19nil23_ts {
+	animation: eiimr19nil23_ts__ts 3000ms linear 1 normal forwards
+}
+
+@keyframes eiimr19nil23_ts__ts {
+	0% {
+		transform: scale(0, 0)
+	}
+
+	26.666667% {
+		transform: scale(1, 1)
+	}
+
+	100% {
+		transform: scale(1, 1)
+	}
+}
+
+#eiimr19nil210 {
+	animation: eiimr19nil210_c_o 3000ms linear 1 normal forwards
+}
+
+@keyframes eiimr19nil210_c_o {
+	0% {
+		opacity: 0
+	}
+
+	60% {
+		opacity: 0
+	}
+
+	96.666667% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+					
+/* End of SVG Animation */
 .pagebanner-brg--1,
 .pagebanner-brg--3 {
 	background-image: url("../images/uploads/pagebanner/pagebanner2-1.jpg");
