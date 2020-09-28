@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<%- include('components/meta') -%>
-		<title>AYKYA</title>
-		<%- include('components/corecss') -%>
-	</head>
 
-	<body>
-		<header id="header-trans" class="header-trans-1">
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="index"
-							><img src="assets/images/logo.png" alt="logo"
-						/></a>
-					</div>
+<head>
+	<%- include('components/meta') -%>
+	<title>AYKYA</title>
+	<%- include('components/corecss') -%>
+</head>
 
-					<a href="#" class="header__buy-ticket">
-						<span>BUY TICKETS</span>
-					</a>
+<body>
+	<header id="header-trans" class="header-trans-1">
+		<div class="extra-container">
+			<div class="header-2">
+				<div class="header__menu-icon">
+					<div class="header__menu-icon__dot">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--skew">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
+						<span></span>
+						<span></span>
+					</div>
 				</div>
+				<div class="position-fixed"></div>
+				<div class="header__logo">
+					<a href="index"><img src="assets/images/logo.png" alt="logo" /></a>
+				</div>
+
+				<a href="#" class="header__buy-ticket">
+					<span>BUY TICKETS</span>
+				</a>
 			</div>
-		</header>
-		<section class="header-posistion"></section>
-		<%- include('components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
 		</div>
+	</header>
+	<section class="header-posistion"></section>
+	<%- include('components/nav') -%>
+	<div class="loading">
+		<div class="sp sp-3balls"></div>
+	</div>
+
 	<section>
 		<div class="cursor"></div>
 		<div class="cursor-follower"></div>
-		<div class="pagebanner-2">
+		<div class="pagebanner-2" id="pagebanner-2">
 			<div class="pagebanner-2__item">
 				<div class="pagebanner-brg pagebanner-brg--2"></div>
 				<div class="extra-container logo-text">
@@ -85,7 +79,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="logo-revealing" id="logo-revealing">
+			<img src="assets/images/lg.svg" alt="svg-image">
+		</div>
 	</section>
 	<%- include('components/corejs') -%>
 </body>
+
 </html>
