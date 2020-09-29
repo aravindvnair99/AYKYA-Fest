@@ -637,7 +637,7 @@ $(document).ready(function () {
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Nov 3, 2020 15:03:00").getTime(),
+		let countDown = new Date("Oct 1, 2020 15:00:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
@@ -664,8 +664,14 @@ $(document).ready(function () {
 						secs
 					);
 				}
-				if (distance < 0) {
+				if (distance <= 0) {
 					clearInterval(x);
+					document.getElementById("pagebanner-2").style.display = "none";
+					document.getElementById("logo-revealing").style.display = "block";
+				}
+				else{
+					document.getElementById("pagebanner-2").style.display= "block";
+					document.getElementById("logo-revealing").style.display= "none";				
 				}
 			}, second);
 	}	count_down("#CD");
