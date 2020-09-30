@@ -12700,6 +12700,29 @@ body {
 	background-repeat: no-repeat; */
 }
 
+.logo-revealing {
+	height: 100vh;
+	/* margin-top: -100px; */
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.logo-revealing__item{
+	display: block !important;
+	height:100%;
+	width: 100%;
+	position: absolute;
+}
+
+.aykya-logo {
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	top:50%;
+	bottom:50%;
+	transform:translate(0%, 0%);
+}
+
 .logo-text {
 	position: absolute;
 	top: 40%;
@@ -12910,6 +12933,28 @@ body {
 	.logo-text h1 {
 		font-size: 8vw;
 	}
+	.logo-revealing {
+		height: 80vh;
+		margin-top: -100px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+	.logo-revealing__item{
+		display: block !important;
+		height:100%;
+		width: 100%;
+		position: relative;
+	}
+	
+	.aykya-logo {
+		height: 100%;
+		width: 100%;
+		position:absolute;
+		top:50%;
+		bottom:50%;
+		transform:translate(0%, 0%);
+	}
 }
 
 @media (max-width: 992px) {
@@ -12930,6 +12975,7 @@ body {
 	.pagebanner-brg {
 		padding-top: 140px;
 	}
+	
 }
 
 @media (max-width: 768px) {
