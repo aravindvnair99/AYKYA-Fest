@@ -12963,6 +12963,22 @@ body {
   border-radius:5px; */
 }
 
+@media (max-width: 812px) {
+	.pagebanner__count-down-area {
+		position: absolute;
+		top:80%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		margin: 10px 0 0;
+		max-width: 700px;
+		min-width:10px;
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
+	}
+	
+}
+
 .pagebanner__count-down {
 	display:flex;
 	flex-direction: column;
