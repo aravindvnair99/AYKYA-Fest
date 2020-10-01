@@ -17300,11 +17300,6 @@ body {
 	font-size: 20px;
 }
 
-input{
-	/* direction: rtl; */
-	/* width: 100%; */
-	display: none;
-}
 .btn-collapse{
 	margin-left: 80%;
 	display: inline-block;
