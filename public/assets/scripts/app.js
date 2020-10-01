@@ -637,7 +637,7 @@ $(document).ready(function () {
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Oct 1, 2020 12:19:00").getTime(),
+		let countDown = new Date("Oct 2, 2020 13:17:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
@@ -679,8 +679,8 @@ $(document).ready(function () {
 			}, second);
 
 	}	
-	// count_down("#CD");
-	// count_down("#CD2");
+	count_down("#CD");
+	count_down("#CD2");
 	//---------------------------end countdown timer------------------------------------------------
 
 	$(".pagebanner-2").slick({
