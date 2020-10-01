@@ -630,14 +630,14 @@ $(document).ready(function () {
 
 	//-------------------------countdown timer--------------------------------------
 	//---------------------------------------------------------------------------
-	
+
 	function count_down($area) {
 		const second = 1000,
 			minute = second * 60,
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Sept 30, 2020 10:45:00").getTime(),
+		let countDown = new Date("Oct 1, 2020 12:19:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
@@ -664,20 +664,23 @@ $(document).ready(function () {
 						secs
 					);
 				}
+
 				if (distance <= 0) {
 					clearInterval(x);
-					document.getElementById("pagebanner-2").style.display = "none";
-					document.getElementById("logo-revealing").style.display = "block";
+					document.getElementById("logo-timer").style.display = "none";
+					document.getElementById("logo-reveal").style.display = "block";
 					// document.querySelector("header").style.display = "none";
 				}
 				else{
-					document.getElementById("pagebanner-2").style.display= "block";
-					document.getElementById("logo-revealing").style.display= "none";	
+					document.getElementById("logo-timer").style.display= "block";
+					document.getElementById("logo-reveal").style.display= "none";	
 					// document.querySelector("header").style.display = "block";			
 				}
 			}, second);
-	}	count_down("#CD");
-		count_down("#CD2");
+
+	}	
+	// count_down("#CD");
+	// count_down("#CD2");
 	//---------------------------end countdown timer------------------------------------------------
 
 	$(".pagebanner-2").slick({

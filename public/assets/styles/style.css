@@ -12699,30 +12699,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat; */
 }
-
-.logo-revealing {
-	height: 100vh;
-	/* margin-top: -100px; */
-	margin-left: 50px;
-	margin-right: 50px;
+#logo-reveal {
+	text-align: center;
 }
-
-.logo-revealing__item{
-	display: block !important;
-	height:100%;
-	width: 100%;
-	position: absolute;
-}
-
-.aykya-logo {
-	height: 100%;
-	width: 100%;
-	position:absolute;
-	top:50%;
-	bottom:50%;
-	transform:translate(0%, 0%);
-}
-
 .logo-text {
 	position: absolute;
 	top: 40%;
@@ -12934,8 +12913,8 @@ body {
 		font-size: 8vw;
 	}
 	.logo-revealing {
-		height: 80vh;
-		margin-top: -100px;
+		height: 50vh;
+		/* margin-top: -100px; */
 		margin-left: 50px;
 		margin-right: 50px;
 	}
@@ -18910,7 +18889,7 @@ header {
 	z-index: 100;
 	transition: all 0.5s;
 	/* border-bottom: 2px solid whitesmoke; */
-	box-shadow: 0 4px 4px whitesmoke;
+	/* box-shadow: 0 4px 4px whitesmoke; */
 }
 .header-hide {
 	visibility: hidden;
