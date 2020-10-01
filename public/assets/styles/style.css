@@ -17329,6 +17329,35 @@ input{
 #collapse-btn:checked ~ .btn-collapse::after{
 	content: '\2796';
 }
+input{
+	/* direction: rtl; */
+	/* width: 100%; */
+	display: none;
+}
+.btn-collapse_2{
+	margin-left: 80%;
+	display: inline-block;
+	padding: 13px;
+	/* background-color: lavender; */
+}
+.btn-collapse_2::after{
+	content: '\2795';
+}
+
+.btn-content_2{
+	color: lightcoral;
+	background-color:transparent;
+	height:0;
+	overflow: hidden;
+	transition: .5s;
+}
+#collapse-btn_2:checked ~.btn-content_2{
+	height:100px;
+}
+
+#collapse-btn_2:checked ~ .btn-collapse_2::after{
+	content: '\2796';
+}
 .fest-text_1 p{
   background: #9CECFB;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
