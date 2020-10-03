@@ -17354,7 +17354,10 @@ input{
 	/* background-color: lavender; */
 }
 .btn-collapse::after{
-	content: '\2795';
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
 }
 
 .btn-content{
@@ -17370,7 +17373,7 @@ input{
 }
 
 #collapse-btn:checked ~ .btn-collapse::after{
-	content: '\2796';
+	content: '\f0aa';
 }
 
 .btn-collapse_2{
@@ -17380,7 +17383,10 @@ input{
 	/* background-color: lavender; */
 }
 .btn-collapse_2::after{
-	content: '\2795';
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
 }
 
 .btn-content_2{
@@ -17396,7 +17402,7 @@ input{
 }
 
 #collapse-btn_2:checked ~ .btn-collapse_2::after{
-	content: '\2796';
+	content: '\f0aa';
 }
 
 .btn-collapse_3{
@@ -17406,7 +17412,10 @@ input{
 	/* background-color: lavender; */
 }
 .btn-collapse_3::after{
-	content: '\2795';
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
 }
 
 .btn-content_3{
@@ -17422,7 +17431,7 @@ input{
 }
 
 #collapse-btn_3:checked ~ .btn-collapse_3::after{
-	content: '\2796';
+	content: '\f0aa';
 }
 
 .btn-collapse_4{
@@ -17432,7 +17441,11 @@ input{
 	/* background-color: lavender; */
 }
 .btn-collapse_4::after{
-	content: '\2795';
+	/* font-family: "font awsome 5 free"; */
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
 }
 
 .btn-content_4{
@@ -17448,7 +17461,7 @@ input{
 }
 
 #collapse-btn_4:checked ~ .btn-collapse_4::after{
-	content: '\2796';
+	content: '\f0aa';
 }
 .btn-collapse_5{
 	margin-left: 80%;
@@ -17457,7 +17470,10 @@ input{
 	/* background-color: lavender; */
 }
 .btn-collapse_5::after{
-	content: '\2795';
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
 }
 
 .btn-content_5{
@@ -17473,7 +17489,7 @@ input{
 }
 
 #collapse-btn_5:checked ~ .btn-collapse_5::after{
-	content: '\2796';
+	content: '\f0aa';
 }
 
 .fest-text_1 p{
@@ -17572,7 +17588,7 @@ input{
 	.second-img{
 	/* width: 150px;
 	height: 200px; */
-}
+	}
 }
 
 @media (max-width: 576px) {
