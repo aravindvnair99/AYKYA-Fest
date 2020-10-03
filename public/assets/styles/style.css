@@ -16264,6 +16264,15 @@ body {
   line-height: 75px;
   color:#cc2b5e;
 }
+.portfolio-2__tittle h3{
+	background-color: #90d5ec;
+	background-image: linear-gradient(200deg, #90d5ec 0%, #fc575e 74%);
+	color: whitesmoke;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	text-align: center;
+	font-size: 40px;
+}
 
 .portfolio-2__tittle__text {
 	font-size: 20px;
@@ -16465,6 +16474,13 @@ body {
 		font-size: 40px !important;
 		line-height: 50px !important;
 	}
+	.portfolio-2__tittle h3{
+		font-size: 30px !important;
+		padding:  0 10px;
+	}
+	.portfolio-2__tittle h3{
+		font-size: ;
+	} 
 	.portfolio-2__tittle hr,
 	.testi-2__qoute__tittle hr {
 		width: 50px !important;
@@ -16495,6 +16511,10 @@ body {
 	.testi-2__qoute__tittle h2 {
 		font-size: 30px !important;
 		line-height: 40px !important;
+	}
+	.portfolio-2__tittle h3{
+		font-size: 25px !important;
+		padding: 0 10px;
 	}
 	.portfolio-2__tittle__text {
 		margin-top: 30px !important;
@@ -17291,10 +17311,28 @@ body {
 .testimonial__qoute img {
 	/*margin-top: 70px;*/
 }
-.second-img{
+
+.first-img{
+	/* margin-top: 10px; */
+	/* width: 150px; */
+	/* height: 200px; */
+}
+
+.first-img img{
+	height: 170px;
+	/* width: 400px; */
+}
+/*.second-img{
 	width: 150px;
 	height: 200px;
-	margin-left: 50px;
+} */
+
+.fourth-img img{
+	height: 230px;
+}
+
+.fifth-img img{
+	height: 230px;
 }
 
 .testimonial__text {
@@ -17326,9 +17364,10 @@ input{
 	height:0;
 	overflow: hidden;
 	transition: .5s;
+	font-size: 20px;
 }
 #collapse-btn:checked ~.btn-content{
-	height:100px;
+	height:300px;
 }
 
 #collapse-btn:checked ~ .btn-collapse::after{
@@ -17351,9 +17390,10 @@ input{
 	height:0;
 	overflow: hidden;
 	transition: .5s;
+	font-size: 20px;
 }
 #collapse-btn_2:checked ~.btn-content_2{
-	height:100px;
+	height:300px;
 }
 
 #collapse-btn_2:checked ~ .btn-collapse_2::after{
@@ -17376,9 +17416,10 @@ input{
 	height:0;
 	overflow: hidden;
 	transition: .5s;
+	font-size: 20px;
 }
 #collapse-btn_3:checked ~.btn-content_3{
-	height:100px;
+	height:300px;
 }
 
 #collapse-btn_3:checked ~ .btn-collapse_3::after{
@@ -17401,9 +17442,10 @@ input{
 	height:0;
 	overflow: hidden;
 	transition: .5s;
+	font-size: 20px;
 }
 #collapse-btn_4:checked ~.btn-content_4{
-	height:100px;
+	height:500px;
 }
 
 #collapse-btn_4:checked ~ .btn-collapse_4::after{
@@ -17500,6 +17542,9 @@ input{
 		/* max-width: 80px; */
 		margin: 0 auto 15px;
 	}
+	.fourth-img img{
+		height: auto;
+	}
 }
 
 @media (max-width: 576px) {
@@ -17547,17 +17592,15 @@ input{
 	background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.slogan h3{
+/* .slogan h3{
 	background-color: #90d5ec;
 	background-image: linear-gradient(200deg, #90d5ec 0%, #fc575e 74%);
-	
-
 	color: whitesmoke;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	text-align: center;
 	font-size: 40px;
-}
+} */
 
 .fest-subtitle_1 h2{
   background: #9CECFB;  /* fallback for old browsers */
