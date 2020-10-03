@@ -17291,6 +17291,11 @@ body {
 .testimonial__qoute img {
 	/*margin-top: 70px;*/
 }
+.second-img{
+	width: 150px;
+	height: 200px;
+	margin-left: 50px;
+}
 
 .testimonial__text {
   padding: 0 0 0 70px;
@@ -17300,6 +17305,11 @@ body {
 	font-size: 20px;
 }
 
+input{
+	/* direction: rtl; */
+	/* width: 100%; */
+	display: none;
+}
 .btn-collapse{
 	margin-left: 80%;
 	display: inline-block;
@@ -17324,11 +17334,7 @@ body {
 #collapse-btn:checked ~ .btn-collapse::after{
 	content: '\2796';
 }
-input{
-	/* direction: rtl; */
-	/* width: 100%; */
-	display: none;
-}
+
 .btn-collapse_2{
 	margin-left: 80%;
 	display: inline-block;
@@ -17353,6 +17359,57 @@ input{
 #collapse-btn_2:checked ~ .btn-collapse_2::after{
 	content: '\2796';
 }
+
+.btn-collapse_3{
+	margin-left: 80%;
+	display: inline-block;
+	padding: 13px;
+	/* background-color: lavender; */
+}
+.btn-collapse_3::after{
+	content: '\2795';
+}
+
+.btn-content_3{
+	color: lightcoral;
+	background-color:transparent;
+	height:0;
+	overflow: hidden;
+	transition: .5s;
+}
+#collapse-btn_3:checked ~.btn-content_3{
+	height:100px;
+}
+
+#collapse-btn_3:checked ~ .btn-collapse_3::after{
+	content: '\2796';
+}
+
+.btn-collapse_4{
+	margin-left: 80%;
+	display: inline-block;
+	padding: 13px;
+	/* background-color: lavender; */
+}
+.btn-collapse_4::after{
+	content: '\2795';
+}
+
+.btn-content_4{
+	color: lightcoral;
+	background-color:transparent;
+	height:0;
+	overflow: hidden;
+	transition: .5s;
+}
+#collapse-btn_4:checked ~.btn-content_4{
+	height:100px;
+}
+
+#collapse-btn_4:checked ~ .btn-collapse_4::after{
+	content: '\2796';
+}
+
 .fest-text_1 p{
   background: #9CECFB;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17488,6 +17545,18 @@ input{
 	/*color: #ffffff;*/
 	background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slogan h3{
+	background-color: #90d5ec;
+	background-image: linear-gradient(200deg, #90d5ec 0%, #fc575e 74%);
+	
+
+	color: whitesmoke;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	text-align: center;
+	font-size: 40px;
 }
 
 .fest-subtitle_1 h2{
