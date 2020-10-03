@@ -17319,10 +17319,12 @@ body {
 	height: 170px;
 	/* width: 400px; */
 }
-/*.second-img{
+
+.second-img img{
+	margin-left: 120px;
 	width: 150px;
 	height: 200px;
-} */
+}
 
 .fourth-img img{
 	height: 230px;
@@ -17448,6 +17450,31 @@ input{
 #collapse-btn_4:checked ~ .btn-collapse_4::after{
 	content: '\2796';
 }
+.btn-collapse_5{
+	margin-left: 80%;
+	display: inline-block;
+	padding: 13px;
+	/* background-color: lavender; */
+}
+.btn-collapse_5::after{
+	content: '\2795';
+}
+
+.btn-content_5{
+	color: lightcoral;
+	background-color:transparent;
+	height:0;
+	overflow: hidden;
+	transition: .5s;
+	font-size: 20px;
+}
+#collapse-btn_5:checked ~.btn-content_5{
+	height:500px;
+}
+
+#collapse-btn_5:checked ~ .btn-collapse_5::after{
+	content: '\2796';
+}
 
 .fest-text_1 p{
   background: #9CECFB;  /* fallback for old browsers */
@@ -17539,9 +17566,13 @@ input{
 		/* max-width: 80px; */
 		margin: 0 auto 15px;
 	}
-	.fourth-img img{
+	.fourth-img img, .first-img img, .fifth-img img{
 		height: auto;
 	}
+	.second-img{
+	/* width: 150px;
+	height: 200px; */
+}
 }
 
 @media (max-width: 576px) {
