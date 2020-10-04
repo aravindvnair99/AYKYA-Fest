@@ -16262,7 +16262,12 @@ body {
   display: inline-block;
   font-size: 60px;
   line-height: 75px;
-  color:#cc2b5e;
+  /* color:#cc2b5e; */
+  background: #C04848;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #480048, #C04848 95%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
 }
 .portfolio-2__tittle h3{
 	background-color: #90d5ec;
@@ -17390,6 +17395,11 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
+	background-color :#e7eff9;
+	background-image :linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+
 }
 #collapse-btn_2:checked ~.btn-content_2{
 	height:130px;
@@ -17631,10 +17641,6 @@ input{
   background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
-}
-
-.testi-2 .portfolio-2__tittle__cross {
-	/*background-color: #ffffff;*/
 }
 
 .testi-2__content {
