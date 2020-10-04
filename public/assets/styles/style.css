@@ -17363,7 +17363,6 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
-	background-color:gray;
 }
 #collapse-btn:checked ~.btn-content{
 	height:230px;
@@ -17391,7 +17390,6 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
-	background-color:gray;
 }
 #collapse-btn_2:checked ~.btn-content_2{
 	height:130px;
@@ -17419,7 +17417,6 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
-	background-color:gray;
 }
 #collapse-btn_3:checked ~.btn-content_3{
 	height:230px;
@@ -17541,7 +17538,7 @@ input{
 		height:230px;
 	}
 	#collapse-btn_3:checked ~.btn-content_3{
-		height:300px;
+		height:400px;
 	}
 }
 
