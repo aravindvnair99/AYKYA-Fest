@@ -16240,34 +16240,23 @@ body {
   width: 70px;
   height: 5px;
   background-color:#cc2b5e;
-}
-.fest-subtitle_1 hr{
-  background: #9CECFB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #dd1818, #333333 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.fest-subtitle_2 hr{
-  background: #ffd200;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.fest-subtitle_3 hr{
-  background: #ED4264;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 .portfolio-2__tittle h2, .testi-2__qoute__tittle h2 {
   display: inline-block;
   font-size: 60px;
   line-height: 75px;
   /* color:#cc2b5e; */
-  background: #C04848;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #480048, #C04848 95%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #dd1818, #333333 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
+  /* font-weight:normal; */
+  /* font-family: 'Source Serif Pro', serif; */
 }
 .portfolio-2__tittle h3{
 	background-color: #90d5ec;
@@ -17345,74 +17334,24 @@ body {
 
 .testimonial__text p {
 	font-size: 20px;
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
 }
 
 input{
 	display: none;
 }
-.btn-collapse{
-	margin-left: 80%;
-	display: inline-block;
-}
-.btn-collapse::after{
-	font-family: "FontAwesome";
-	font-size: 40px;
-	content: "\f0ab";
-	color: gray;
-}
-
-.btn-content{
-	color:  aliceblue;
-	background-color:transparent;
-	height:0;
-	overflow: hidden;
-	transition: .5s;
-	font-size: 20px;
-}
-#collapse-btn:checked ~.btn-content{
-	height:230px;
-}
-
-#collapse-btn:checked ~ .btn-collapse::after{
-	content: '\f0aa';
-}
-
-.btn-collapse_2{
-	margin-left: 80%;
-	display: inline-block;
-}
-.btn-collapse_2::after{
-	font-family: "FontAwesome";
-	font-size: 40px;
-	content: "\f0ab";
-	color: gray;
-}
-
-.btn-content_2{
-	color:  aliceblue;
-	background-color:transparent;
-	height:0;
-	overflow: hidden;
-	transition: .5s;
-	font-size: 20px;
-	background-color :#e7eff9;
-	background-image :linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
-	-webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
-
-}
-#collapse-btn_2:checked ~.btn-content_2{
-	height:130px;
-}
-
-#collapse-btn_2:checked ~ .btn-collapse_2::after{
-	content: '\f0aa';
-}
-
+.btn-collapse, 
+.btn-collapse_2, 
 .btn-collapse_3{
 	margin-left: 80%;
 	display: inline-block;
 }
+.btn-collapse::after, 
+.btn-collapse_2::after, 
 .btn-collapse_3::after{
 	font-family: "FontAwesome";
 	font-size: 40px;
@@ -17420,6 +17359,8 @@ input{
 	color: gray;
 }
 
+.btn-content, 
+.btn-content_2, 
 .btn-content_3{
 	color:  aliceblue;
 	background-color:transparent;
@@ -17427,37 +17368,28 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
 }
-#collapse-btn_3:checked ~.btn-content_3{
+#collapse-btn:checked ~.btn-content{
 	height:230px;
 }
 
+#collapse-btn:checked ~ .btn-collapse::after,
+#collapse-btn_2:checked ~ .btn-collapse_2::after,
 #collapse-btn_3:checked ~ .btn-collapse_3::after{
 	content: '\f0aa';
 }
 
-.fest-text_1 p{
-  background: #9CECFB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
+#collapse-btn_2:checked ~.btn-content_2{
+	height:130px;
 }
 
-.fest-text_2 p{
-  background: #ffd200;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
-}
-
-.fest-text_3 p{
-  background: #ED4264;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
+#collapse-btn_3:checked ~.btn-content_3{
+	height:230px;
 }
 
 .testimonial__text__author {
@@ -17618,30 +17550,6 @@ input{
 	text-align: center;
 	font-size: 40px;
 } */
-
-.fest-subtitle_1 h2{
-  background: #9CECFB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
-}
-
-.fest-subtitle_2 h2{
-  background: #FF416C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top,#FF4B2B, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FF4B2B, #ffd200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
-}
-
-.fest-subtitle_3 h2{
-  background: #ED4264;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
-}
 
 .testi-2__content {
 	padding-left: 100px;
