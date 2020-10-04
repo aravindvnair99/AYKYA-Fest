@@ -17343,14 +17343,11 @@ body {
 }
 
 input{
-	/* direction: rtl; */
-	/* width: 100%; */
 	display: none;
 }
 .btn-collapse{
 	margin-left: 80%;
 	display: inline-block;
-	/* background-color: lavender; */
 }
 .btn-collapse::after{
 	font-family: "FontAwesome";
@@ -17366,9 +17363,10 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
+	background-color:gray;
 }
 #collapse-btn:checked ~.btn-content{
-	height:300px;
+	height:230px;
 }
 
 #collapse-btn:checked ~ .btn-collapse::after{
@@ -17378,7 +17376,6 @@ input{
 .btn-collapse_2{
 	margin-left: 80%;
 	display: inline-block;
-	/* background-color: lavender; */
 }
 .btn-collapse_2::after{
 	font-family: "FontAwesome";
@@ -17394,9 +17391,10 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
+	background-color:gray;
 }
 #collapse-btn_2:checked ~.btn-content_2{
-	height:300px;
+	height:130px;
 }
 
 #collapse-btn_2:checked ~ .btn-collapse_2::after{
@@ -17406,7 +17404,6 @@ input{
 .btn-collapse_3{
 	margin-left: 80%;
 	display: inline-block;
-	/* background-color: lavender; */
 }
 .btn-collapse_3::after{
 	font-family: "FontAwesome";
@@ -17422,68 +17419,13 @@ input{
 	overflow: hidden;
 	transition: .5s;
 	font-size: 20px;
+	background-color:gray;
 }
 #collapse-btn_3:checked ~.btn-content_3{
-	height:300px;
+	height:230px;
 }
 
 #collapse-btn_3:checked ~ .btn-collapse_3::after{
-	content: '\f0aa';
-}
-
-.btn-collapse_4{
-	margin-left: 80%;
-	display: inline-block;
-	/* background-color: lavender; */
-}
-.btn-collapse_4::after{
-	/* font-family: "font awsome 5 free"; */
-	font-family: "FontAwesome";
-	font-size: 40px;
-	content: "\f0ab";
-	color: gray;
-}
-
-.btn-content_4{
-	color:  aliceblue;
-	background-color:transparent;
-	height:0;
-	overflow: hidden;
-	transition: .5s;
-	font-size: 20px;
-}
-#collapse-btn_4:checked ~.btn-content_4{
-	height:500px;
-}
-
-#collapse-btn_4:checked ~ .btn-collapse_4::after{
-	content: '\f0aa';
-}
-.btn-collapse_5{
-	margin-left: 80%;
-	display: inline-block;
-	/* background-color: lavender; */
-}
-.btn-collapse_5::after{
-	font-family: "FontAwesome";
-	font-size: 40px;
-	content: "\f0ab";
-	color: gray;
-}
-
-.btn-content_5{
-	color:  aliceblue;
-	background-color:transparent;
-	height:0;
-	overflow: hidden;
-	transition: .5s;
-	font-size: 20px;
-}
-#collapse-btn_5:checked ~.btn-content_5{
-	height:500px;
-}
-
-#collapse-btn_5:checked ~ .btn-collapse_5::after{
 	content: '\f0aa';
 }
 
@@ -17567,6 +17509,15 @@ input{
 	.second-img img{
 		margin-left: 50px;
 	}
+	#collapse-btn:checked ~.btn-content{
+		height:300px;
+	}
+	#collapse-btn_2:checked ~.btn-content_2{
+		height:160px;
+	}
+	#collapse-btn_3:checked ~.btn-content_3{
+		height:300px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -17583,9 +17534,14 @@ input{
 	.fourth-img img, .first-img img, .fifth-img img{
 		height: auto;
 	}
-	.second-img{
-	/* width: 150px;
-	height: 200px; */
+	#collapse-btn:checked ~.btn-content{
+		height:350px;
+	}
+	#collapse-btn_2:checked ~.btn-content_2{
+		height:230px;
+	}
+	#collapse-btn_3:checked ~.btn-content_3{
+		height:300px;
 	}
 }
 
@@ -17616,6 +17572,18 @@ input{
 	}
 	.testimonial__arrow h6 {
 		margin: 0;
+	}
+	#collapse-btn:checked ~.btn-content{
+		font-size: 18px;
+		height:640px;
+	}
+	#collapse-btn_2:checked ~.btn-content_2{
+		font-size: 18px;
+		height:320px;
+	}
+	#collapse-btn_3:checked ~.btn-content_3{
+		font-size: 18px;
+		height:700px;
 	}
 }
 
