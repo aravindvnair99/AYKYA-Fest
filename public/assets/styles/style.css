@@ -16239,7 +16239,6 @@ body {
   display: inline-block;
   width: 70px;
   height: 5px;
-  background-color:#cc2b5e;
   background: #333333;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #dd1818, #333333 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -16250,11 +16249,7 @@ body {
   font-size: 60px;
   line-height: 75px;
   /* color:#cc2b5e; */
-  background: #333333;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #dd1818, #333333 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+	color:  #a31313b9;
   /* font-weight:normal; */
   /* font-family: 'Source Serif Pro', serif; */
 }
@@ -17295,9 +17290,9 @@ body {
 	}
 }
 
-.testimonial__qoute {
+/* .testimonial__qoute {
 	width: calc(100% + 30px);
-}
+} */
 
 .testimonial__qoute img {
 	/*margin-top: 70px;*/
@@ -17310,14 +17305,14 @@ body {
 }
 
 .first-img img{
-	height: 170px;
+	height: 230px;
 	/* width: 400px; */
 }
 
 .second-img img{
 	margin-left: 120px;
-	width: 150px;
-	height: 200px;
+	/* width: 150px; */
+	height: 230px;
 }
 
 .fourth-img img{
@@ -17325,11 +17320,12 @@ body {
 }
 
 .fifth-img img{
+	margin-top: 10px;
 	height: 230px;
 }
 
 .testimonial__text {
-  padding: 0 0 0 70px;
+  /* padding: 0 0 0 70px; */
 }
 
 .testimonial__text p {
@@ -17339,6 +17335,18 @@ body {
 	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color:transparent;
+}
+
+.fest-text_1 p{
+	padding: 20px 0 0;
+}
+
+.fest-text_2{
+	padding: 10px 0 0;
+}
+
+.fest-text_3{
+	padding: 5px 0 0;
 }
 
 input{
@@ -17481,6 +17489,17 @@ input{
 	}
 	#collapse-btn_3:checked ~.btn-content_3{
 		height:400px;
+	}
+	.fest-text_1 p{
+		padding:0;
+	}
+	
+	.fest-text_2{
+		padding:0;
+	}
+	
+	.fest-text_3{
+		padding:0;
 	}
 }
 
