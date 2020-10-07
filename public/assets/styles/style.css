@@ -17346,20 +17346,21 @@ body {
 }
 
 .fest-text_3{
-	padding: 5px 0 0;
+	padding:5px 0 0;
 }
 
 input{
 	display: none;
 }
-.btn-collapse, 
-.btn-collapse_2, 
+
+.btn-collapse,
+.btn-collapse_2,
 .btn-collapse_3{
 	margin-left: 80%;
 	display: inline-block;
 }
-.btn-collapse::after, 
-.btn-collapse_2::after, 
+.btn-collapse::after,
+.btn-collapse_2::after,
 .btn-collapse_3::after{
 	font-family: "FontAwesome";
 	font-size: 40px;
@@ -17370,8 +17371,6 @@ input{
 .btn-content, 
 .btn-content_2, 
 .btn-content_3{
-	color:  aliceblue;
-	background-color:transparent;
 	height:0;
 	overflow: hidden;
 	transition: .5s;
