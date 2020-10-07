@@ -17359,6 +17359,7 @@ input{
 	margin-left: 80%;
 	display: inline-block;
 }
+
 .btn-collapse::after,
 .btn-collapse_2::after,
 .btn-collapse_3::after{
@@ -17368,8 +17369,8 @@ input{
 	color: gray;
 }
 
-.btn-content, 
-.btn-content_2, 
+.btn-content,
+.btn-content_2,
 .btn-content_3{
 	height:0;
 	overflow: hidden;
@@ -17381,6 +17382,7 @@ input{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color:transparent;
 }
+
 #collapse-btn:checked ~.btn-content{
 	height:230px;
 }
