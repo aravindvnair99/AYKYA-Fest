@@ -13238,7 +13238,7 @@ body {
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(0deg, #20BF55,#01BAEF 30%, #000000 50%);
+	background-image: linear-gradient(0deg, #20BF55 20px,#01BAEF 30%, #000000 50%);
 	background-size: 100% 200%;
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
@@ -13375,6 +13375,7 @@ body {
 .schedule-table {
 	display: none;
 	padding-top: 150px;
+	margin-bottom: 150px;
 }
 
 .schedule-table__greating {
@@ -13402,10 +13403,11 @@ body {
 
 .schedule-table__time h3 {
 	margin: 0;
+	color: aliceblue;
 }
 
 .schedule-table__time p {
-	color: #000000;
+	color: #ffffff;
 	font-size: 16px;
 }
 
@@ -13417,7 +13419,9 @@ body {
 	width: calc(100% - 15px);
 	margin-left: -20px;
 }
-
+.schedule-table__event h3{
+	color: aliceblue;
+}
 .schedule-table__speaker {
 	padding: 40px 0 35px 40px;
 	border-top: 1px solid #e6e6e6;
@@ -13450,6 +13454,7 @@ body {
 
 .break-time {
 	background-image: url("../images/break-time1.png");
+	filter: brightness(50%);
 	background-position: center;
 	background-size: cover;
 	height: 145px;
