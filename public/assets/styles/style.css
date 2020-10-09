@@ -13453,13 +13453,14 @@ body {
 	text-align: center;
 	-webkit-text-stroke-width: 4px;
 	-webkit-text-stroke-color: #000000;
+	-webkit-text-stroke-color: #2193b0;
 	line-height: 130px;
-	color: #ffffff;
+	color:  #ffffff;
 	text-decoration: none;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+	background-image: linear-gradient(0deg, #20BF55 20px,#01BAEF 30%, #000000 50%);
 	background-size: 100% 200%;
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
@@ -13478,7 +13479,7 @@ body {
 		line-height: 110px !important;
 		font-family: "Montserrat-700", sans-serif;
 		font-size: 100px;
-		color: #ffffff;
+		color:  #ffffff;
 		margin: 60px 0 !important;
 	}
 }
@@ -13489,7 +13490,7 @@ body {
 		line-height: 80px !important;
 		font-family: "Montserrat-700", sans-serif;
 		font-size: 70px;
-		color: #ffffff;
+		color:  #ffffff;
 		margin: 60px 0 !important;
 	}
 }
@@ -13500,7 +13501,7 @@ body {
 		line-height: 65px !important;
 		font-family: "Montserrat-700", sans-serif;
 		font-size: 55px;
-		color: #ffffff;
+		color:  #ffffff;
 		margin: 40px 0 !important;
 	}
 }
@@ -13512,7 +13513,7 @@ body {
 		-webkit-text-stroke-width: 1px;
 		font-family: "Montserrat-700", sans-serif;
 		font-size: 35px;
-		color: #ffffff;
+		color:  #ffffff;
 		margin: 40px 0 !important;
 	}
 }
@@ -13540,12 +13541,13 @@ body {
 .schedule-tab__item h2 {
 	transition: all 0.3s ease;
 	font-size: 35px;
+	color: aliceblue;
 }
 
 .schedule-tab__item p {
 	transition: all 0.3s ease;
 	font-size: 22px;
-	color: #000000;
+	color: #ffffff;
 }
 
 .schedule-tab__item::before {
@@ -13557,7 +13559,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #000000;
+	background-color: #ffffff;
 	z-index: -1;
 	/* IE 9 */
 	/* Safari 3-8 */
@@ -13576,16 +13578,16 @@ body {
 
 .schedule-tab__item:hover h2,
 .schedule-tab__item:hover p {
-	color: #ffffff;
+	color: #000000;
 }
 
 .schedule-tab .tab-active {
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 .schedule-tab .tab-active h2,
 .schedule-tab .tab-active p {
-	color: #ffffff;
+	color: #000000;
 }
 
 .tab-current {
@@ -13595,6 +13597,7 @@ body {
 .schedule-table {
 	display: none;
 	padding-top: 150px;
+	margin-bottom: 150px;
 }
 
 .schedule-table__greating {
@@ -13622,10 +13625,11 @@ body {
 
 .schedule-table__time h3 {
 	margin: 0;
+	color: aliceblue;
 }
 
 .schedule-table__time p {
-	color: #000000;
+	color: #ffffff;
 	font-size: 16px;
 }
 
@@ -13637,7 +13641,9 @@ body {
 	width: calc(100% - 15px);
 	margin-left: -20px;
 }
-
+.schedule-table__event h3{
+	color: aliceblue;
+}
 .schedule-table__speaker {
 	padding: 40px 0 35px 40px;
 	border-top: 1px solid #e6e6e6;
@@ -13670,6 +13676,7 @@ body {
 
 .break-time {
 	background-image: url("../images/break-time1.png");
+	filter: brightness(50%);
 	background-position: center;
 	background-size: cover;
 	height: 145px;
