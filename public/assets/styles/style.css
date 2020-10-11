@@ -13080,7 +13080,6 @@ body {
 	overflow: hidden;
 	border-radius:5px; */
 }
-
 @media (max-width: 812px) {
 	.pagebanner__count-down-area {
 		position: absolute;
@@ -13093,14 +13092,10 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		flex-direction: column;
+		margin: 0 10px;
+		align-items: center;
 	}
-}
-
-.pagebanner__count-down {
-	display: flex;
-	flex-direction: column;
-	margin: 0 10px;
-	align-items: center;
 }
 
 .pagebanner__count-down p {
@@ -14033,6 +14028,225 @@ body {
 	}
 	.fillin-form textarea {
 		margin-bottom: 30px !important;
+	}
+}
+/* Upcomming Events */
+
+.UpcomingEvents_title h1 {
+	letter-spacing: -4px;
+	text-align: center;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #8e0e00;
+	line-height: 130px;
+	color: #ffffff;
+	text-decoration: none;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(0deg, #1f1c18, #8e0e00 20%, #000000 50%);
+	background-size: 100% 200%;
+	background-position: 0% 0%;
+	font-family: "Montserrat-700", sans-serif;
+	font-size: 120px;
+	color: #ffffff;
+	margin: 115px 0;
+}
+
+.UpcomingEvents_title h1:hover {
+	transition: all 0.8s cubic-bezier(0, 0, 0.23, 1);
+	background-position: 100% 100%;
+	/* text-shadow: 4px 4px 4px #cc2b5e #753a88; */
+}
+
+@media (max-width: 1200px) {
+	.UpcomingEvents_title h1 {
+		line-height: 110px !important;
+		font-family: "Montserrat-700", sans-serif;
+		font-size: 100px;
+		color: #ffffff;
+		margin: 60px 0 !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.UpcomingEvents_title h1 {
+		-webkit-text-stroke-width: 2px;
+		line-height: 80px !important;
+		font-family: "Montserrat-700", sans-serif;
+		font-size: 70px;
+		color: #ffffff;
+		margin: 60px 0 !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.UpcomingEvents_title h1 {
+		letter-spacing: -2px !important;
+		line-height: 65px !important;
+		font-family: "Montserrat-700", sans-serif;
+		font-size: 55px;
+		color: #ffffff;
+		margin: 40px 0 !important;
+	}
+}
+
+@media (max-width: 576px) {
+	.UpcomingEvents_title h1 {
+		letter-spacing: -2px !important;
+		line-height: 45px !important;
+		-webkit-text-stroke-width: 1px;
+		font-family: "Montserrat-700", sans-serif;
+		font-size: 35px;
+		color: #ffffff;
+		margin: 40px 0 !important;
+	}
+}
+
+.Event-card {
+	margin: 50px 0;
+	padding: 0 20px;
+	/* background: white; */
+}
+.Event-card_title h2 {
+	padding: 20px 0 0;
+	color: lavender;
+	/* border: 2px solid steelblue; */
+}
+
+.Event-card_title hr {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 5px;
+	background-color: lightsalmon;
+}
+
+.Event-card-img img {
+	float: left;
+	margin: 40px 0;
+}
+
+.Event-card-content {
+	/* border: 2px solid blue; */
+	margin: 40px 0;
+}
+
+.Event-card-text p {
+	margin: 20px 0;
+	padding: 10px;
+	/* border: 2px solid rebeccapurple; */
+}
+
+.Event-tickets {
+	position: absolute;
+	bottom: 20px;
+	direction: rtl;
+	right: 4%;
+}
+
+.ticket {
+	color: #000000;
+	font-family: "JosefinSans-600", sans-serif;
+	display: inline-block;
+	text-align: center;
+	line-height: 47px;
+	background-color: #ffffff;
+	border: 1.5px solid #ffffff;
+	height: 45px;
+	width: 130px;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		to right,
+		#000000,
+		#000000 50%,
+		#ffffff 50%
+	);
+	background-size: 210% 100%;
+	background-position: 99%;
+}
+
+.ticket:hover {
+	transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
+	background-position: 0%;
+	color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+	/* .ticket{
+		line-height:33px;
+		text-align: center;
+		font-size: 10px;
+		height: 30px;
+		width: 100px;
+	} */
+	.Event-card-text p {
+		/* font-size:0.7rem; */
+		margin: 10px 0;
+		padding: 10px;
+	}
+	.Event-card_title h2 {
+		padding: 20px 0 0;
+		font-size: 30px;
+	}
+	.Event-card_title hr {
+		width: 80px;
+		height: 3px;
+	}
+}
+
+@media (max-width: 992px) {
+	.Event-card_title h2 {
+		font-size: 20px;
+	}
+	.Event-card_title hr {
+		width: 80px;
+		height: 3px;
+	}
+	.Event-card-text p {
+		font-size: 13px;
+		margin: 0;
+		padding: 10px;
+	}
+	.Event-card-content {
+		width: 450px;
+		margin: 20px 0;
+	}
+	.ticket {
+		line-height: 33px;
+		text-align: center;
+		font-size: 10px;
+		height: 30px;
+		width: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.Event-card_1 {
+		width: 450px;
+		margin: 0 10px;
+	}
+
+	.Event-card_2 {
+		width: 450px;
+	}
+
+	.Event-tickets {
+		bottom: 0;
+	}
+
+	.Event-card-content {
+		padding: 0 0 40px;
+		margin: 20px 0;
+	}
+	.Event-card_title h2 {
+		padding: 20px 20px 0;
+		/* border: 2px solid steelblue; */
+	}
+	.Event-card_title hr {
+		margin: 0 20px;
+	}
+	.Event-card-text p {
+		margin: 0 10px;
 	}
 }
 
@@ -17939,7 +18153,6 @@ body {
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
 	font-size: 120px;
-	color: #ffffff;
 	margin: 150px 0 130px;
 }
 
