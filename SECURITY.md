@@ -2,10 +2,10 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| [Latest](https://github.com/aravindvnair99/AYKYA-Fest/releases/latest)  | :white_check_mark: |
-| [Previous](https://github.com/aravindvnair99/AYKYA-Fest/releases)| :x:                |
+| Version                                                                | Supported          |
+| ---------------------------------------------------------------------- | ------------------ |
+| [Latest](https://github.com/aravindvnair99/AYKYA-Fest/releases/latest) | :white_check_mark: |
+| [Previous](https://github.com/aravindvnair99/AYKYA-Fest/releases)      | :x:                |
 
 ## Reporting a Vulnerability
 
