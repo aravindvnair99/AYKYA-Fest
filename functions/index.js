@@ -31,8 +31,8 @@ app.get("/upcomingEvents", (req, res) => {
 app.get("/eventGallery", (req, res) => {
 	res.render("eventGallery");
 });
-app.get("/fest", (req, res) => {
-	res.render("fest");
+app.get("/schedule", (req, res) => {
+	res.render("schedule");
 });
 app.get("/members", (req, res) => {
 	res.render("members");
