@@ -1,3 +1,29 @@
-404 | Not Found <br /><br />
-The server can not find the requested resource. Please check the request and try
-again.
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>404 | AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
+	<body>
+		<div class="erropage">
+			<div class="erropage-area">
+				<div class="head">
+					<div class="meta"></div>
+					<div class="meta"></div>
+				</div>
+				<div class="body">
+					<p>
+						The server can not find the requested resource. Please
+						check the request and try again.
+					</p>
+				</div>
+				<a class="backBtn" href="index">Back Home</a>
+			</div>
+		</div>
+		<div class="cursor"></div>
+		<div class="cursor-follower"></div>
+
+		<%- include('components/corejs') -%>
+	</body>
+</html>
