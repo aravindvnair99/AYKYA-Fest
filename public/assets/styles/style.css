@@ -19291,6 +19291,16 @@ HEADER
 	/* Kukuri */
 }
 
+.menu-nav::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .menu-nav {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+
 .menu-nav .header__logo {
 	position: absolute;
 	left: 50%;
