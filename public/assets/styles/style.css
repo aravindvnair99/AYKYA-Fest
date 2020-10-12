@@ -14843,7 +14843,7 @@ body {
 
 .schedule-tab__item h2 {
 	transition: all 0.3s ease;
-	font-size: 35px;
+	font-size: 30px;
 	color: aliceblue;
 }
 
@@ -14993,6 +14993,11 @@ body {
 
 .break-time__coffee {
 	padding: 35px 0 0 20px;
+}
+
+.break-time__coffee h3{
+	color: black;
+	font-size: 30px;
 }
 
 .break-time > .row {
