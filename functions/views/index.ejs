@@ -1,120 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<%- include('components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('components/corecss') -%>
+	</head>
 
-<head>
-	<%- include('components/meta') -%>
-	<title>AYKYA</title>
-	<%- include('components/corecss') -%>
-</head>
-
-<body>
-	<header id="header-trans" class="header-trans-1">
-		<div class="extra-container">
-			<div class="header-2">
-				<div class="header__menu-icon">
-					<div class="header__menu-icon__dot">
-						<span></span>
-						<span></span>
+	<body>
+		<header id="header-trans" class="header-trans-1">
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
 					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--vertical">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew">
-						<span></span>
-						<span></span>
-					</div>
-					<div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-						<span></span>
-						<span></span>
-					</div>
-				</div>
-				<div class="position-fixed"></div>
-				<!-- <div class="header__logo">
+					<div class="position-fixed"></div>
+					<!-- <div class="header__logo">
 					<a href="index"><img src="assets/images/logo-white.png" alt="logo" width="105px" height="41px" /></a>
 				</div> -->
 
-				<!-- <a href="#" class="header__buy-ticket">
+					<!-- <a href="#" class="header__buy-ticket">
 					<span>BUY TICKETS</span>
 				</a> -->
+				</div>
 			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
 		</div>
-	</header>
-	<section class="header-posistion"></section>
-	<%- include('components/nav') -%>
-	<div class="loading">
-		<div class="sp sp-3balls"></div>
-	</div>
 
-	<section>
-		<div class="cursor"></div>
-		<div class="cursor-follower"></div>
-		<!-- <div class="overlay">
+		<section>
+			<div class="cursor"></div>
+			<div class="cursor-follower"></div>
+			<!-- <div class="overlay">
 			<div class="iconContainer">
 				<div class="phone"><i class="fa fa-repeat"></i></div>
 				<p>Rotate your device for best experience</p>
 			</div>
 			<h1>Resize the screen!</h1>
 		</div> -->
-		 <div class="pagebanner-2" id="logo-timer"> 
-			<div class="pagebanner-2__item">
-				<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
-				<div id="stars"></div>
-				<div id="stars2"></div>
-				<div id="stars3"></div>
-				<div class="falling-star">
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-				</div>
-				<div class="logo-reveal-timer" id="logo-reveal-timer">
-					<div id="title">
-						<span>Coming Soon!</span>
-						<br>
-						<span class="title-heading text-center"><img src="assets/images/logo-white.png" alt="logo" /></span>
+			<div class="pagebanner-2" id="logo-timer">
+				<div class="pagebanner-2__item">
+					<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
+					<div id="stars"></div>
+					<div id="stars2"></div>
+					<div id="stars3"></div>
+					<div class="falling-star">
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
 					</div>
-					<div class="pagebanner__count-down-area">
-						<div class="pagebanner__count-down">
-							<p id="CD2__day"></p><span>DAYS</span>
+					<div class="logo-reveal-timer" id="logo-reveal-timer">
+						<div id="title">
+							<span>Coming Soon!</span>
+							<br />
+							<span class="title-heading text-center"
+								><img
+									src="assets/images/logo-white.png"
+									alt="logo"
+							/></span>
 						</div>
-						<div class="pagebanner__count-down">
-							<p id="CD2__hour"></p><span>HOURS</span>
+						<div class="pagebanner__count-down-area">
+							<div class="pagebanner__count-down">
+								<p id="CD2__day"></p>
+								<span>DAYS</span>
+							</div>
+							<div class="pagebanner__count-down">
+								<p id="CD2__hour"></p>
+								<span>HOURS</span>
+							</div>
+							<div class="pagebanner__count-down">
+								<p id="CD2__min"></p>
+								<span>MINS</span>
+							</div>
+							<div class="pagebanner__count-down">
+								<p id="CD2__sec"></p>
+								<span>SECS</span>
+							</div>
 						</div>
-						<div class="pagebanner__count-down ">
-							<p id="CD2__min"></p><span>MINS</span>
-						</div>
-						<div class="pagebanner__count-down ">
-							<p id="CD2__sec"></p><span>SECS</span>
+					</div>
+				</div>
+			</div>
+			<div class="pagebanner-2" id="logo-reveal">
+				<div class="pagebanner-2__item">
+					<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
+					<div id="stars"></div>
+					<div id="stars2"></div>
+					<div id="stars3"></div>
+					<div class="falling-star">
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
+						<div class="star"></div>
+					</div>
+					<div class="logo-revealing" id="logo-revealing">
+						<div class="logo-revealing__item">
+							<%- include('components/aykya-logo') -%>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="pagebanner-2" id="logo-reveal">
-			<div class="pagebanner-2__item">
-				<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
-				<div id="stars"></div>
-				<div id="stars2"></div>
-				<div id="stars3"></div>
-				<div class="falling-star">
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-					<div class="star"></div>
-				</div>
-				<div class="logo-revealing" id="logo-revealing">
-					<div class="logo-revealing__item">
-						<%- include('components/aykya-logo') -%>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section>
-	<%- include('components/corejs') -%>
-</body>
-
+		</section>
+		<%- include('components/corejs') -%>
+	</body>
 </html>
