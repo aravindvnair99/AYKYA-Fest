@@ -11882,12 +11882,14 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 .title-heading {
-	font-size: 8vw !important;
+	/* font-size: 8vw !important;
 	font-family: lato;
 	background: -webkit-linear-gradient(white, #38495a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	line-height: 1;
+	line-height: 1; */
+	position: absolute;
+	transform: translate(-50%, 20%);
 }
 
 /* @media (max-width:768px){
