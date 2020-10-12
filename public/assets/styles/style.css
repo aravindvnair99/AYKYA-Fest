@@ -11247,7 +11247,7 @@ textarea {
 p {
 	font-family: "Montserrat-400", sans-serif;
 	font-size: 15px;
-	color: #666666;
+	color: #fff;
 	margin: 0;
 }
 
@@ -11577,7 +11577,7 @@ a:active {
 }
 
 .t-dove {
-	color: #666666;
+	color: #fff;
 }
 
 .t-dusty {
@@ -13706,7 +13706,7 @@ body {
 .blog-single-content__paging__btn span {
 	font-family: "JosefinSans-600", sans-serif;
 	font-size: 18px;
-	color: #666666;
+	color: #fff;
 	margin: 0 0 10px;
 	display: inline-block;
 }
@@ -14959,12 +14959,12 @@ body {
 }
 
 .schedule-table__speaker__name p {
-	color: #333333;
+	color: #fff;
 	font-family: "Montserrat-600", sans-serif;
 }
 
 .schedule-table__speaker__name span {
-	color: #666666;
+	color: #fff;
 }
 
 .schedule-table__speaker__info {
@@ -15619,7 +15619,7 @@ body {
 	display: inline-block;
 	font-family: "JosefinSans-600", sans-serif;
 	font-size: 25px;
-	color: #666666;
+	color: #fff;
 	margin: 0;
 }
 
@@ -18214,7 +18214,7 @@ body {
 	position: absolute;
 	width: 0;
 	height: 2px;
-	background-color: #666666;
+	background-color: #fff;
 	bottom: 4px;
 }
 
@@ -20034,7 +20034,7 @@ footer {
 }  */
 
 .copy-right {
-	border-top: 1px solid #666666;
+	border-top: 1px solid #fff;
 }
 
 .copy-right__area {
