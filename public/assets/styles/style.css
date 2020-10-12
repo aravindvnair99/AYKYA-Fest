@@ -13084,7 +13084,6 @@ body {
 }
 
 .pagebanner__count-down {
-
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -14997,7 +14996,7 @@ body {
 	padding: 35px 0 0 20px;
 }
 
-.break-time__coffee h3{
+.break-time__coffee h3 {
 	color: black;
 	font-size: 30px;
 }
@@ -19296,13 +19295,13 @@ HEADER
 	background-color: rgba(0, 0, 0, 0.95);
 	/* General link styles */
 	/* Kukuri */
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 
 .menu-nav::-webkit-scrollbar {
 	display: none;
-  }
+}
 
 .menu-nav .header__logo {
 	position: absolute;
