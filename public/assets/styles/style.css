@@ -11257,7 +11257,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #000000;
+	color: #fff;
 	margin: 0;
 }
 
@@ -18885,11 +18885,11 @@ body {
 
 .fifth-img img {
 	margin-top: 10px;
-	height: 230px;
+	/* height: 230px; */
 }
 
 .testimonial__text {
-	padding: 0 0 0 70px;
+	padding: 0 0 0 0px;
 }
 
 .testimonial__text p {
