@@ -11247,7 +11247,7 @@ textarea {
 p {
 	font-family: "Montserrat-400", sans-serif;
 	font-size: 15px;
-	color: #666666;
+	color: #fff;
 	margin: 0;
 }
 
@@ -11257,7 +11257,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #000000;
+	color: #fff;
 	margin: 0;
 }
 
@@ -11577,7 +11577,7 @@ a:active {
 }
 
 .t-dove {
-	color: #666666;
+	color: #fff;
 }
 
 .t-dusty {
@@ -11882,12 +11882,14 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 .title-heading {
-	font-size: 8vw !important;
+	/* font-size: 8vw !important;
 	font-family: lato;
 	background: -webkit-linear-gradient(white, #38495a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	line-height: 1;
+	line-height: 1; */
+	position: absolute;
+	transform: translate(-50%, 20%);
 }
 
 /* @media (max-width:768px){
@@ -13706,7 +13708,7 @@ body {
 .blog-single-content__paging__btn span {
 	font-family: "JosefinSans-600", sans-serif;
 	font-size: 18px;
-	color: #666666;
+	color: #fff;
 	margin: 0 0 10px;
 	display: inline-block;
 }
@@ -14843,7 +14845,7 @@ body {
 
 .schedule-tab__item h2 {
 	transition: all 0.3s ease;
-	font-size: 35px;
+	font-size: 30px;
 	color: aliceblue;
 }
 
@@ -14959,12 +14961,12 @@ body {
 }
 
 .schedule-table__speaker__name p {
-	color: #333333;
+	color: #fff;
 	font-family: "Montserrat-600", sans-serif;
 }
 
 .schedule-table__speaker__name span {
-	color: #666666;
+	color: #fff;
 }
 
 .schedule-table__speaker__info {
@@ -14993,6 +14995,11 @@ body {
 
 .break-time__coffee {
 	padding: 35px 0 0 20px;
+}
+
+.break-time__coffee h3{
+	color: black;
+	font-size: 30px;
 }
 
 .break-time > .row {
@@ -15619,7 +15626,7 @@ body {
 	display: inline-block;
 	font-family: "JosefinSans-600", sans-serif;
 	font-size: 25px;
-	color: #666666;
+	color: #fff;
 	margin: 0;
 }
 
@@ -18214,7 +18221,7 @@ body {
 	position: absolute;
 	width: 0;
 	height: 2px;
-	background-color: #666666;
+	background-color: #fff;
 	bottom: 4px;
 }
 
@@ -18885,11 +18892,11 @@ body {
 
 .fifth-img img {
 	margin-top: 10px;
-	height: 230px;
+	/* height: 230px; */
 }
 
 .testimonial__text {
-	padding: 0 0 0 70px;
+	padding: 0;
 }
 
 .testimonial__text p {
@@ -19289,7 +19296,13 @@ HEADER
 	background-color: rgba(0, 0, 0, 0.95);
 	/* General link styles */
 	/* Kukuri */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
+
+.menu-nav::-webkit-scrollbar {
+	display: none;
+  }
 
 .menu-nav .header__logo {
 	position: absolute;
@@ -20034,7 +20047,7 @@ footer {
 }  */
 
 .copy-right {
-	border-top: 1px solid #666666;
+	border-top: 1px solid #fff;
 }
 
 .copy-right__area {
