@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-   
+
     "use strict";
 
 
@@ -20,38 +20,38 @@ $(document).ready(function(){
         buttonsNavigation    : true,                // include navigation divs?
         containImgMargin     : 0                    // margin top and bottom to contain img
         },
-        
+
         init : function(config) {
-        
+
         // merge config defaults with init config
         $.extend(lightbox.config, config);
-        
+
         // on click
         $(lightbox.config.gallery).find('a').on('click', function(event) {
             event.preventDefault();
             lightbox.createLightbox($(this));
-            
+
         });
-        
+
         },
-        
+
         // create lightbox
         createLightbox : function($element) {
-        
+
         // add body class
         $('body').addClass(lightbox.config.lightboxEnabledClass);
         $('.cursor').addClass('cursor-white');
         $('.cursor-follower').addClass('cursor-folow-white');
 
         // remove lightbox if exists
-        if ($(lightbox.config.lightboxID).length) { 
-            $(lightbox.config.lightboxID).remove(); 
+        if ($(lightbox.config.lightboxID).length) {
+            $(lightbox.config.lightboxID).remove();
 
         }
-        
+
         // add new lightbox
         $('body').append('<div class="' + lightbox.config.lightboxID.substring(1) + '"><div class="slider"></div></div>');
-        
+
         // add exit div if required
         if (lightbox.config.buttonsExit) {
             $(lightbox.config.lightboxID).append(
@@ -59,9 +59,9 @@ $(document).ready(function(){
                     '<p class="explosed">BACK TO WALL</p>'+
                     '<p class="more-profile">More Profiles</p>'+
                 '</div>'
-            );    
+            );
         }
-        
+
         // add navigation divs if required
         if (lightbox.config.buttonsNavigation) {
             $(lightbox.config.lightboxID).append(
@@ -81,20 +81,20 @@ $(document).ready(function(){
                         '</p>'+
                     '</div>'+
                 '</div>');
-            
+
         }
-        
+
         // now populate lightbox
         lightbox.populateLightbox($element);
-        
+
         },
-        
+
         // populate lightbox
         populateLightbox : function($element) {
-        
+
         var thisgalleryImage = $element.closest(lightbox.config.galleryImage);
         var thisIndex = thisgalleryImage.index();
-        
+
         // add slides
 
         $(lightbox.config.gallery).children(lightbox.config.galleryImage).each(function() {
@@ -112,27 +112,27 @@ $(document).ready(function(){
                                 '<h4 class="info-move-in speaker__last-name">'+$(this).find('.speaker__last-name').text()+'</h4>'+
                                 '<h5 class="info-move-in speaker__career">'+$(this).find('.speaker__career').text()+'</h5>'+
                                 '<p class="info-move-in speaker__des">'+$(this).find('.speaker__des').text()+'</p>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social1.png" alt="social1"></a>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social2.png" alt="social2"></a>'+
-                                '<a href="#" class="info-move-in speaker-media"><img src="../assets/images/speakers_detail_social3.png" alt="social3"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="/assets/images/speakers_detail_social1.png" alt="social1"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="/assets/images/speakers_detail_social2.png" alt="social2"></a>'+
+                                '<a href="#" class="info-move-in speaker-media"><img src="/assets/images/speakers_detail_social3.png" alt="social3"></a>'+
                             '</div>'+
                         '</div>'+
                     '</div>'+
                 +'</div>'
-                
+
                 );
 
 
         });
-        
+
         // now initalise flickity
         lightbox.initFlickity(thisIndex);
 
         },
-        
+
         // initalise flickity
         initFlickity : function(thisIndex) {
-        
+
         $(lightbox.config.lightboxID).find('.slider').flickity({ // more options: https://flickity.metafizzy.co
             cellAlign: 'center',
             resize: true,
@@ -161,21 +161,21 @@ $(document).ready(function(){
 
         // make sure image isn't too tall
         lightbox.containImg();
-        
+
         // on window resize make sure image isn't too tall
         $(window).on('resize', function() {
             lightbox.containImg();
         });
-        
+
         // buttons
         var $slider = $(lightbox.config.lightboxID).find('.slider').flickity();
-        
+
         $(lightbox.config.lightboxID).find('.exit').on('click', function() {
 
             $('body').removeClass('lightbox-enabled');
-   
+
             setTimeout(function() {
-    
+
             $slider.flickity('destroy');
             $(lightbox.config.lightboxID).remove();
             }, 0);
@@ -280,9 +280,9 @@ $(document).ready(function(){
                 deplay:0
 
             });
-            }        
+            }
 
-        
+
         function SpeakerInfo(){
             anime({
                 targets: '.is-selected .speaker-detail__info .info-move-in',
@@ -318,7 +318,7 @@ $(document).ready(function(){
         }
 
         function textExplose(){
-            
+
             {
                 const items = Array.from(document.querySelectorAll('.speaker-detail > .exit '));
 
@@ -345,7 +345,7 @@ $(document).ready(function(){
                                     const elBounds = this.DOM.el.getBoundingClientRect();
                                     const x1 = elBounds.left + elBounds.width/2;
                                     const y1 = elBounds.top + elBounds.height/2;
-                                    
+
                                     const targetBounds = t.getBoundingClientRect();
                                     const x2 = targetBounds.left + targetBounds.width/2;
                                     const y2 = targetBounds.top + targetBounds.height/2;
@@ -359,7 +359,7 @@ $(document).ready(function(){
                                 translateY: (t,i) => [0,anime.random(-40,40)],
                                 rotateZ: (t,i) => [0,anime.random(-20,20)],
                                 opacity: (t,i) => 0.3,
-                            });	
+                            });
                         }, 50);
 
                         this.mouseleaveFn = () => {
@@ -396,12 +396,12 @@ $(document).ready(function(){
             $slider.flickity('previous');
 
         });
-        
+
         $(lightbox.config.lightboxID).find('.next').on('click', function() {
             $slider.flickity('next');
-        
+
         });
-        
+
         // keyboard
         $(document).keyup(function(event) {
             if ($('body').hasClass('lightbox-enabled')) {
@@ -418,25 +418,21 @@ $(document).ready(function(){
             }
             }
         });
-        
+
         },
-        
+
         // contain lightbox images
         containImg : function() {
             $(lightbox.config.lightboxID).find('img').css('maxHeight',   ($(document).height() - lightbox.config.containImgMargin));
         }
-        
+
         };
-        
+
         // initalise lightbox
-        
+
         lightbox.init({
             containImgMargin : 100
-        }); 
+        });
     }
 
 });
-
-
-
-
