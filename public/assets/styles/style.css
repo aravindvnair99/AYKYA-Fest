@@ -17787,8 +17787,8 @@ body {
 	background: #9cecfb; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to top,
-		#0052d4,
-		#65c7f7,
+		#ff4b2b,
+		#ffd200
 		#9cecfb
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
@@ -17803,13 +17803,13 @@ body {
 	background: #ffd200; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61 ,
+		#FC670E
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61 ,
+		#FC670E
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -17817,13 +17817,13 @@ body {
 	background: #ed4264; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to bottom,
-		#ffedbc,
-		#ed4264
+		#ff4b2b,
+		#ffd200
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to bottom,
-		#ffedbc,
-		#ed4264
+		#ff4b2b,
+		#ffd200
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .portfolio-2__tittle h2,
@@ -18937,13 +18937,13 @@ body {
 	background: #ffd200; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61 ,
+		#FC670E
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61,
+		#FC670E
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -18952,14 +18952,14 @@ body {
 .fest-text_3 p {
 	background: #ed4264; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
+		to top,
+		#ff4b2b,
+		#ffd200
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
+		to top,
+		#ff4b2b,
+		#ffd200
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -19157,29 +19157,29 @@ body {
 	background: #ff416c; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61 ,
+		#FC670E
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to top,
-		#ff4b2b,
-		#ffd200
+		#F02A61 ,
+		#FC670E
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .fest-subtitle_3 h2 {
-	background: #ed4264; /* fallback for old browsers */
+	background: #F02A61; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to bottom,
-		#ffedbc,
-		#ed4264
+		#ff4b2b,
+		#ffd200
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to bottom,
-		#ffedbc,
-		#ed4264
+		#ff4b2b,
+		#ffd200
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
