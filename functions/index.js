@@ -34,8 +34,8 @@ app.get("/pastEvents", (req, res) => {
 app.get("/schedule", (req, res) => {
 	res.render("schedule");
 });
-app.get("/members", (req, res) => {
-	res.render("members");
+app.get("/organisers", (req, res) => {
+	res.render("organisers");
 });
 app.get("/contact", (req, res) => {
 	res.render("contact");
