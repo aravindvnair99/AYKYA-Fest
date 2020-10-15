@@ -15483,7 +15483,7 @@ body {
 @media (max-width: 610px) {
 	.container {
 		max-width: 75%;
-		/*padding-bottom:150px;*/
+		padding-bottom:50px;
 		/*margin-bottom: 80px;*/
 	}
 	.speaker-grid-2 {
