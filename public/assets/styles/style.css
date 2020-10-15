@@ -18833,20 +18833,6 @@ body {
 	}
 }
 
-/* .testimonial__qoute {
-	width: calc(100% + 30px);
-} */
-
-.testimonial__qoute img {
-	/*margin-top: 70px;*/
-}
-
-.first-img {
-	/* margin-top: 10px; */
-	/* width: 150px; */
-	/* height: 200px; */
-}
-
 .first-img img {
 	height: 230px;
 	/* width: 400px; */
@@ -18855,6 +18841,7 @@ body {
 .second-img img {
 	margin-left: 120px;
 	/* width: 150px; */
+	margin-top: -70px;
 	height: 230px;
 }
 
@@ -18863,7 +18850,7 @@ body {
 }
 
 .fifth-img img {
-	margin-top: 10px;
+	margin-top: -80px;
 	/* height: 230px; */
 }
 
@@ -18879,7 +18866,6 @@ body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color:transparent;
 }
-
 
 input{
 	display: none;
@@ -19024,17 +19010,6 @@ input{
 	}
 	#collapse-btn_3:checked ~ .btn-content_3 {
 		height: 400px;
-	}
-	.fest-text_1 p {
-		padding: 0;
-	}
-
-	.fest-text_2 {
-		padding: 0;
-	}
-
-	.fest-text_3 {
-		padding: 0;
 	}
 }
 
