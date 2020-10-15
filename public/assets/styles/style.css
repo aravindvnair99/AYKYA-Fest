@@ -13081,16 +13081,19 @@ body {
 	/* box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 	overflow: hidden;
 	border-radius:5px; */
+	z-index: 99;
 }
 
 .pagebanner__count-down {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: space-between;
 	/* box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 	overflow: hidden;
 	border-radius:5px; */
 }
+
 @media (max-width: 812px) {
 	.pagebanner__count-down-area {
 		position: absolute;
@@ -13103,7 +13106,6 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		flex-direction: column;
 	}
 }
 
@@ -13112,19 +13114,11 @@ body {
 	font-size: clamp(25px, 3vw, 50px);
 	color: #333333;
 	color: whitesmoke;
-	/* margin: 0 10px; */
+	margin: 0 10px;
 	width: 7vw;
 	min-width: 40px;
 	line-height: 1.5;
 	text-align: center;
-	/* background-color: #7f5a83;
-	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-	background-color: #f3e6e8;
-	background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
-	background-color: #ffffff;
-	background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-	background-color :#d8d8ac;
-	background-image :linear-gradient(315deg, #d8d8ac 0%, #c8c85e 74%); */
 	background-color: #af8c9d;
 	background-image: linear-gradient(315deg, #af8c9d 10%, #8cacac 60%);
 	-webkit-background-clip: text;
