@@ -673,12 +673,12 @@ $(document).ready(function () {
 				}
 				else{
 					document.getElementById("logo-timer").style.display= "block";
-					document.getElementById("logo-reveal").style.display= "none";	
-					// document.querySelector("header").style.display = "block";			
+					document.getElementById("logo-reveal").style.display= "none";
+					// document.querySelector("header").style.display = "block";
 				}
 			}, second);
 
-	}	
+	}
 	count_down("#CD");
 	count_down("#CD2");
 	//---------------------------end countdown timer------------------------------------------------
