@@ -14482,14 +14482,14 @@ body {
 	letter-spacing: -4px;
 	text-align: center;
 	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #000000;
+	-webkit-text-stroke-color: #ffffff;
 	line-height: 130px;
 	color: #ffffff;
 	text-decoration: none;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+	background-image: linear-gradient(0deg, #ffffff, #888888 50%, #000000 50%);
 	background-size: 100% 200%;
 	background-position: 0% 0%;
 	font-family: "Montserrat-700", sans-serif;
