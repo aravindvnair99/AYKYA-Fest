@@ -15483,7 +15483,7 @@ body {
 @media (max-width: 610px) {
 	.container {
 		max-width: 75%;
-		padding-bottom:50px;
+		padding-bottom: 50px;
 		/*margin-bottom: 80px;*/
 	}
 	.speaker-grid-2 {
@@ -17782,7 +17782,7 @@ body {
 	width: 70px;
 	height: 5px;
 	background-color: #6b0f1a;
-	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378F 93%);
+	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378f 93%);
 }
 
 .portfolio-2__tittle h2,
@@ -17790,20 +17790,20 @@ body {
 	display: inline-block;
 	font-size: 60px;
 	line-height: 75px;
-	color:  #a31313b9;
+	color: #a31313b9;
 	color: white;
 	background-color: #6b0f1a;
-	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378F 93%);
+	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378f 93%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.portfolio-2__tittle h3{
+.portfolio-2__tittle h3 {
 	background-color: #90d5ec;
 	background-image: linear-gradient(200deg, #90d5ec 0%, #fc575e 74%);
 	color: whitesmoke;
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-align: center;
 	font-size: 40px;
 }
@@ -18860,27 +18860,35 @@ body {
 
 .testimonial__text p {
 	font-size: 20px;
-	background: #E0EAFC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #e0eafc; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#cfdef3,
+		#e0eafc
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#cfdef3,
+		#e0eafc
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color: transparent;
 }
 
-input{
+input {
 	display: none;
 }
 
 .btn-collapse,
 .btn-collapse_2,
-.btn-collapse_3{
+.btn-collapse_3 {
 	margin-left: 80%;
 	display: inline-block;
 }
 
 .btn-collapse::after,
 .btn-collapse_2::after,
-.btn-collapse_3::after{
+.btn-collapse_3::after {
 	font-family: "FontAwesome";
 	font-size: 40px;
 	content: "\f0ab";
@@ -18889,34 +18897,42 @@ input{
 
 .btn-content,
 .btn-content_2,
-.btn-content_3{
-	height:0;
+.btn-content_3 {
+	height: 0;
 	overflow: hidden;
-	transition: .5s;
+	transition: 0.5s;
 	font-size: 20px;
-	background: #E0EAFC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #e0eafc; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#cfdef3,
+		#e0eafc
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#cfdef3,
+		#e0eafc
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color: transparent;
 }
 
-#collapse-btn:checked ~.btn-content{
-	height:230px;
+#collapse-btn:checked ~ .btn-content {
+	height: 230px;
 }
 
 #collapse-btn:checked ~ .btn-collapse::after,
 #collapse-btn_2:checked ~ .btn-collapse_2::after,
-#collapse-btn_3:checked ~ .btn-collapse_3::after{
-	content: '\f0aa';
+#collapse-btn_3:checked ~ .btn-collapse_3::after {
+	content: "\f0aa";
 }
 
-#collapse-btn_2:checked ~.btn-content_2{
-	height:130px;
+#collapse-btn_2:checked ~ .btn-content_2 {
+	height: 130px;
 }
 
-#collapse-btn_3:checked ~.btn-content_3{
-	height:230px;
+#collapse-btn_3:checked ~ .btn-content_3 {
+	height: 230px;
 }
 
 .testimonial__text__author {
