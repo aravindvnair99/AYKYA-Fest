@@ -18900,69 +18900,64 @@ body {
 
 .testimonial__text p {
 	font-size: 20px;
-	background: #e0eafc; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to bottom,
-		#cfdef3,
-		#e0eafc
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to bottom,
-		#cfdef3,
-		#e0eafc
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color:transparent;
 }
 
-.fest-text_1 p {
-	background: #9cecfb; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+
+input{
+	display: none;
 }
 
-.fest-text_2 p {
-	background: #ffd200; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.btn-collapse,
+.btn-collapse_2,
+.btn-collapse_3{
+	margin-left: 80%;
+	display: inline-block;
 }
 
-.fest-text_3 p {
-	background: #ed4264; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.btn-collapse::after,
+.btn-collapse_2::after,
+.btn-collapse_3::after{
+	font-family: "FontAwesome";
+	font-size: 40px;
+	content: "\f0ab";
+	color: gray;
+}
+
+.btn-content,
+.btn-content_2,
+.btn-content_3{
+	height:0;
+	overflow: hidden;
+	transition: .5s;
+	font-size: 20px;
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color:transparent;
+}
+
+#collapse-btn:checked ~.btn-content{
+	height:230px;
+}
+
+#collapse-btn:checked ~ .btn-collapse::after,
+#collapse-btn_2:checked ~ .btn-collapse_2::after,
+#collapse-btn_3:checked ~ .btn-collapse_3::after{
+	content: '\f0aa';
+}
+
+#collapse-btn_2:checked ~.btn-content_2{
+	height:130px;
+}
+
+#collapse-btn_3:checked ~.btn-content_3{
+	height:230px;
 }
 
 .testimonial__text__author {
