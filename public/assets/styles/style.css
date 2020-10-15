@@ -17781,59 +17781,32 @@ body {
 	display: inline-block;
 	width: 70px;
 	height: 5px;
-	background-color: #cc2b5e;
-}
-.fest-subtitle_1 hr {
-	background: #9cecfb; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #6b0f1a;
+	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378F 93%);
 }
 
-.fest-subtitle_2 hr {
-	background: #ffd200; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.fest-subtitle_3 hr {
-	background: #ed4264; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 .portfolio-2__tittle h2,
 .testi-2__qoute__tittle h2 {
 	display: inline-block;
 	font-size: 60px;
 	line-height: 75px;
-	color: #cc2b5e;
+	color:  #a31313b9;
+	color: white;
+	background-color: #6b0f1a;
+	background-image: linear-gradient(160deg, #6b0f1a 5%, #42378F 93%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
+.portfolio-2__tittle h3{
+	background-color: #90d5ec;
+	background-image: linear-gradient(200deg, #90d5ec 0%, #fc575e 74%);
+	color: whitesmoke;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	text-align: center;
+	font-size: 40px;
+}
 .portfolio-2__tittle__text {
 	font-size: 20px;
 	color: #cc2b5e;
@@ -19128,56 +19101,6 @@ input{
 		#ffedbc,
 		#ed4264
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.fest-subtitle_1 h2 {
-	background: #9cecfb; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#0052d4,
-		#65c7f7,
-		#9cecfb
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.fest-subtitle_2 h2 {
-	background: #ff416c; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#ff4b2b,
-		#ffd200
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.fest-subtitle_3 h2 {
-	background: #ed4264; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to bottom,
-		#ffedbc,
-		#ed4264
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .testi-2 .portfolio-2__tittle__cross {
