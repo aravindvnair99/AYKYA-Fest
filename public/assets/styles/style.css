@@ -18896,9 +18896,9 @@ body {
 .btn-collapse_3 {
 	margin-left: 80%;
 	display: inline-block;
-	-moz-transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+	-moz-transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
 }
 
 .btn-collapse .rotate-180,
