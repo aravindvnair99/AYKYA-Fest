@@ -15014,6 +15014,9 @@ body {
 		margin-left: -30px;
 		width: calc(100% + 15px);
 	}
+	.schedule-tab h2 {
+		font-size: 28px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -15053,7 +15056,7 @@ body {
 		height: 100px;
 	}
 	.schedule-tab h2 {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.schedule-tab p {
 		font-size: 14px;
@@ -15086,12 +15089,16 @@ body {
 	}
 	.break-time__coffee h3 {
 		margin: 0;
+		font-size: 22px;
 		line-height: 20px;
 	}
 	.schedule-tab {
 		border-top: 1px solid #e6e6e6;
 		flex-wrap: wrap;
 		height: auto;
+	}
+	.schedule-tab h2 {
+		font-size: 18px;
 	}
 	.schedule-tab .schedule-tab__item {
 		width: 100%;
