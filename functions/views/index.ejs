@@ -40,8 +40,8 @@
 				</div> -->
 
 					<a href="#" class="header__buy-ticket">
-					<span>Join Us</span>
-				</a>
+						<span>Join Us</span>
+					</a>
 				</div>
 			</div>
 		</header>
@@ -63,7 +63,7 @@
 		</div> -->
 			<div class="pagebanner-2" id="logo-timer">
 				<div class="pagebanner-2__item">
-					<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
+					<div class="pagebanner-brg pagebanner-brg--2"></div>
 					<div id="stars"></div>
 					<div id="stars2"></div>
 					<div id="stars3"></div>
@@ -84,12 +84,24 @@
 									alt="logo"
 							/></span>
 
-							<div style="margin-top: 165px;margin-left: 30px">
-								<p >In association with</p>
-								<img alt="ACRD Logo" src="assets/images/acrd.jpg" style="width: 200px;height:auto;display: inline">
+							<div style="margin-top: 165px" class="text-center">
+								<p>In association with</p>
+								<img
+									alt="ACRD Logo"
+									src="assets/images/acrd.jpg"
+									style="
+										width: 200px;
+										height: auto;
+										display: inline;
+										margin-top: 20px;
+									"
+								/>
 							</div>
 						</div>
-						<div class="pagebanner__count-down-area" style="margin-top: 40px">
+						<div
+							class="pagebanner__count-down-area"
+							style="margin-top: 60px"
+						>
 							<div class="pagebanner__count-down">
 								<p id="CD2__day"></p>
 								<span>DAYS</span>
@@ -112,7 +124,7 @@
 			</div>
 			<div class="pagebanner-2" id="logo-reveal">
 				<div class="pagebanner-2__item">
-					<!-- <div class="pagebanner-brg pagebanner-brg--2"></div> -->
+					<div class="pagebanner-brg pagebanner-brg--2"></div>
 					<div id="stars"></div>
 					<div id="stars2"></div>
 					<div id="stars3"></div>
@@ -125,7 +137,18 @@
 					</div>
 					<div class="logo-revealing" id="logo-revealing">
 						<div class="logo-revealing__item">
-							<%- include('components/aykya-logo') -%>
+							<div class="extra-container">
+								<div class="logo-revealing_text">
+									<h1>
+										Welcome to <br />
+										Aykya
+									</h1>
+								</div>
+
+								<a href="/schedule" class="header__buy-ticket">
+									<span>Schedule</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

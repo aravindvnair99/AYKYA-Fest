@@ -637,7 +637,7 @@ $(document).ready(function () {
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Nov 6, 2020 06:00:00").getTime(),
+		let countDown = new Date("Oct 14, 2020 06:00:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
@@ -673,12 +673,12 @@ $(document).ready(function () {
 				}
 				else{
 					document.getElementById("logo-timer").style.display= "block";
-					document.getElementById("logo-reveal").style.display= "none";	
-					// document.querySelector("header").style.display = "block";			
+					document.getElementById("logo-reveal").style.display= "none";
+					// document.querySelector("header").style.display = "block";
 				}
 			}, second);
 
-	}	
+	}
 	count_down("#CD");
 	count_down("#CD2");
 	//---------------------------end countdown timer------------------------------------------------
