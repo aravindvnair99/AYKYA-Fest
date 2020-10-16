@@ -14975,7 +14975,10 @@ body {
 }
 
 .break-time__coffee {
-	padding: 35px 0 0 20px;
+	/* padding: 35px 0 0 0; */
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
 }
 
 .break-time__coffee h3 {
