@@ -13686,6 +13686,20 @@ body {
 	border-left: 1px solid #e6e6e6;
 }
 
+.blog-single-content__paging__divide--next-first {
+	text-align: right;
+	flex-direction: row-reverse;
+	position: relative;
+}
+
+.blog-single-content__paging__divide--next-first::before {
+	position: absolute;
+	content: "";
+	height: 70%;
+	width: 0;
+	left: 0;
+}
+
 .blog-single-content__paging__btn span {
 	font-family: "JosefinSans-600", sans-serif;
 	font-size: 18px;
