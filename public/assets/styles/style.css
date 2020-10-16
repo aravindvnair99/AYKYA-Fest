@@ -13933,7 +13933,7 @@ body {
 
 .fillin-form button {
 	position: relative;
-	color: #000000;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-family: "JosefinSans-600", sans-serif;
 	display: inline-block;
@@ -13947,7 +13947,7 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	border-bottom: 1.5px solid #000000;
+	border-bottom: 1.5px solid #ffffff;
 }
 
 .fillin-form .fillin-form__submit {
@@ -13962,7 +13962,7 @@ body {
 }
 
 .fillin-form .fillin-form__submit:hover path {
-	stroke: #000000;
+	stroke: #ffffff;
 	-webkit-animation: draw 1s linear alternate forwards;
 	animation: draw 1s linear alternate forwards;
 }
@@ -18887,7 +18887,7 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
-input {
+.testimonial input {
 	display: none;
 }
 
