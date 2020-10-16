@@ -15078,6 +15078,9 @@ body {
 	.schedule-tab p {
 		font-size: 14px;
 	}
+	.schedule-table__event{
+		text-align: center;
+	}
 }
 
 @media (max-width: 576px) {
@@ -15096,6 +15099,9 @@ body {
 	}
 	.schedule-table__speaker {
 		padding: 0;
+	}
+	.schedule-table__speaker h3{
+		font-size: 18px;
 	}
 	.break-time {
 		height: 170px;
