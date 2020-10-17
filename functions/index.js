@@ -67,6 +67,9 @@ app.get("/openMicMusic", (req, res) => {
 app.get("/battleOfTheBands", (req, res) => {
 	res.render("eventPosters/battleOfTheBands");
 });
+app.get("/openMicTalk", (req, res) => {
+	res.render("eventPosters/openMicTalk");
+});
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
