@@ -52,6 +52,9 @@ app.get("/managementWeek", (req, res) => {
 app.get("/bestFootForward", (req, res) => {
 	res.render("eventPosters/bestFootForward");
 });
+app.get("/conquerTheSquares", (req, res) => {
+	res.render("eventPosters/conquerTheSquares");
+});
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
