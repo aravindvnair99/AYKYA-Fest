@@ -667,17 +667,19 @@ $(document).ready(function () {
 
 				if (distance <= 0) {
 					clearInterval(x);
-					document.getElementById("logo-timer").style.display = "none";
-					document.getElementById("logo-reveal").style.display = "block";
+					document.getElementById("logo-timer").style.display =
+						"none";
+					document.getElementById("logo-reveal").style.display =
+						"block";
 					// document.querySelector("header").style.display = "none";
-				}
-				else{
-					document.getElementById("logo-timer").style.display= "block";
-					document.getElementById("logo-reveal").style.display= "none";
+				} else {
+					document.getElementById("logo-timer").style.display =
+						"block";
+					document.getElementById("logo-reveal").style.display =
+						"none";
 					// document.querySelector("header").style.display = "block";
 				}
 			}, second);
-
 	}
 	count_down("#CD");
 	count_down("#CD2");
@@ -920,9 +922,8 @@ $(window).on("load", function () {
 
 //--------------------------- END LOADING-------------------------------------------
 
-
 //=========================== START ABOUT ==============================
-$(".btn-rotate").click(function(){
-    $(this).toggleClass("fa-rotate-180"); 
+$(".btn-rotate").click(function () {
+	$(this).toggleClass("fa-rotate-180");
 });
 //=========================== END ABOUT ==============================
