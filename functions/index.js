@@ -55,6 +55,9 @@ app.get("/eventRegTemplate", (req, res) => {
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
+app.get("/artGallery", (req, res) => {
+	res.render("eventPosters/artGallery");
+});
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
