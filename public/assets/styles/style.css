@@ -9598,6 +9598,7 @@ readers do not read off random characters that represent icons */
 html {
 	box-sizing: border-box;
 	-ms-overflow-style: scrollbar;
+	scroll-behavior: smooth;
 }
 
 *,
