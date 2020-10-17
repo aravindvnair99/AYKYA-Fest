@@ -55,6 +55,9 @@ app.get("/bestFootForward", (req, res) => {
 app.get("/conquerTheSquares", (req, res) => {
 	res.render("eventPosters/conquerTheSquares");
 });
+app.get("/openMicComedy", (req, res) => {
+	res.render("eventPosters/openMicComedy");
+});
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
