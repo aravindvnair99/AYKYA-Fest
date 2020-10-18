@@ -72,7 +72,9 @@ app.get("/visleshana", (req, res) => {
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
-
+app.get("/businessMavericks", (req, res) => {
+	res.render("eventPosters/businessMavericks");
+});
 
 /* Cultural Events */
 
