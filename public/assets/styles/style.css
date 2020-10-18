@@ -11874,6 +11874,7 @@ body {
 	text-transform: uppercase;
 }
 #title span {
+	margin: auto 0;
 	font-size: 20px;
 	/* background: -webkit-linear-gradient(white, #38495a); */
 	background-color: #36669d;
@@ -12706,6 +12707,48 @@ body {
 }
 
 /* End Star Animation  */
+/* logo-revealing text */
+
+.title-text{
+	margin: 100px 0;
+}
+
+#title-item{
+	position: absolute;
+	top: 22%;
+	right: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	font-family: lato;
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 10px;
+	margin-top: -60px;
+	padding-left: 10px;
+	z-index: 99;
+	text-transform: uppercase;
+}
+#title-item span {
+	margin: auto 0;
+	font-size: 80px;
+	/* background: -webkit-linear-gradient(white, #38495a); */
+	background-color: #36669d;
+	background-image: linear-gradient(#36669d, #d3d3d3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.title-heading {
+	/* font-size: 8vw !important;
+	font-family: lato;
+	background: -webkit-linear-gradient(white, #38495a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 1; */
+	position: absolute;
+	transform: translate(-55%, 10%);
+}
+/* End of logo-revealing text */
 .pagebanner-brg--1__thumb {
 	display: block;
 	width: 100%;
