@@ -70,7 +70,33 @@ app.get("/eventRegTemplate", (req, res) => {
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
-
+app.get("/bestFootForward", (req, res) => {
+	res.render("eventPosters/bestFootForward");
+});
+app.get("/conquerTheSquares", (req, res) => {
+	res.render("eventPosters/conquerTheSquares");
+});
+app.get("/openMicComedy", (req, res) => {
+	res.render("eventPosters/openMicComedy");
+});
+app.get("/shipwreck", (req, res) => {
+	res.render("eventPosters/shipwreck");
+});
+app.get("/openMicMusic", (req, res) => {
+	res.render("eventPosters/openMicMusic");
+});
+app.get("/battleOfTheBands", (req, res) => {
+	res.render("eventPosters/battleOfTheBands");
+});
+app.get("/openMicTalk", (req, res) => {
+	res.render("eventPosters/openMicTalk");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
+});
+app.get("/artGallery", (req, res) => {
+	res.render("eventPosters/artGallery");
+});
 
 /*=============================================>>>>>
 
