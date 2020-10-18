@@ -64,6 +64,18 @@ app.get("/managementWeek", (req, res) => {
 				= eventPoster routes =
 
 ===============================================>>>>>*/
+/* Management Events */
+
+app.get("/visleshana", (req, res) => {
+	res.render("eventPosters/visleshana");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
+});
+
+
+/* Cultural Events */
+
 app.get("/eventRegTemplate", (req, res) => {
 	res.render("eventPosters/eventRegTemplate");
 });

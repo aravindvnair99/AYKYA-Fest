@@ -13601,8 +13601,15 @@ body {
 }
 
 .blog-single-content__paragraph p {
-	margin-top: 15px;
+	margin-top: 10px;
 	color: #ffffff;
+	font-size: 20px;
+}
+
+.listClass {
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
 }
 
 .blog-single-content__paragraph p:first-child {
