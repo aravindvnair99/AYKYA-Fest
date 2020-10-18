@@ -78,6 +78,9 @@ app.get("/businessMavericks", (req, res) => {
 app.get("/tradeOMania", (req, res) => {
 	res.render("eventPosters/tradeOMania");
 });
+app.get("/scope", (req, res) => {
+	res.render("eventPosters/scope");
+});
 
 /* Cultural Events */
 
