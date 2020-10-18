@@ -75,6 +75,9 @@ app.get("/pitchPeak", (req, res) => {
 app.get("/businessMavericks", (req, res) => {
 	res.render("eventPosters/businessMavericks");
 });
+app.get("/tradeOMania", (req, res) => {
+	res.render("eventPosters/tradeOMania");
+});
 
 /* Cultural Events */
 
