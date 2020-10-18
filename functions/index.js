@@ -40,24 +40,38 @@ app.get("/organisers", (req, res) => {
 app.get("/contact", (req, res) => {
 	res.render("contact");
 });
+app.get("/offline", (req, res) => {
+	res.render("offline");
+});
+
+/*=============================================>>>>>
+
+				= blog routes =
+
+===============================================>>>>>*/
 app.get("/culturalWeek", (req, res) => {
-	res.render("culturalWeek");
+	res.render("pastEvents/culturalWeek");
 });
 app.get("/techWeek", (req, res) => {
-	res.render("techWeek");
+	res.render("pastEvents/techWeek");
 });
 app.get("/managementWeek", (req, res) => {
-	res.render("managementWeek");
+	res.render("pastEvents/managementWeek");
 });
+
+/*=============================================>>>>>
+
+				= eventPoster routes =
+
+===============================================>>>>>*/
 app.get("/eventRegTemplate", (req, res) => {
 	res.render("eventPosters/eventRegTemplate");
 });
 app.get("/pitchPeak", (req, res) => {
 	res.render("eventPosters/pitchPeak");
 });
-app.get("/offline", (req, res) => {
-	res.render("offline");
-});
+
+
 /*=============================================>>>>>
 
 				= template routes =
