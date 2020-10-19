@@ -13584,6 +13584,7 @@ body {
 	height: 100%;
 	-o-object-fit: cover;
 	object-fit: cover;
+	width: fit-content;
 }
 
 .blog-single-content__time {
