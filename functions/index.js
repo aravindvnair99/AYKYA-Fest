@@ -40,14 +40,58 @@ app.get("/organisers", (req, res) => {
 app.get("/contact", (req, res) => {
 	res.render("contact");
 });
+app.get("/offline", (req, res) => {
+	res.render("offline");
+});
+
+/*=============================================>>>>>
+
+				= blog routes =
+
+===============================================>>>>>*/
 app.get("/culturalWeek", (req, res) => {
-	res.render("culturalWeek");
+	res.render("pastEvents/culturalWeek");
 });
 app.get("/techWeek", (req, res) => {
-	res.render("techWeek");
+	res.render("pastEvents/techWeek");
 });
 app.get("/managementWeek", (req, res) => {
-	res.render("managementWeek");
+	res.render("pastEvents/managementWeek");
+});
+
+/*=============================================>>>>>
+
+				= eventPoster routes =
+
+===============================================>>>>>*/
+/* Management Events */
+
+app.get("/visleshana", (req, res) => {
+	res.render("eventPosters/visleshana");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
+});
+app.get("/businessMavericks", (req, res) => {
+	res.render("eventPosters/businessMavericks");
+});
+app.get("/tradeOMania", (req, res) => {
+	res.render("eventPosters/tradeOMania");
+});
+app.get("/scope", (req, res) => {
+	res.render("eventPosters/scope");
+});
+app.get("/wireHire", (req, res) => {
+	res.render("eventPosters/wireHire");
+});
+
+/* Cultural Events */
+
+app.get("/eventRegTemplate", (req, res) => {
+	res.render("eventPosters/eventRegTemplate");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
 });
 app.get("/bestFootForward", (req, res) => {
 	res.render("eventPosters/bestFootForward");
@@ -76,9 +120,47 @@ app.get("/pitchPeak", (req, res) => {
 app.get("/artGallery", (req, res) => {
 	res.render("eventPosters/artGallery");
 });
-app.get("/offline", (req, res) => {
-	res.render("offline");
+app.get("/arivu", (req, res) => {
+	res.render("eventPosters/arivu");
 });
+app.get("/blockChain", (req, res) => {
+	res.render("eventPosters/blockChain");
+});
+app.get("/chatBots", (req, res) => {
+	res.render("eventPosters/chatBots");
+});
+app.get("/mathWorks", (req, res) => {
+	res.render("eventPosters/mathWorks");
+});
+app.get("/nlp", (req, res) => {
+	res.render("eventPosters/nlp");
+});
+app.get("/sigma", (req, res) => {
+	res.render("eventPosters/sigma");
+});
+app.get("/ramanujan", (req, res) => {
+	res.render("eventPosters/ramanujan");
+});
+
+app.get("/curbTheDiseases", (req, res) => {
+	res.render("eventPosters/curbTheDiseases");
+});
+app.get("/gameNite", (req, res) => {
+	res.render("eventPosters/gameNite");
+});
+app.get("/webinarOnAstrophotography", (req, res) => {
+	res.render("eventPosters/webinarOnAstrophotography");
+});
+app.get("/webinarOnFutureECE", (req, res) => {
+	res.render("eventPosters/webinarOnFutureECE");
+});
+app.get("/workshopOnAWS", (req, res) => {
+	res.render("eventPosters/workshopOnAWS");
+});
+app.get("/workshopOnML", (req, res) => {
+	res.render("eventPosters/workshopOnML");
+});
+
 /*=============================================>>>>>
 
 				= template routes =
