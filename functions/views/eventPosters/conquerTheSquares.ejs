@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../components/meta') -%>
+    <title>AYKYA</title>
+    <%- include('../components/corecss') -%>
+</head>
+
+<script>
+    function topFunction() {
+        window.scrollTo(0, 2000);
+    }
+</script>
+
+<body>
+    <header>
+        <div class="extra-container">
+            <div class="header-2">
+                <div class="header__menu-icon">
+                    <div class="header__menu-icon__dot">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu-icon__dot header__menu-icon__dot--vertical">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu-icon__dot header__menu-icon__dot--skew">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="position-fixed"></div>
+                <div class="header__logo">
+                    <a href="/"><img src="/assets/images/logo-white.png" alt="logo" width="105px" height="41px" /></a>
+                </div>
+
+                <a href="#" class="header__buy-ticket">
+                    <span>Register</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="header-posistion"></section>
+    <%- include('../components/nav') -%>
+    <div class="loading">
+        <div class="sp sp-3balls"></div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="blog-single-content wow fadeInUp">
+                <div class="blog-single-content__thumb poster-item">
+                    <img src="assets/images/eventPosters/culturalEvents/chess.png" alt="Chess" />
+                </div>
+                <div class="blog-single-content__time">
+                    <span><i class="far fa-calendar-check"></i>6<sup>th</sup> November 2020</span>
+                    <br />
+                    <span><i class="far fa-clock"></i>3 pm - 5 pm</span>
+                </div>
+                <h4 style="color: aliceblue">Conquer The Squares</h4>
+                <div class="blog-single-content__paragraph">
+                    <p style="font-size: larger">
+                        Participate in the event by quickly downloading or signing up yourselves on the LICHESS
+                        website.<br />
+                        Google forms will be circulated for the registrations.<br />
+                        Sharpen your brain, prepare your tactics and get ready to become the winner sitting at the
+                        comfort of your home.
+                        
+                    </p>
+                    <p style="text-align: center; margin-top: 40px">
+                        <button style="font-size: xx-large" onclick="topFunction()">
+                            <b>Register Below</b>
+                        </button>
+                    </p>
+                </div>
+
+                <div class="blog-single-content__paging">
+                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--prev">
+                        <a
+							href="/bestFootForward"
+							class="blog-single-content__paging__btn"
+						>
+							<span
+								><i class="fa fa-angle-double-left"></i
+								>Prev</span
+							>
+							<h5>Best Foot Forward</h5>
+						</a>
+                    </div>
+                    <div class="blog-single-content__paging__divide blog-single-content__paging__divide--next">
+                        <a
+							href="/openMicComedy"
+							class="blog-single-content__paging__btn"
+						>
+							<span
+								>Next <i class="fa fa-angle-double-right"></i
+								></span
+							>
+							<h5>Open Mic - Comedy</h5>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('../components/footer') -%> <%-
+		include('../components/corejs') -%>
+</body>
+
+</html>
