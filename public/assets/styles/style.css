@@ -13580,6 +13580,10 @@ body {
 	height: 650px;
 }
 
+.poster-item{
+	height: 950px;
+}
+
 .blog-single-content__thumb img {
 	height: 100%;
 	-o-object-fit: cover;
