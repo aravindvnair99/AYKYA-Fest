@@ -12732,8 +12732,8 @@ body {
 #title-item span {
 	margin: auto 0;
 	font-size: 100px;
-	background-color: #36669d;
-	background-image: linear-gradient(#36669d, #d3d3d3);
+	/* background-color: #36669d;
+	background-image: linear-gradient(#36669d, #d3d3d3); */
 	color: transparent;
 	background: linear-gradient(to bottom, #222 0%, #222 50%, #111 50%, #111 100%);
 	-webkit-background-clip: text;
@@ -12765,11 +12765,11 @@ background-image: linear-gradient(45deg, #726cf8 0%, #e975a8 74%); */
 	top:0;
 	left: 251px;
 	z-index: -2;
-	background: linear-gradient(45deg, #d4418e 0%, #0652c5 74%);
+	/* background: linear-gradient(45deg, #d4418e 0%, #0652c5 74%);
 	background-color: #0cbaba;
 	background-image: linear-gradient(45deg, #0cbaba 0%, #380036 74%);
 	background-color: #36096d;
-	background-image: linear-gradient(45deg, #36096d 0%, #37d5d6 87%);
+	background-image: linear-gradient(45deg, #36096d 0%, #37d5d6 87%); */
 	background-color: #f907fc;
 	background-image: linear-gradient(45deg, #f907fc 0%, #05d6d9 87%);
 	-webkit-background-clip: text;
@@ -12783,10 +12783,10 @@ background-image: linear-gradient(45deg, #726cf8 0%, #e975a8 74%); */
 
 .title-heading-text p{
 	font-family:inherit;
-	background-color: #36669d;
+	/* background-color: #36669d;
 	background-image: linear-gradient(#36669d, #d3d3d3);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 	color: transparent;
 	background: linear-gradient(to bottom, #222 0%, #222 50%, #111 50%, #111 100%);
 	-webkit-background-clip: text;
