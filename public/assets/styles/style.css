@@ -13580,7 +13580,7 @@ body {
 	height: 650px;
 }
 
-.poster-item{
+.poster-item {
 	height: 950px;
 }
 
@@ -14576,9 +14576,7 @@ body {
 	margin-right: 30px;
 }
 
-
-.eventPageContact
-{
+.eventPageContact {
 	height: 25px;
 }
 
@@ -15097,7 +15095,7 @@ body {
 	.schedule-tab p {
 		font-size: 14px;
 	}
-	.schedule-table__event{
+	.schedule-table__event {
 		text-align: center;
 	}
 }
@@ -15119,7 +15117,7 @@ body {
 	.schedule-table__speaker {
 		padding: 0;
 	}
-	.schedule-table__speaker h3{
+	.schedule-table__speaker h3 {
 		font-size: 18px;
 	}
 	.break-time {
@@ -18916,17 +18914,17 @@ body {
 	margin-left: 80%;
 	display: inline-block;
 	-moz-transition: all 0.25s linear;
-    -webkit-transition: all 0.25s linear;
-    transition: all 0.25s linear;
+	-webkit-transition: all 0.25s linear;
+	transition: all 0.25s linear;
 }
 
 .btn-collapse .rotate-180,
 .btn-collapse_2 .rotate-180,
 .btn-collapse_3 .rotate-180 {
 	-ms-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .btn-collapse::after,
