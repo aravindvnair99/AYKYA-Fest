@@ -98,6 +98,25 @@ app.get("/artGallery", (req, res) => {
 	res.render("eventPosters/artGallery");
 });
 
+app.get("/curbTheDiseases", (req, res) => {
+	res.render("eventPosters/curbTheDiseases");
+});
+app.get("/gameNite", (req, res) => {
+	res.render("eventPosters/gameNite");
+});
+app.get("/webinarOnAstrophotography", (req, res) => {
+	res.render("eventPosters/webinarOnAstrophotography");
+});
+app.get("/webinarOnFutureECE", (req, res) => {
+	res.render("eventPosters/webinarOnFutureECE");
+});
+app.get("/workshopOnAWS", (req, res) => {
+	res.render("eventPosters/workshopOnAWS");
+});
+app.get("/workshopOnML", (req, res) => {
+	res.render("eventPosters/workshopOnML");
+});
+
 /*=============================================>>>>>
 
 				= template routes =

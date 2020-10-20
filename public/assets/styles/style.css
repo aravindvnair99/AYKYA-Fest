@@ -13584,6 +13584,7 @@ body {
 	height: 100%;
 	-o-object-fit: cover;
 	object-fit: cover;
+	width: fit-content;
 }
 
 .blog-single-content__time {
@@ -14562,6 +14563,12 @@ body {
 	filter: contrast(0%) brightness(500%);
 	flex-shrink: 0;
 	margin-right: 30px;
+}
+
+
+.eventPageContact
+{
+	height: 25px;
 }
 
 .contact-info__item-left {
