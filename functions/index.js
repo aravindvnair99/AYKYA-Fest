@@ -81,6 +81,9 @@ app.get("/tradeOMania", (req, res) => {
 app.get("/scope", (req, res) => {
 	res.render("eventPosters/scope");
 });
+app.get("/wireHire", (req, res) => {
+	res.render("eventPosters/wireHire");
+});
 
 /* Cultural Events */
 
