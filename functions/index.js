@@ -97,6 +97,27 @@ app.get("/pitchPeak", (req, res) => {
 app.get("/artGallery", (req, res) => {
 	res.render("eventPosters/artGallery");
 });
+app.get("/arivu", (req, res) => {
+	res.render("eventPosters/arivu");
+});
+app.get("/blockChain", (req, res) => {
+	res.render("eventPosters/blockChain");
+});
+app.get("/chatBots", (req, res) => {
+	res.render("eventPosters/chatBots");
+});
+app.get("/mathWorks", (req, res) => {
+	res.render("eventPosters/mathWorks");
+});
+app.get("/nlp", (req, res) => {
+	res.render("eventPosters/nlp");
+});
+app.get("/sigma", (req, res) => {
+	res.render("eventPosters/sigma");
+});
+app.get("/ramanujan", (req, res) => {
+	res.render("eventPosters/ramanujan");
+});
 
 app.get("/curbTheDiseases", (req, res) => {
 	res.render("eventPosters/curbTheDiseases");
