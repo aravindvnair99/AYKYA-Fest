@@ -637,7 +637,7 @@ $(document).ready(function () {
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Oct 14, 2020 06:00:00").getTime(),
+		let countDown = new Date("Nov 06, 2020 07:00:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
