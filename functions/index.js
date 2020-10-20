@@ -64,6 +64,29 @@ app.get("/managementWeek", (req, res) => {
 				= eventPoster routes =
 
 ===============================================>>>>>*/
+/* Management Events */
+
+app.get("/visleshana", (req, res) => {
+	res.render("eventPosters/visleshana");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
+});
+app.get("/businessMavericks", (req, res) => {
+	res.render("eventPosters/businessMavericks");
+});
+app.get("/tradeOMania", (req, res) => {
+	res.render("eventPosters/tradeOMania");
+});
+app.get("/scope", (req, res) => {
+	res.render("eventPosters/scope");
+});
+app.get("/wireHire", (req, res) => {
+	res.render("eventPosters/wireHire");
+});
+
+/* Cultural Events */
+
 app.get("/eventRegTemplate", (req, res) => {
 	res.render("eventPosters/eventRegTemplate");
 });
