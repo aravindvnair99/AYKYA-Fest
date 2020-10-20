@@ -20193,3 +20193,9 @@ footer {
 /*--------------------------------------------------------------
 REPONSIVE
 --------------------------------------------------------------*/
+.brochure-download {
+	color: yellow;
+}
+.brochure-download:hover {
+	text-decoration: underline;
+}
