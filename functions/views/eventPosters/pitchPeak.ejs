@@ -1,183 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<%- include('../components/meta') -%>
-		<title>AYKYA</title>
-		<%- include('../components/corecss') -%>
-	</head>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<html lang="en">
+		<head>
+			<%- include('../components/meta') -%>
+			<title>AYKYA</title>
+			<%- include('../components/corecss') -%>
+		</head>
+		<body>
+			<header>
+				<div class="extra-container">
+					<div class="header-2">
+						<div class="header__menu-icon">
+							<div class="header__menu-icon__dot">
+								<span></span>
+								<span></span>
+							</div>
+							<div
+								class="header__menu-icon__dot header__menu-icon__dot--vertical"
+							>
+								<span></span>
+								<span></span>
+							</div>
+							<div
+								class="header__menu-icon__dot header__menu-icon__dot--skew"
+							>
+								<span></span>
+								<span></span>
+							</div>
+							<div
+								class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+							>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="position-fixed"></div>
+						<div class="header__logo">
+							<a href="/"
+								><img
+									src="/assets/images/logo-white.png"
+									alt="logo"
+									width="105px"
+									height="41px"
+							/></a>
+						</div>
 
-	<script>
-		function topFunction() {
-			window.scrollTo(0, 2000);
-		}
-	</script>
-
-	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
+						<a href="#" class="header__buy-ticket">
+							<span>Register</span>
+						</a>
 					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a href="#" class="header__buy-ticket">
-						<span>Register</span>
-					</a>
 				</div>
+			</header>
+			<section class="header-posistion"></section>
+			<%- include('../components/nav') -%>
+			<div class="loading">
+				<div class="sp sp-3balls"></div>
 			</div>
-		</header>
-		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
 
-		<section>
-			<div class="container">
-				<div class="blog-single-content wow fadeInUp">
-					<div class="blog-single-content__thumb">
-						<img
-							src="assets/images/eventGallery/management_week.jpg"
-							alt="Management Week Blog Thumbnail 1"
-						/>
-					</div>
-					<div class="blog-single-content__time">
-						<span
-							><i class="far fa-calendar-check"></i
-							><sup>th</sup> November 2020</span
-						>
-						<br />
-						<span><i class="far fa-clock"></i> Before 5pm</span>
-					</div>
-					<h4 style="color: aliceblue">Pitch Peak</h4>
-					<div class="blog-single-content__paragraph">
-						<p style="font-size: larger">
-							It's a virtual dance competition aimed at
-							identifying the creativity within the choreography.
-							<br />
+			<section>
+				<div class="container">
+					<div class="blog-single-content wow fadeInUp">
+						<div class="blog-single-content__thumb">
+							<img
+								src="assets/images/eventPosters/managementEvents/pitchPeak.jpg"
+								alt="Pitch Peak"
+							/>
+						</div>
 
-							Participants will be given an audio clip of 15-30
-							secs to which they have to choreograph.
-							<br />
-
-							The participants need to make an Instagram video and
-							ping it to Aykya's official Instagram account:
-							<a href="https://instagram.com/aykya2020">
-								<i
-									class="fab fa-instagram fa-2x"
-									style="
-										color: white;
-										padding: 2px 2px;
-										font-size: 20px;
-									"
-								></i>
-							</a>
-							<br /><br />
-
-							<b>Reminder:</b> It's a <i>solo</i> event.
-
-							<br /><br />
-						</p>
-						<p style="font-size: larger">
-							<b>Rules And Regulations :</b>
-							<br />
-							Participants need to consider the following
-							constraints before submitting their entry:
-							<br />
-						</p>
-
-						<ul
+						<h4
 							style="
-								color: white;
-								margin-left: 20px;
-								font-size: larger;
+								color: aliceblue;
+								font-size: 50px;
+								padding-top: 15px;
 							"
 						>
-							<li>
-								No vulgarity in choreography and costume is
-								accepted.
-							</li>
-							<li>
-								No inclusion of political issues or any other
-								controversial issues.
-							</li>
-						</ul>
+							Pitch Peak
+						</h4>
+						<div class="blog-single-content__paragraph">
+							<p>
+								A sales pitching competition is conducting on
+								behalf of the great AYKYA MANAGEMENT FEST, which
+								aims to bring out the creativity, selling talent
+								and communication skills among students. The
+								event is scheduled to happen in three rounds,
+								which test the ability of participants to
+								advertise their brand and sell the product
+								efficiently and effectively.
+								<br /><br />
 
-						<p style="text-align: center; margin-top: 20px">
-							<button
-								style="font-size: xx-large"
-								onclick="topFunction()"
-							>
-								<b>Register Below</b>
-							</button>
-						</p>
-					</div>
+								<b>Entry for:</b> All Students(Teams of 2-3)
 
-					<div class="blog-single-content__paging">
-						<div
-							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
-						>
-							<a
-								href="techweek"
-								class="blog-single-content__paging__btn"
-							>
-								<span
-									><i class="fa fa-angle-double-left"></i
-									>Prev</span
-								>
-								<h5>Art Gallery</h5>
-							</a>
+								<br /><br />
+
+								<b>Platform:</b> Zoom/MS Teams
+
+								<br /><br />
+
+								<b>Deadline For Registration:</b> TBA
+
+								<br /><br />
+
+								<b>Entry Fee:</b> &#x20B9; 250 Per Team
+
+								<br /><br />
+								<b>Contact:</b>
+								<a class="contact-info__link" href="#">
+									<img
+										src="assets/images/Contact-phone.png"
+										alt="phone"
+									/>
+									<span
+										style="
+											color: white;
+											filter: brightness(400%)
+												contrast(100%);
+										"
+										>Soumya Somanath: 9567748042</span
+									>
+								</a>
+								<br />
+
+								<b>Prizes:</b>
+							</p>
+							<ul class="listClass">
+								<li>1st Place - &#x20B9; 2000</li>
+								<li>2nd Place - &#x20B9; 1000</li>
+							</ul>
 						</div>
-						<div
-							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+
+						<h4
+							style="
+								color: aliceblue;
+								font-size: 40px;
+								padding-top: 15px;
+							"
 						>
-							<a
-								href="culturalweek"
-								class="blog-single-content__paging__btn"
+							Round 1
+						</h4>
+						<div
+							class="blog-single-content__time"
+							style="margin-top: -25px"
+						>
+							<span
+								><i class="far fa-calendar-check"></i>
+								4<sup>th</sup>November 2020</span
 							>
-								<span
-									>Next<i class="fa fa-angle-double-right"></i
-								></span>
-								<h5>Conquer The Squares</h5>
-							</a>
+							<br />
+							<span
+								><i class="far fa-clock"></i> Before
+								5:00PM</span
+							>
+						</div>
+
+						<div class="blog-single-content__paragraph">
+							<p style="margin-top: -15px">
+								<b>Deadline:</b> 5:00 PM
+								<br />
+								Submit video and ppt to the given link:
+								<br /><br />
+								<b>Aykya's official Instagram account:</b>
+								<a href="https://instagram.com/aykya2020">
+									<i
+										class="fab fa-instagram fa-2x"
+										style="
+											color: white;
+											padding: 2px 2px;
+											font-size: 20px;
+										"
+									></i>
+								</a>
+							</p>
+						</div>
+
+						<h4
+							style="
+								color: aliceblue;
+								font-size: 40px;
+								padding-top: 15px;
+							"
+						>
+							Round 2
+						</h4>
+						<div
+							class="blog-single-content__time"
+							style="margin-top: -25px"
+						>
+							<span
+								><i class="far fa-calendar-check"></i>
+								7<sup>th</sup>November 2020</span
+							>
+							<br />
+							<span
+								><i class="far fa-clock"></i> 10:00AM -
+								1:00PM</span
+							>
+						</div>
+
+						<div class="blog-single-content__paragraph">
+							<p style="margin-top: -15px">
+								<b>10:00PM - 1:00PM : </b> Split Room + 2 Judges
+
+								<br />
+
+								<b>10:00PM - 7:00PM : </b> Single Room + 1 Judge
+							</p>
+						</div>
+
+						<h4
+							style="
+								color: aliceblue;
+								font-size: 40px;
+								padding-top: 15px;
+							"
+						>
+							Round 3
+						</h4>
+						<div
+							class="blog-single-content__time"
+							style="margin-top: -25px"
+						>
+							<span
+								><i class="far fa-calendar-check"></i>
+								8<sup>th</sup>November 2020</span
+							>
+							<br />
+							<span
+								><i class="far fa-clock"></i> 10:00AM -
+								1:00PM</span
+							>
+						</div>
+
+						<div class="blog-single-content__paragraph">
+							<p style="margin-top: -15px">
+								Final pitching competition for selected teams
+								with random products(<i>7-10teams</i>)
+							</p>
+						</div>
+
+						<div class="blog-single-content__paging">
+							<div
+								class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+							>
+								<a
+									href="visleshana"
+									class="blog-single-content__paging__btn"
+								>
+									<span
+										><i class="fa fa-angle-double-left"></i
+										>Prev</span
+									>
+									<h5>Visleshana</h5>
+								</a>
+							</div>
+							<div
+								class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+							>
+								<a
+									href="businessMavericks"
+									class="blog-single-content__paging__btn"
+								>
+									<span
+										>Next<i
+											class="fa fa-angle-double-right"
+										></i
+									></span>
+									<h5>Business Mavericks</h5>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<%- include('../components/footer') -%> <%-
-		include('../components/corejs') -%>
-	</body>
+			<%- include('../components/footer') -%> <%-
+			include('../components/corejs') -%>
+		</body>
+	</html>
 </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('../components/corecss') -%>
+	</head>
+
+	<script>
+		function topFunction() {
+			window.scrollTo(0, 2000);
+		}
+	</script>
+
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="/"
+							><img
+								src="/assets/images/logo-white.png"
+								alt="logo"
+								width="105px"
+								height="41px"
+						/></a>
+					</div>
+
+					<a href="#" class="header__buy-ticket">
+						<span>Register</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('../components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
+
+		<section>
+			<div class="container">
+				<div class="blog-single-content wow fadeInUp">
+					<div class="blog-single-content__thumb poster-item">
+						<img
+							src="assets/images/eventPosters/culturalEvents/openmic.png"
+							alt="Open Mic"
+						/>
+					</div>
+					<div class="blog-single-content__time">
+						<span
+							><i class="far fa-calendar-check"></i>7<sup>th</sup>
+							November 2020</span
+						>
+						<br />
+						<span><i class="far fa-clock"></i>5 pm - 6 pm</span>
+					</div>
+					<h4 style="color: aliceblue">Open Mic - Music</h4>
+					<div class="blog-single-content__paragraph">
+						<p style="font-size: larger">
+							Just join the live stream on instagram and
+							participate with no prior registration hassles The
+							stage is all set, for you, to light it on fire!!!
+						</p>
+					</div>
+
+					<div class="blog-single-content__paging">
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+						>
+							<a
+								href="/shipwreck"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									><i class="fa fa-angle-double-left"></i
+									>Prev</span
+								>
+								<h5>Shipwreck</h5>
+							</a>
+						</div>
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+						>
+							<a
+								href="/battleOfTheBands"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									>Next
+									<i class="fa fa-angle-double-right"></i
+								></span>
+								<h5>Battle Of The Bands</h5>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<%- include('../components/footer') -%> <%-
+		include('../components/corejs') -%>
+	</body>
+</html>

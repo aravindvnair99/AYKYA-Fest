@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../components/meta') -%>
+		<title>AYKYA</title>
+		<%- include('../components/corecss') -%>
+	</head>
+
+	<script>
+		function topFunction() {
+			window.scrollTo(0, 2000);
+		}
+	</script>
+
+	<body>
+		<header>
+			<div class="extra-container">
+				<div class="header-2">
+					<div class="header__menu-icon">
+						<div class="header__menu-icon__dot">
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--vertical"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew"
+						>
+							<span></span>
+							<span></span>
+						</div>
+						<div
+							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
+						>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="position-fixed"></div>
+					<div class="header__logo">
+						<a href="/"
+							><img
+								src="/assets/images/logo-white.png"
+								alt="logo"
+								width="105px"
+								height="41px"
+						/></a>
+					</div>
+
+					<a href="#" class="header__buy-ticket">
+						<span>Register</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="header-posistion"></section>
+		<%- include('../components/nav') -%>
+		<div class="loading">
+			<div class="sp sp-3balls"></div>
+		</div>
+
+		<section>
+			<div class="container">
+				<div class="blog-single-content wow fadeInUp">
+					<div class="blog-single-content__thumb poster-item">
+						<img
+							src="assets/images/eventPosters/culturalEvents/artgallery.png"
+							alt="Art gallery"
+						/>
+					</div>
+					<div class="blog-single-content__time">
+						<span
+							><i class="far fa-calendar-check"></i>6<sup>th</sup>
+							- 8<sup>th</sup> November 2020</span
+						>
+						<br />
+						<span><i class="far fa-clock"></i>Whole Day</span>
+					</div>
+					<h4 style="color: aliceblue">Art Gallery</h4>
+					<div class="blog-single-content__paragraph">
+						<p style="font-size: larger">
+							The art one sees are polaroids of emotion, the sort
+							of communication that could take volumes of the
+							written word to convey. Feel the artist speaking
+							through the ages in the language of the soul through
+							the art gallery on the Aykya website.
+						</p>
+					</div>
+
+					<div class="blog-single-content__paging">
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"
+						></div>
+						<div
+							class="blog-single-content__paging__divide blog-single-content__paging__divide--next"
+						>
+							<a
+								href="/bestFootForward"
+								class="blog-single-content__paging__btn"
+							>
+								<span
+									>Next
+									<i class="fa fa-angle-double-right"></i
+								></span>
+								<h5>Best Foot Forward</h5>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<%- include('../components/footer') -%> <%-
+		include('../components/corejs') -%>
+	</body>
+</html>
