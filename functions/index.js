@@ -40,6 +40,9 @@ app.get("/organisers", (req, res) => {
 app.get("/contact", (req, res) => {
 	res.render("contact");
 });
+app.get("/campusAmbassador", (req, res) => {
+	res.render("campusAmbassador");
+});
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
