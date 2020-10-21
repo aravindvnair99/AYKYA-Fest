@@ -40,24 +40,127 @@ app.get("/organisers", (req, res) => {
 app.get("/contact", (req, res) => {
 	res.render("contact");
 });
-app.get("/culturalWeek", (req, res) => {
-	res.render("culturalWeek");
-});
-app.get("/techWeek", (req, res) => {
-	res.render("techWeek");
-});
-app.get("/managementWeek", (req, res) => {
-	res.render("managementWeek");
-});
-app.get("/eventRegTemplate", (req, res) => {
-	res.render("eventPosters/eventRegTemplate");
-});
-app.get("/pitchPeak", (req, res) => {
-	res.render("eventPosters/pitchPeak");
+app.get("/campusAmbassador", (req, res) => {
+	res.render("campusAmbassador");
 });
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
+
+/*=============================================>>>>>
+
+				= blog routes =
+
+===============================================>>>>>*/
+app.get("/culturalWeek", (req, res) => {
+	res.render("pastEvents/culturalWeek");
+});
+app.get("/techWeek", (req, res) => {
+	res.render("pastEvents/techWeek");
+});
+app.get("/managementWeek", (req, res) => {
+	res.render("pastEvents/managementWeek");
+});
+
+/*=============================================>>>>>
+
+				= eventPoster routes =
+
+===============================================>>>>>*/
+
+/* Management Events */
+
+app.get("/visleshana", (req, res) => {
+	res.render("eventPosters/visleshana");
+});
+app.get("/pitchPeak", (req, res) => {
+	res.render("eventPosters/pitchPeak");
+});
+app.get("/businessMavericks", (req, res) => {
+	res.render("eventPosters/businessMavericks");
+});
+app.get("/tradeOMania", (req, res) => {
+	res.render("eventPosters/tradeOMania");
+});
+app.get("/scope", (req, res) => {
+	res.render("eventPosters/scope");
+});
+app.get("/wireHire", (req, res) => {
+	res.render("eventPosters/wireHire");
+});
+
+/* Cultural Events */
+
+app.get("/bestFootForward", (req, res) => {
+	res.render("eventPosters/bestFootForward");
+});
+app.get("/conquerTheSquares", (req, res) => {
+	res.render("eventPosters/conquerTheSquares");
+});
+app.get("/openMicComedy", (req, res) => {
+	res.render("eventPosters/openMicComedy");
+});
+app.get("/shipwreck", (req, res) => {
+	res.render("eventPosters/shipwreck");
+});
+app.get("/openMicMusic", (req, res) => {
+	res.render("eventPosters/openMicMusic");
+});
+app.get("/battleOfTheBands", (req, res) => {
+	res.render("eventPosters/battleOfTheBands");
+});
+app.get("/openMicTalk", (req, res) => {
+	res.render("eventPosters/openMicTalk");
+});
+app.get("/artGallery", (req, res) => {
+	res.render("eventPosters/artGallery");
+});
+
+/* Technical Events */
+
+app.get("/arivu", (req, res) => {
+	res.render("eventPosters/arivu");
+});
+app.get("/blockChain", (req, res) => {
+	res.render("eventPosters/blockChain");
+});
+app.get("/chatBots", (req, res) => {
+	res.render("eventPosters/chatBots");
+});
+app.get("/mathWorks", (req, res) => {
+	res.render("eventPosters/mathWorks");
+});
+app.get("/nlp", (req, res) => {
+	res.render("eventPosters/nlp");
+});
+app.get("/sigma", (req, res) => {
+	res.render("eventPosters/sigma");
+});
+app.get("/ramanujan", (req, res) => {
+	res.render("eventPosters/ramanujan");
+});
+app.get("/curbTheDiseases", (req, res) => {
+	res.render("eventPosters/curbTheDiseases");
+});
+app.get("/gameNite", (req, res) => {
+	res.render("eventPosters/gameNite");
+});
+app.get("/webinarOnAstrophotography", (req, res) => {
+	res.render("eventPosters/webinarOnAstrophotography");
+});
+app.get("/webinarOnFutureECE", (req, res) => {
+	res.render("eventPosters/webinarOnFutureECE");
+});
+app.get("/workshopOnAWS", (req, res) => {
+	res.render("eventPosters/workshopOnAWS");
+});
+app.get("/workshopOnML", (req, res) => {
+	res.render("eventPosters/workshopOnML");
+});
+app.get("/vlsi", (req, res) => {
+	res.render("eventPosters/vlsi");
+});
+
 /*=============================================>>>>>
 
 				= template routes =

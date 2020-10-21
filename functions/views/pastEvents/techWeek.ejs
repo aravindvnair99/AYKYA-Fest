@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<%- include('components/meta') -%>
+		<%- include('../components/meta') -%>
 		<title>AYKYA</title>
-		<%- include('components/corecss') -%>
+		<%- include('../components/corecss') -%>
 	</head>
 
 	<body>
@@ -45,14 +45,19 @@
 						/></a>
 					</div>
 
-					<a href="#" class="header__buy-ticket">
-						<span>Register</span>
-					</a>
+					<a
+							href="https://payments.acrd.org.in/pay/event/blr2021001"
+							class="header__buy-ticket"
+							target="_blank"
+							rel="noopener"
+						>
+							<span>Register</span>
+						</a>
 				</div>
 			</div>
 		</header>
 		<section class="header-posistion"></section>
-		<%- include('components/nav') -%>
+		<%- include('../components/nav') -%>
 		<div class="loading">
 			<div class="sp sp-3balls"></div>
 		</div>
@@ -89,7 +94,7 @@
 							Numerous insightful webinars were conducted on vital
 							topics. The one on Equity gave us clear
 							understanding on basic financial matters. The
-							Robotics Webinar highlighted the key components of
+							Robotics Webinar highlighted the key ../components of
 							robotics and other domains such as self-driving. The
 							webinars of Emerging Technologies and Augmented and
 							Virtual Reality dealt with the up and coming fields
@@ -245,7 +250,7 @@
 			</div>
 		</section>
 
-		<%- include('components/footer') -%> <%- include('components/corejs')
+		<%- include('../components/footer') -%> <%- include('../components/corejs')
 		-%>
 	</body>
 </html>
