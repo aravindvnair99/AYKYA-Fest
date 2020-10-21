@@ -666,7 +666,7 @@ $(document).ready(function () {
 				}
 
 				if (distance <= 0) {
-					clearInterval(x);	
+					clearInterval(x);
 					document.getElementById("logo-timer").style.display =
 						"none";
 					document.getElementById("logo-reveal").style.display =
@@ -676,7 +676,7 @@ $(document).ready(function () {
 					document.getElementById("logo-timer").style.display =
 						"block";
 					document.getElementById("logo-reveal").style.display =
-						"none";					
+						"none";
 				}
 			}, second);
 	}

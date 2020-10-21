@@ -14602,7 +14602,7 @@ body {
 	padding-left: 70px;
 }
 
-.contact-info__item-right{
+.contact-info__item-right {
 	padding-left: 70px;
 	padding-top: 100px;
 }
@@ -14611,14 +14611,14 @@ body {
 	.contact-info__item-left {
 		padding-left: 0;
 	}
-	.contact-info__item-right{
+	.contact-info__item-right {
 		padding-left: 0;
 		padding-top: 120px;
 	}
 }
 
 @media (max-width: 992px) {
-	.contact-info__item-right{
+	.contact-info__item-right {
 		padding-top: 0;
 	}
 	.contact-info__item-right .fillin-form {
