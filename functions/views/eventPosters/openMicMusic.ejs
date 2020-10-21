@@ -6,67 +6,11 @@
 		<%- include('../components/corecss') -%>
 	</head>
 
-	<script>
-		function topFunction() {
-			window.scrollTo(0, 2000);
-		}
-	</script>
-
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -77,6 +21,9 @@
 							alt="Open Mic"
 						/>
 					</div>
+
+					<h4 class="blogHeader">Open Mic - Music</h4>
+
 					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>7<sup>th</sup>
@@ -85,15 +32,13 @@
 						<br />
 						<span><i class="far fa-clock"></i>5 pm - 6 pm</span>
 					</div>
-					<h4 style="color: aliceblue">Open Mic - Music</h4>
 					<div class="blog-single-content__paragraph">
-						<p style="font-size: larger">
-							Just join the live stream on instagram and
-							participate with no prior registration hassles The
+						<p>
+							Just join the live stream on Instagram and
+							participate with no prior registration hassles. The
 							stage is all set, for you, to light it on fire!!!
 						</p>
 					</div>
-
 					<div class="blog-single-content__paging">
 						<div
 							class="blog-single-content__paging__divide blog-single-content__paging__divide--prev"

@@ -7,60 +7,10 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -72,18 +22,10 @@
 						/>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 50px;
-							padding-top: 15px;
-						"
-					>
-						Trade O Mania
-					</h4>
+					<h4 class="blogHeader">Trade O Mania</h4>
 					<div class="blog-single-content__paragraph">
 						<p>
-							Trade-o-mania is a traditional trading platform with
+							Trade-O-mania is a traditional trading platform with
 							highly challenging trading competition. It is where
 							smart and ambitious students can showcase their
 							investing skills and make virtual profit to win. It
@@ -100,55 +42,22 @@
 
 							<br /><br />
 
-							<b>Deadline For Registration:</b> TBA
-
-							<br /><br />
-
-							<b>Deadline For Registration:</b> 4th November 2020
-
-							<br /><br />
-
 							<b>Entry Fee:</b> &#x20B9; 100 Per Head
 
 							<br /><br />
 
-							<b>Contact:</b>
-							<a class="contact-info__link" href="#">
-								<img
-									src="assets/images/Contact-phone.png"
-									alt="phone"
-								/>
-								<span
-									style="
-										color: white;
-										filter: brightness(400%) contrast(100%);
-									"
-									>Aravind Balajyothi: +91 8891404166</span
-								>
-							</a>
-							<br />
-
 							<b>Prizes:</b>
 						</p>
-						<ul class="listClass">
-							<li>1st Place - &#x20B9; 2500</li>
-							<li>2nd Place - &#x20B9; 1500</li>
-						</ul>
+						<div>
+							<ul class="listClass">
+								<li>1st Place - &#x20B9; 2500</li>
+								<li>2nd Place - &#x20B9; 1500</li>
+							</ul>
+						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 1
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 1</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							6<sup>th</sup>November 2020</span
@@ -160,7 +69,7 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<p style="margin-top: -15px">
+						<p>
 							<b>Event:</b> Oral Quiz
 							<br />
 							<b>Rules:</b> Individual round for each team member
@@ -168,19 +77,8 @@
 						</p>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 2
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 2</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							7<sup>th</sup>November 2020</span
@@ -192,8 +90,9 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<div class="listClass" style="margin-left: 0px">
-							<b>Event:</b> Virtual Market Trading
+						<p><b>Event:</b> Virtual Market Trading</p>
+
+						<div>
 							<ul class="listClass">
 								<li>
 									Short listed teams from first round can
@@ -215,19 +114,8 @@
 						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 3
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 3</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							8<sup>th</sup>November 2020</span
@@ -239,10 +127,9 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<p style="margin-top: -15px"></p>
+						<b>Event:</b> Actual Market Trading
 
-						<div class="listClass" style="margin-left: 0px">
-							<b>Event:</b> Actual Market Trading
+						<div>
 							<ul class="listClass">
 								<li>
 									Teams who made maximum profit in the Round
@@ -262,6 +149,25 @@
 								</li>
 							</ul>
 						</div>
+
+						<p>
+							<br /><br />
+
+							<b>Contact:</b>
+							<span class="contact-info__link">
+								<img
+									class="eventPageContact"
+									src="assets/images/Contact-phone.png"
+									alt="phone"
+								/>
+								<span class="contactDetails"
+									>Nandini Nair : 7558884117</span
+								>
+							</span>
+							<br />
+
+							<b>Deadline For Registration:</b> 4th November 2020
+						</p>
 					</div>
 
 					<div class="blog-single-content__paging">

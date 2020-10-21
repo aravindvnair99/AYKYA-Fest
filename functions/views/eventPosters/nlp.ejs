@@ -6,62 +6,11 @@
 		<%- include('../components/corecss') -%>
 	</head>
 
-
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -72,80 +21,112 @@
 							alt="NLP Session"
 						/>
 					</div>
+
+					<h4 class="blogHeader">
+						Kick start to Natural Language Processing and its
+						applications.
+					</h4>
+
 					<div class="blog-single-content__time">
 						<span
-							><i class="far fa-calendar-check"></i> 6<sup
+							><i class="far fa-calendar-check"></i> 7<sup
 								>th</sup
 							>
-							November 2020 </span>						<br />
-						<span><i class="far fa-clock"></i>5:30 PM - 7:30 PM
-                        </span>
+							November 2020
+						</span>
+						<br />
+						<span
+							><i class="far fa-clock"></i>5:30 PM - 7:30 PM
+						</span>
 					</div>
-					<h4 style="color: aliceblue">Kick start to Natural Language Processing and its applications.
-                    </h4>
+
 					<div class="blog-single-content__paragraph">
-						<p style="font-size: larger">
-							<b>Speakers:</b><br>
-                            Mr. Vishnu Kurup M K,<br>
-                            Analytics Consultant, BRIDGEi2i Analytics Solutions
-<br>
-                            <br><br>
-                            A session on Natural language processing and it's practical applications, for the participants to get started on their journey to master NLP.
+						<b>Speakers:</b><br />
+						Mr. Vishnu Kurup M K,<br />
+						Analytics Consultant, BRIDGEi2i Analytics Solutions<br />
+						<br />
+						A session on Natural language processing and it's
+						practical applications, for the participants to get
+						started on their journey to master NLP.
+						<br /><br />
+						<b>Platform: </b>MS TEAMS<br /><br />
+						<b>Entry Fee: </b> &#x20B9; 149 <br />
+						<br />
 
-<br><br>
-							<br><b>Platform: </b>MS TEAMS<br><br>
-							<b>Entry Fee: </b> &#x20B9; 149 <br>
+						<p>
+							<b>Topics To Be Covered: </b>
+						</p>
 
-<br />
+						<div>
+							<ul class="listClass">
+								<li>
+									Introduction to NLP basics, Fundamental NLP
+									concepts such as stemming, lemmatization,
+									stop words, phrase matching, tokenization.
+								</li>
+								<li>Text Classification</li>
+								<li>Sentiment analysis</li>
+								<li>Topic Modeling</li>
+							</ul>
+						</div>
+
+						<p>
+							<br />
+							<b>Prerequisites :</b>
+						</p>
+
+						<div>
+							<ul class="listClass">
+								<li>
+									Basic knowledge in python programming.
+									(Arrays, functions, looping)
+								</li>
+								<li>
+									Need Scikit-Learn and NLTK installed. Links
+									for reference:
+									<ul class="listClass">
+										<li>
+											<a
+												class="link-hover"
+												href="https://scikit-learn.org/stable/install.html"
+											>
+												Install SciKit Learn
+											</a>
+										</li>
+										<li>
+											<a
+												class="link-hover"
+												href="https://www.nltk.org/install.html"
+											>
+												Install NLTK
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+						<br />
+						<p>
+							<b>Entry for :</b>
+							B.tech, M.tech <br /><br />
 
 							<b>Contact :</b>
-							<a class="contact-info__link" href="#">
+							<span class="contact-info__link">
 								<img
-										src="assets/images/Contact-phone.png"
-										alt="phone"
+									class="eventPageContact"
+									src="assets/images/Contact-phone.png"
+									alt="phone"
 								/>
-								<span
-										style="
-											color: white;
-											filter: brightness(400%)
-												contrast(100%);
-										"
+								<span class="contactDetails">
+									Vignesh: +91 96638 90207</span
 								>
-										Vignesh: +91 96638 90207</span
-								>
-							</a>
-<b>Prerequisites :</b>
-<ul class="listClass">
-<li>
-	Basic knowledge in python programming. (Arrays, functions, looping)
-</li>
-<li>
-	Need Scikit-Learn and NLTK installed. Links for reference:
-	<ul class="listClass">
-		<li>
-			<a href="https://scikit-learn.org/stable/install.html">
-				https://scikit-learn.org/stable/install.html
-			</a>
-		</li>
-		<li>
-			<a href="https://www.nltk.org/install.html">
-				https://www.nltk.org/install.html
-			</a>
-		</li>
-	</ul>
-</li>
-</ul>
-<br>
-
-
+							</span>
+							<br />
+							<br />
+							<b>Deadline For Registration: </b
+							><span> 2<sup>nd</sup>November 2020</span>
 						</p>
-						<p style="font-size: larger">
-							<b>Entry for :</b>
-                            B.tech, M.tech  <br />
-                        <br>
-                        <b>Deadline for registration:</b> TBA<br><br>
-                    </p>
-
 					</div>
 
 					<div class="blog-single-content__paging">

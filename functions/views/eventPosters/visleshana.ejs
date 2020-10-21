@@ -7,60 +7,10 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -72,15 +22,7 @@
 						/>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 50px;
-							padding-top: 15px;
-						"
-					>
-						Visleshana
-					</h4>
+					<h4 class="blogHeader">Visleshana</h4>
 					<div class="blog-single-content__paragraph">
 						<p>
 							Wanna find out if the data analyst in you works well
@@ -107,43 +49,19 @@
 							<b>Entry Fee:</b> &#x20B9; 100 Per Head
 
 							<br /><br />
-							<b>Contact:</b>
-							<a class="contact-info__link" href="#">
-								<img
-									src="assets/images/Contact-phone.png"
-									alt="phone"
-								/>
-								<span
-									style="
-										color: white;
-										filter: brightness(400%) contrast(100%);
-									"
-									>Achu S. Padmanabhan: 9037484905</span
-								>
-							</a>
-							<br />
 
 							<b>Prizes:</b>
 						</p>
-						<ul class="listClass">
-							<li>1st Place - &#x20B9; 2000</li>
-							<li>2nd Place - &#x20B9; 1000</li>
-						</ul>
+						<div>
+							<ul class="listClass">
+								<li>1st Place - &#x20B9; 2000</li>
+								<li>2nd Place - &#x20B9; 1000</li>
+							</ul>
+						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 1
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 1</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							3<sup>rd</sup>November 2020</span
@@ -158,17 +76,21 @@
 						<b>Event:</b> MCQ Quiz
 						<br />
 						<b>Rules:</b> Proctoring
-						<ul class="listClass">
-							<li>
-								Teams will be given a timed quiz to be completed
-								over a proctored zoom call
-							</li>
-						</ul>
+						<div>
+							<ul class="listClass">
+								<li>
+									Teams will be given a timed quiz to be
+									completed over a proctored zoom call
+								</li>
+							</ul>
+						</div>
 
 						<br />
 
-						<div class="listClass" style="margin-left: 0px">
+						<p>
 							<b>Analytics Report Submission</b>
+						</p>
+						<div>
 							<ul class="listClass">
 								<li>10 Teams will selected for next round</li>
 								<li>
@@ -183,19 +105,8 @@
 						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 2
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 2</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							7<sup>th</sup>November 2020</span
@@ -205,8 +116,10 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<div class="listClass" style="margin-left: 0px">
+						<p>
 							<b>Analytics Report Submission</b>
+						</p>
+						<div>
 							<ul class="listClass">
 								<li>
 									PowerPoint presentation to be submitted
@@ -218,19 +131,8 @@
 						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 3
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 3</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							8<sup>th</sup>November 2020</span
@@ -242,8 +144,11 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<div class="listClass" style="margin-left: 0px">
+						<p>
 							<b>Presentation</b>
+						</p>
+
+						<div>
 							<ul class="listClass">
 								<li>
 									Share the ppt and explain solution to the
@@ -252,6 +157,24 @@
 								<li>Time : 20-30 mins / Team</li>
 							</ul>
 						</div>
+
+						<p>
+							<br />
+							<b>Contact:</b>
+							<span class="contact-info__link">
+								<img
+									class="eventPageContact"
+									src="assets/images/Contact-phone.png"
+									alt="phone"
+								/>
+								<span class="contactDetails"
+									>Achu S. Padmanabhan: 9037484905</span
+								>
+							</span>
+							<br />
+							<b>Deadline For Registration: </b
+							><span> 2<sup>nd</sup>November 2020</span>
+						</p>
 					</div>
 
 					<div class="blog-single-content__paging">

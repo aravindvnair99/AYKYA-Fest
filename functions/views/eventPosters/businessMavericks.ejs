@@ -7,60 +7,10 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -68,19 +18,11 @@
 					<div class="blog-single-content__thumb">
 						<img
 							src="assets/images/eventPosters/managementEvents/businessMavericks.jpg"
-							alt="Management Week Blog Thumbnail 1"
+							alt="Business Mavericks"
 						/>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 50px;
-							padding-top: 15px;
-						"
-					>
-						Business Mavericks
-					</h4>
+					<h4 class="blogHeader">Business Mavericks</h4>
 					<div class="blog-single-content__paragraph">
 						<p>
 							Do you have a great business idea? Come, let&#39;s
@@ -103,28 +45,9 @@
 
 							<br /><br />
 
-							<b>Deadline For Registration:</b> TBA
-
-							<br /><br />
-
 							<b>Entry Fee:</b> &#x20B9; 150 Per Team
 
 							<br /><br />
-							<b>Contact:</b>
-							<a class="contact-info__link" href="#">
-								<img
-									src="assets/images/Contact-phone.png"
-									alt="phone"
-								/>
-								<span
-									style="
-										color: white;
-										filter: brightness(400%) contrast(100%);
-									"
-									>Aravind Raghunandan Menon: 9496054631</span
-								>
-							</a>
-							<br />
 
 							<b>Prizes:</b>
 						</p>
@@ -133,19 +56,8 @@
 						</ul>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 1
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 1</h4>
+					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i>
 							3<sup>rd</sup>November 2020 - 5<sup>th</sup>
@@ -157,9 +69,10 @@
 
 					<div class="blog-single-content__paragraph">
 						Report on the Business Plan
+						<br />
+						<b>Report Content</b>
 
-						<div class="listClass" style="margin-left: 0px">
-							<b>Report Content</b>
+						<div>
 							<ul class="listClass">
 								<li>Problem</li>
 								<li>Solution</li>
@@ -170,22 +83,11 @@
 						</div>
 					</div>
 
-					<h4
-						style="
-							color: aliceblue;
-							font-size: 40px;
-							padding-top: 15px;
-						"
-					>
-						Round 2
-					</h4>
-					<div
-						class="blog-single-content__time"
-						style="margin-top: -25px"
-					>
+					<h4 class="blogSubHeading">Round 2</h4>
+					<div class="blog-single-content__time">
 						<span
-							><i class="far fa-calendar-check"></i>
-							7<sup>th</sup>November 2020</span
+							><i class="far fa-calendar-check"></i
+							>7<sup>th</sup>November 2020</span
 						>
 						<br />
 						<span
@@ -194,11 +96,25 @@
 					</div>
 
 					<div class="blog-single-content__paragraph">
-						<p style="margin-top: -15px">
+						<p>
 							Pitch for 5 mins about their Business Plan to the
 							investor (Panel)<br />
 							Only maximum 2 members from the team can present<br />
 							Followed by QnA from the panel
+							<br /><br />
+							<b>Contact:</b>
+							<span class="contact-info__link">
+								<img
+									src="assets/images/Contact-phone.png"
+									alt="phone"
+								/>
+								<span class="contactDetails"
+									>Aravind Raghunandan Menon: 9496054631</span
+								>
+							</span>
+							<br />
+							<b>Deadline For Registration: </b
+							><span> 2<sup>nd</sup>November 2020</span>
 						</p>
 					</div>
 

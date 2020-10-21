@@ -7,60 +7,10 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%- include('components/loading')
+		-%>
 
 		<section>
 			<div class="container">
@@ -94,11 +44,12 @@
 							Numerous insightful webinars were conducted on vital
 							topics. The one on Equity gave us clear
 							understanding on basic financial matters. The
-							Robotics Webinar highlighted the key ../components of
-							robotics and other domains such as self-driving. The
-							webinars of Emerging Technologies and Augmented and
-							Virtual Reality dealt with the up and coming fields
-							in technology such as IoT,AI/ML and Data Analytics.
+							Robotics Webinar highlighted the key ../components
+							of robotics and other domains such as self-driving.
+							The webinars of Emerging Technologies and Augmented
+							and Virtual Reality dealt with the up and coming
+							fields in technology such as IoT,AI/ML and Data
+							Analytics.
 						</p>
 
 						<div class="blog-single-content__quote">
@@ -250,7 +201,7 @@
 			</div>
 		</section>
 
-		<%- include('../components/footer') -%> <%- include('../components/corejs')
-		-%>
+		<%- include('../components/footer') -%> <%-
+		include('../components/corejs') -%>
 	</body>
 </html>

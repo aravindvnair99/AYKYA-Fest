@@ -6,60 +6,9 @@
 		<%- include('components/corecss') -%>
 	</head>
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('components/nav') -%> <%- include('components/loading') -%>
 
 		<section>
 			<div class="contact-info">
@@ -71,7 +20,7 @@
 						<div class="col-lg-5">
 							<div class="contact-info__item-left wow fadeInLeft">
 								<h4>Information</h4>
-								<a class="contact-info__link" href="#">
+								<span class="contact-info__link">
 									<img
 										src="assets/images/Contact-address.png"
 										alt="add"
@@ -88,8 +37,8 @@
 										Kasavanahalli, Bengaluru, Karnataka -
 										560035
 									</span>
-								</a>
-								<a class="contact-info__link" href="#">
+								</span>
+								<span class="contact-info__link">
 									<img
 										style="color: white"
 										src="assets/images/Contact-mail.png"
@@ -103,8 +52,8 @@
 										"
 										>contact@aykyamultifest.com</span
 									>
-								</a>
-								<a class="contact-info__link" href="#">
+								</span>
+								<span class="contact-info__link">
 									<img
 										src="assets/images/Contact-phone.png"
 										alt="phone"
@@ -119,8 +68,8 @@
 										Aravind Balajyothi: +91 88914
 										04166</span
 									>
-								</a>
-								<a class="contact-info__link" href="#">
+								</span>
+								<span class="contact-info__link">
 									<img
 										src="assets/images/Contact-phone.png"
 										alt="phone"
@@ -134,8 +83,8 @@
 									>
 										Vignesh: +91 96638 90207</span
 									>
-								</a>
-								<a class="contact-info__link" href="#">
+								</span>
+								<span class="contact-info__link">
 									<img
 										src="assets/images/Contact-phone.png"
 										alt="phone"
@@ -149,8 +98,8 @@
 									>
 										Lakshmi P H: +91 72592 83492</span
 									>
-								</a>
-								<a class="contact-info__link" href="#">
+								</span>
+								<span class="contact-info__link">
 									<img
 										src="assets/images/Contact-phone.png"
 										alt="phone"
@@ -164,12 +113,12 @@
 									>
 										Sree Hari: ‎+91 6238 676 619</span
 									>
-								</a>
+								</span>
 							</div>
 						</div>
 						<div class="col-lg-7">
 							<div
-								class="contact-info__item-left wow fadeInRight"
+								class="contact-info__item-right wow fadeInRight"
 							>
 								<div class="fillin-form">
 									<form action="#">

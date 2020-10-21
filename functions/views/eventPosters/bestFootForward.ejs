@@ -13,60 +13,10 @@
 	</script>
 
 	<body>
-		<header>
-			<div class="extra-container">
-				<div class="header-2">
-					<div class="header__menu-icon">
-						<div class="header__menu-icon__dot">
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--vertical"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew"
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<div
-							class="header__menu-icon__dot header__menu-icon__dot--skew-reverse"
-						>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-					<div class="position-fixed"></div>
-					<div class="header__logo">
-						<a href="/"
-							><img
-								src="/assets/images/logo-white.png"
-								alt="logo"
-								width="105px"
-								height="41px"
-						/></a>
-					</div>
-
-					<a
-							href="https://payments.acrd.org.in/pay/event/blr2021001"
-							class="header__buy-ticket"
-							target="_blank"
-							rel="noopener"
-						>
-							<span>Register</span>
-						</a>
-				</div>
-			</div>
-		</header>
+		<%- include('../components/header') -%>
 		<section class="header-posistion"></section>
-		<%- include('../components/nav') -%>
-		<div class="loading">
-			<div class="sp sp-3balls"></div>
-		</div>
+		<%- include('../components/nav') -%> <%-
+		include('../components/loading') -%>
 
 		<section>
 			<div class="container">
@@ -77,6 +27,8 @@
 							alt="Best foot forward"
 						/>
 					</div>
+					<h4 class="blogHeader">Best Foot Forward</h4>
+
 					<div class="blog-single-content__time">
 						<span
 							><i class="far fa-calendar-check"></i> 6<sup
@@ -87,9 +39,8 @@
 						<br />
 						<span><i class="far fa-clock"></i> Whole Day</span>
 					</div>
-					<h4 style="color: aliceblue">Best Foot Forward</h4>
 					<div class="blog-single-content__paragraph">
-						<p style="font-size: larger">
+						<p>
 							It's a virtual dance competition aimed at
 							identifying the creativity within the choreography.
 							<br />
@@ -99,7 +50,9 @@
 							<br />
 
 							The participants need to make an Instagram video and
-							ping it to Aykya's official Instagram account:
+							ping it to
+							<br />
+							<b>Aykya's official Instagram account:</b>
 							<a href="https://instagram.com/aykya2020">
 								<i
 									class="fab fa-instagram fa-2x"
@@ -116,7 +69,7 @@
 
 							<br /><br />
 						</p>
-						<p style="font-size: larger">
+						<p>
 							<b>Rules And Regulations :</b>
 							<br />
 							<br />
@@ -125,22 +78,18 @@
 							<br />
 						</p>
 						<br />
-						<ul
-							style="
-								color: white;
-								margin-left: 20px;
-								font-size: larger;
-							"
-						>
-							<li>
-								No vulgarity in choreography and costume is
-								accepted.
-							</li>
-							<li>
-								No inclusion of political issues or any other
-								controversial issues.
-							</li>
-						</ul>
+						<div>
+							<ul class="listClass">
+								<li>
+									No vulgarity in choreography and costume is
+									accepted.
+								</li>
+								<li>
+									No inclusion of political issues or any
+									other controversial issues.
+								</li>
+							</ul>
+						</div>
 					</div>
 
 					<div class="blog-single-content__paging">
