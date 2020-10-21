@@ -13577,7 +13577,7 @@ body {
 }
 
 .blog-single-content__thumb {
-	height: 650px;
+	height: 978px;
 }
 
 .poster-item {
@@ -13585,10 +13585,11 @@ body {
 }
 
 .blog-single-content__thumb img {
-	height: 100%;
+	height: auto;
 	-o-object-fit: cover;
 	object-fit: cover;
-	width: fit-content;
+	width: auto;
+	/*height: fit-content;*/
 }
 
 .blog-single-content__time {
@@ -20210,9 +20211,9 @@ footer {
 /*--------------------------------------------------------------
 REPONSIVE
 --------------------------------------------------------------*/
-.brochure-download {
+.link-hover {
 	color: yellow;
 }
-.brochure-download:hover {
+.link-hover:hover {
 	text-decoration: underline;
 }
