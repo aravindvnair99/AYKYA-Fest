@@ -46,6 +46,9 @@ app.get("/campusAmbassador", (req, res) => {
 app.get("/offline", (req, res) => {
 	res.render("offline");
 });
+app.get("/register", (req, res) => {
+	res.render("register");
+});
 
 /*=============================================>>>>>
 
