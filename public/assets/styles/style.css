@@ -13592,13 +13592,13 @@ body {
 }
 
 .blog-single-content__time {
-	margin: 17px 0 40px;
+	margin: -25px 0 40px;
 }
 
 .listClass {
 	color: white;
 	margin-left: 20px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .blog-single-content__time span {
@@ -13614,7 +13614,7 @@ body {
 .blog-single-content__paragraph p {
 	margin-top: 10px;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .blog-single-content__paragraph p:first-child {
@@ -13655,6 +13655,23 @@ body {
 
 .blog-single-content__quote__text p {
 	position: inherit;
+}
+
+.blogHeader {
+	color: aliceblue;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+.blogSubHeading {
+	color: aliceblue;
+	font-size: 40px;
+	padding-top: 15px;
+}
+
+.contactDetails {
+	color: white;
+	filter: brightness(400%) contrast(100%);
 }
 
 /* .blog-single-content__quote__main {
