@@ -14838,6 +14838,7 @@ body {
 .schedule-tab {
 	height: 140px;
 	display: flex;
+	text-align: center;
 }
 
 .schedule-tab__item {
