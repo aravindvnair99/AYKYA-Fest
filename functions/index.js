@@ -160,8 +160,8 @@ app.get("/workshopOnAWS", (req, res) => {
 app.get("/workshopOnML", (req, res) => {
 	res.render("eventPosters/workshopOnML");
 });
-app.get("/vlsi", (req, res) => {
-	res.render("eventPosters/vlsi");
+app.get("/nextTech", (req, res) => {
+	res.render("eventPosters/nextTech");
 });
 
 /*=============================================>>>>>
