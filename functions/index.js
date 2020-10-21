@@ -67,6 +67,7 @@ app.get("/managementWeek", (req, res) => {
 				= eventPoster routes =
 
 ===============================================>>>>>*/
+
 /* Management Events */
 
 app.get("/visleshana", (req, res) => {
@@ -90,12 +91,6 @@ app.get("/wireHire", (req, res) => {
 
 /* Cultural Events */
 
-app.get("/eventRegTemplate", (req, res) => {
-	res.render("eventPosters/eventRegTemplate");
-});
-app.get("/pitchPeak", (req, res) => {
-	res.render("eventPosters/pitchPeak");
-});
 app.get("/bestFootForward", (req, res) => {
 	res.render("eventPosters/bestFootForward");
 });
@@ -117,12 +112,12 @@ app.get("/battleOfTheBands", (req, res) => {
 app.get("/openMicTalk", (req, res) => {
 	res.render("eventPosters/openMicTalk");
 });
-app.get("/pitchPeak", (req, res) => {
-	res.render("eventPosters/pitchPeak");
-});
 app.get("/artGallery", (req, res) => {
 	res.render("eventPosters/artGallery");
 });
+
+/* Technical Events */
+
 app.get("/arivu", (req, res) => {
 	res.render("eventPosters/arivu");
 });
@@ -144,7 +139,6 @@ app.get("/sigma", (req, res) => {
 app.get("/ramanujan", (req, res) => {
 	res.render("eventPosters/ramanujan");
 });
-
 app.get("/curbTheDiseases", (req, res) => {
 	res.render("eventPosters/curbTheDiseases");
 });
@@ -162,6 +156,9 @@ app.get("/workshopOnAWS", (req, res) => {
 });
 app.get("/workshopOnML", (req, res) => {
 	res.render("eventPosters/workshopOnML");
+});
+app.get("/vlsi", (req, res) => {
+	res.render("eventPosters/vlsi");
 });
 
 /*=============================================>>>>>
