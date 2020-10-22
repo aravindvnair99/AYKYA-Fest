@@ -29,7 +29,7 @@ app.get("/upcomingEvents", (req, res) => {
 	res.render("upcomingEvents");
 });
 app.get("/pastEvents", (req, res) => {
-	res.render("/pastEvents");
+	res.render("pastEvents");
 });
 app.get("/schedule", (req, res) => {
 	res.render("schedule");
