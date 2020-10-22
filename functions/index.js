@@ -76,8 +76,8 @@ app.get("/managementWeek", (req, res) => {
 app.get("/visleshana", (req, res) => {
 	res.render("eventPosters/visleshana");
 });
-app.get("/pitchPeak", (req, res) => {
-	res.render("eventPosters/pitchPeak");
+app.get("/pitchPeek", (req, res) => {
+	res.render("eventPosters/pitchPeek");
 });
 app.get("/businessMavericks", (req, res) => {
 	res.render("eventPosters/businessMavericks");
