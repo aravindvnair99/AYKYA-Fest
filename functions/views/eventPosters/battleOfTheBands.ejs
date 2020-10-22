@@ -2,7 +2,46 @@
 <html lang="en">
 	<head>
 		<%- include('../components/meta') -%>
-		<title>AYKYA</title>
+		<title>Battle Of The Bands</title>
+		<meta
+				name="description"
+				content="Battle of Bands, is a competition for all the bands out there, they will have to make a small set and perform on it"
+		/>
+		<meta property="og:title" content="Battle Of The Bands" />
+		<meta property="og:url" content="https://aykyamultifest.com/battleOfTheBands" />
+		<meta
+				property="og:description"
+				content="Battle of Bands, is a competition for all the bands out there, they will have to make a small set and perform on it"
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Battle Of The Bands",
+				"startDate": "2020-11-08T10:00:00+05:30",
+				"endDate": "2020-11-08T12:00+05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/battleOfTheBands"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/battleOfTheBands.jpg"
+				],
+				"description": "Battle of Bands, is a competition for all the bands out there, they will have to make a small set and perform on it",
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": ""
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
 		<%- include('../components/corecss') -%>
 	</head>
 
@@ -17,7 +56,7 @@
 				<div class="blog-single-content wow fadeInUp">
 					<div class="blog-single-content__thumb poster-item">
 						<img
-							src="assets/images/eventPosters/culturalEvents/battle of bands.png"
+							src="/assets/images/eventPosters/culturalEvents/battleOfTheBands.jpg"
 							alt="Battle of Bands"
 						/>
 					</div>
@@ -61,7 +100,7 @@
 							>
 							<span class="contact-info__link">
 								<img
-									src="assets/images/Contact-phone.png"
+									src="/assets/images/Contact-phone.png"
 									alt="phone"
 								/>
 								<span class="contactDetails">

@@ -2,7 +2,48 @@
 <html lang="en">
 	<head>
 		<%- include('../components/meta') -%>
-		<title>AYKYA</title>
+		<title>Conquer The Squares</title>
+		<meta
+				name="description"
+				content="Participate in the event by quickly downloading or
+							signing up yourselves on the LICHESS website."
+		/>
+		<meta property="og:title" content="Conquer The Squares" />
+		<meta property="og:url" content="https://aykyamultifest.com/conquerTheSquares" />
+		<meta
+				property="og:description"
+				content="Participate in the event by quickly downloading or
+							signing up yourselves on the LICHESS website."
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Conquer The Squares",
+				"startDate": "2020-11-06T15:00:00+05:30",
+				"endDate": "2020-11-06T17:00+05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/conquerTheSquares"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/conquerTheSquares.jpg"
+				],
+				"description": "Participate in the event by quickly downloading or signing up yourselves on the LICHESS website.",
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": ""
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
 		<%- include('../components/corecss') -%>
 	</head>
 
@@ -17,7 +58,7 @@
 				<div class="blog-single-content wow fadeInUp">
 					<div class="blog-single-content__thumb poster-item">
 						<img
-							src="assets/images/eventPosters/culturalEvents/chess.png"
+							src="/assets/images/eventPosters/culturalEvents/chess.jpg"
 							alt="Chess"
 						/>
 					</div>
@@ -66,7 +107,7 @@
 							>
 							<span class="contact-info__link">
 								<img
-									src="assets/images/Contact-phone.png"
+									src="/assets/images/Contact-phone.png"
 									alt="phone"
 								/>
 								<span class="contactDetails">

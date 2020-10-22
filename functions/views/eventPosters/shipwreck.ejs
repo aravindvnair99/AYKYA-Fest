@@ -2,7 +2,50 @@
 <html lang="en">
 	<head>
 		<%- include('../components/meta') -%>
-		<title>AYKYA</title>
+		<title>Shipwreck</title>
+		<meta
+				name="description"
+				content="Convincing someone is always hard, but here is your
+							chance to our judge to give you the spare lifejacket
+							and save yourself from the sinking ship!"
+		/>
+		<meta property="og:title" content="Shipwreck" />
+		<meta property="og:url" content="https://aykyamultifest.com/shipwreck" />
+		<meta
+				property="og:description"
+				content="Convincing someone is always hard, but here is your
+							chance to our judge to give you the spare lifejacket
+							and save yourself from the sinking ship!"
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Shipwreck",
+				"startDate": "2020-11-7T10:00:00+05:30",
+				"endDate": "2020-11-7T12:00+05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/shipwreck"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/shipwreck.jpg"
+				],
+				"description": "Convincing someone is always hard, but here is your chance to our judge to give you the spare lifejacket and save yourself from the sinking ship!",
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": ""
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
 		<%- include('../components/corecss') -%>
 	</head>
 
@@ -17,7 +60,7 @@
 				<div class="blog-single-content wow fadeInUp">
 					<div class="blog-single-content__thumb poster-item">
 						<img
-							src="assets/images/eventPosters/culturalEvents/shipwreck.png"
+							src="/assets/images/eventPosters/culturalEvents/shipwreck.jpg"
 							alt="Shipwreck Blog Thumbnail 1"
 						/>
 					</div>
@@ -71,7 +114,7 @@
 							>
 							<span class="contact-info__link">
 								<img
-									src="assets/images/Contact-phone.png"
+									src="/assets/images/Contact-phone.png"
 									alt="phone"
 								/>
 								<span class="contactDetails">

@@ -13588,7 +13588,7 @@ body {
 	height: auto;
 	-o-object-fit: cover;
 	object-fit: cover;
-	width: auto;
+	width: 100%;
 	/*height: fit-content;*/
 }
 

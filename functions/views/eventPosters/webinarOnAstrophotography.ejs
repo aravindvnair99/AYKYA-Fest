@@ -3,6 +3,51 @@
 	<head>
 		<%- include('../components/meta') -%>
 		<title>AYKYA</title>
+		<meta
+			name="description"
+			content="Webinar on Astronomy, Astrophotography and Taking
+							pictures of celestial objects in space."
+		/>
+		<meta property="og:title" content="Webinar On Astrophotography" />
+		<meta
+			property="og:url"
+			content="https://aykyamultifest.com/webinarOnAstrophotography"
+		/>
+		<meta
+			property="og:description"
+			content="Webinar on Astronomy, Astrophotography and Taking
+							pictures of celestial objects in space."
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Webinar on Astrophotography",
+				"startDate": "2020-11-08T17:00:00+05:30",
+				"endDate": "2020-11-08T18:00+05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/webinarOnAstrophotography"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/universe.jpg"
+				],
+				"description": "Webinar on Astronomy, Astrophotography and Taking pictures of celestial objects in space.",
+
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": "Mr.Prabhu"
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
 		<%- include('../components/corecss') -%>
 	</head>
 	<body>
@@ -16,7 +61,7 @@
 				<div class="blog-single-content wow fadeInUp">
 					<div class="blog-single-content__thumb">
 						<img
-							src="assets/images/eventPosters/technicalEvents/universe.jpg"
+							src="/assets/images/eventPosters/technicalEvents/universe.jpg"
 							alt="Webinar On Astrophotography"
 						/>
 					</div>
@@ -61,7 +106,7 @@
 							<span class="contact-info__link">
 								<img
 									class="eventPageContact"
-									src="assets/images/Contact-phone.png"
+									src="/assets/images/Contact-phone.png"
 									alt="phone"
 								/>
 								<span class="contactDetails">
@@ -69,7 +114,7 @@
 								>
 							</span>
 							<br />
-							<b>Register Here Using UPI:</b>
+							<b>Register Here:</b>
 
 							<iframe
 								src="https://docs.google.com/forms/d/10Xuq4nPK-69SIMjqW26UBRsxMHK8n40aRFl7H7sHpqM/viewform?embedded=true"
@@ -80,20 +125,6 @@
 								marginwidth="0"
 								>Loading…</iframe
 							>
-							<br />
-							<b
-								>If you want to pay using credit or debit card,
-								contact us at:</b
-							>
-							<span class="contact-info__link">
-								<img
-									src="assets/images/Contact-phone.png"
-									alt="phone"
-								/>
-								<span class="contactDetails">
-									Aravind B J: +91 90745 65221</span
-								>
-							</span>
 						</p>
 					</div>
 
