@@ -637,7 +637,7 @@ $(document).ready(function () {
 			hour = minute * 60,
 			day = hour * 24;
 
-		let countDown = new Date("Oct 21, 2020 18:44:30").getTime(),
+		let countDown = new Date("Nov 06, 2020 07:00:00").getTime(),
 			x = setInterval(function () {
 				let now = new Date().getTime(),
 					distance = countDown - now;
@@ -671,7 +671,7 @@ $(document).ready(function () {
 						"none";
 					document.getElementById("logo-reveal").style.display =
 						"block";
-						return;
+					return;
 				} else {
 					document.getElementById("logo-timer").style.display =
 						"block";
