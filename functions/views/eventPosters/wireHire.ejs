@@ -2,7 +2,55 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<%- include('../components/meta') -%>
-		<title>AYKYA</title>
+		<title>Wire Hire</title>
+		<meta
+				name="description"
+				content="Wire hire is a 2 day workshop with stress interviews and many more interactive rounds conducted by industry specialists in HR management"
+		/>
+		<meta property="og:title" content="Wire Hire" />
+		<meta property="og:url" content="https://aykyamultifest.com/wireHire" />
+		<meta
+				property="og:description"
+				content="Wire hire is a 2 day workshop with stress interviews and many more interactive rounds conducted by industry specialists in HR management"
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Wire Hire",
+				"startDate": "2020-11-6T10:00:00+05:30",
+				"endDate": "2020-11-5T17:00+05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/wireHire"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/wireHire.jpg"
+				],
+				"description": "Wire hire is a 2 day workshop with stress interviews and many more interactive rounds conducted by industry specialists in HR management",
+				"offers": {
+					"@type": "Offer",
+					"url": "https://www.example.com/event_offer/12345_201803180430",
+					"price": "30",
+					"priceCurrency": "USD",
+					"availability": "https://schema.org/InStock",
+					"validFrom": "2024-05-21T12:00"
+				},
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": "Mr.MK.Swaminathan, Mrs Mary Shirley"
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
+
 		<%- include('../components/corecss') -%>
 	</head>
 

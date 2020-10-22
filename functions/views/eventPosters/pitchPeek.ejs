@@ -3,7 +3,56 @@
 	<html lang="en">
 		<head>
 			<%- include('../components/meta') -%>
-			<title>AYKYA</title>
+			<title>Pitch Peek</title>
+			<meta
+					name="description"
+					content="A sales pitching competition is conducting on
+								behalf of the great AYKYA MANAGEMENT FEST"
+			/>
+			<meta property="og:title" content="Pitch Peek" />
+			<meta property="og:url" content="https://aykyamultifest.com/pitchPeek" />
+			<meta
+					property="og:description"
+					content="A sales pitching competition is conducting on
+								behalf of the great AYKYA MANAGEMENT FEST"
+			/>
+
+			<script type="application/ld+json">
+				{
+					"@context": "https://schema.org",
+					"@type": "Event",
+					"name": "Pitch Peek",
+					"startDate": "2020-11-4T17:00:00+05:30",
+					"endDate": "2020-11-8T13:00+05:30",
+					"eventStatus": "https://schema.org/EventScheduled",
+					"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+					"location": {
+						"@type": "VirtualLocation",
+						"url": "https://aykyamultifest.com/pitchPeek"
+					},
+					"image": [
+						"/assets/images/eventPosters/technicalEvents/pitchPeek.jpg"
+					],
+					"description": "A sales pitching competition is conducting on behalf of the great AYKYA MANAGEMENT FEST",
+					"offers": {
+						"@type": "Offer",
+						"url": "https://www.example.com/event_offer/12345_201803180430",
+						"price": "30",
+						"priceCurrency": "USD",
+						"availability": "https://schema.org/InStock",
+						"validFrom": "2024-05-21T12:00"
+					},
+					"performer": {
+						"@type": "PerformingGroup",
+						"name": ""
+					},
+					"organizer": {
+						"@type": "Organization",
+						"name": "Aykya",
+						"url": "https://aykyamultifest.com"
+					}
+				}
+			</script>
 			<%- include('../components/corecss') -%>
 		</head>
 		<body>
