@@ -3,6 +3,55 @@
 	<head>
 		<%- include('../components/meta') -%>
 		<title>AYKYA</title>
+		<meta
+				name="description"
+				content="Webinar on Astronomy, Astrophotography and Taking
+							pictures of celestial objects in space."
+		/>
+		<meta property="og:title" content="Webinar On Astrophotography" />
+		<meta property="og:url" content="https://aykyamultifest.com/webinarOnAstrophotography" />
+		<meta
+				property="og:description"
+				content="Webinar on Astronomy, Astrophotography and Taking
+							pictures of celestial objects in space."
+		/>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Event",
+				"name": "Webinar on Astrophotography",
+				"startDate": "2020-11-8T17:00:00-05:30",
+				"endDate": "2020-11-8T18:00-05:30",
+				"eventStatus": "https://schema.org/EventScheduled",
+				"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+				"location": {
+					"@type": "VirtualLocation",
+					"url": "https://aykyamultifest.com/webinarOnAstrophotography"
+				},
+				"image": [
+					"/assets/images/eventPosters/technicalEvents/universe.jpg"
+				],
+				"description": "Webinar on Astronomy, Astrophotography and Taking pictures of celestial objects in space.",
+				"offers": {
+					"@type": "Offer",
+					"url": "https://www.example.com/event_offer/12345_201803180430",
+					"price": "30",
+					"priceCurrency": "USD",
+					"availability": "https://schema.org/InStock",
+					"validFrom": "2024-05-21T12:00"
+				},
+				"performer": {
+					"@type": "PerformingGroup",
+					"name": "Mr.Prabhu"
+				},
+				"organizer": {
+					"@type": "Organization",
+					"name": "Aykya",
+					"url": "https://aykyamultifest.com"
+				}
+			}
+		</script>
 		<%- include('../components/corecss') -%>
 	</head>
 	<body>
