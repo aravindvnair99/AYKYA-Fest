@@ -133,9 +133,6 @@ app.get("/chatBots", (req, res) => {
 app.get("/mathWorks", (req, res) => {
 	res.render("eventPosters/mathWorks");
 });
-app.get("/nlp", (req, res) => {
-	res.render("eventPosters/nlp");
-});
 app.get("/sigma", (req, res) => {
 	res.render("eventPosters/sigma");
 });
