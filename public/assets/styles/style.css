@@ -132,6 +132,14 @@ samp {
 	/* 2 */
 }
 
+.amrita_sponsor
+{
+	width: auto;
+	height: 100px;
+	margin-top: 20px;
+}
+
+
 .image {
 	position: absolute;
 	margin: -75px 0 0;
