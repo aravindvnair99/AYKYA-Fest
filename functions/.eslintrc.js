@@ -6,8 +6,9 @@ module.exports = {
 	},
 	extends: ["eslint:recommended", "google"],
 	rules: {
+		"quote-props": ["error", "as-needed"],
 		quotes: ["error", "double"],
-		"no-tabs": 0,
+		"no-tabs": ["error", {allowIndentationTabs: true}],
 		indent: [2, "tab"],
 		"comma-dangle": ["error", "never"],
 		"one-var": ["error", "always"]
