@@ -3,7 +3,7 @@ const functions = require("firebase-functions"),
 	app = express(),
 	morgan = require("morgan");
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= init and config =
 
@@ -13,7 +13,7 @@ app.use(morgan("dev"));
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= basic routes =
 
@@ -50,7 +50,7 @@ app.get("/register", (req, res) => {
 	res.render("register");
 });
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= blog routes =
 
@@ -65,7 +65,7 @@ app.get("/managementWeek", (req, res) => {
 	res.render("pastEvents/managementWeek");
 });
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= eventPoster routes =
 
@@ -161,7 +161,7 @@ app.get("/nextTech", (req, res) => {
 	res.render("eventPosters/nextTech");
 });
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= template routes =
 
@@ -206,7 +206,7 @@ app.get("/template/venue", (req, res) => {
 	res.render("template/venue");
 });
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= legal routes =
 
@@ -219,7 +219,7 @@ app.get("/termsConditions", (req, res) => {
 	res.render("legal/termsConditions");
 });
 
-/*=============================================>>>>>
+/* =============================================>>>>>
 
 				= errors =
 
