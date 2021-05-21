@@ -3,20 +3,20 @@ name: Node CI
 on: push
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
-    - name: Setup Node.js 14
-      uses: actions/setup-node@main
-      with:
-        node-version: v14.x
-    - name: Install Dependencies
-      run: |
-        cd functions/
-        sudo npm i -g npm
-        npm ci
-        npm run lint
-      env:
-        CI: true
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@main
+            - name: Setup Node.js 14
+              uses: actions/setup-node@main
+              with:
+                  node-version: v14.x
+            - name: Install Dependencies
+              run: |
+                  cd functions/
+                  sudo npm i -g npm
+                  npm ci
+                  npm run lint
+              env:
+                  CI: true

@@ -1,21 +1,21 @@
 HTML:
-- any: ['**/*.html']
+    - any: ["**/*.html"]
 EJS:
-- any: ['**/*.ejs']
+    - any: ["**/*.ejs"]
 CSS:
-- any: ['**/*.css']
+    - any: ["**/*.css"]
 JavaScript:
-- any: ['**/*.js']
-  all: ['!functions/index.js']
+    - any: ["**/*.js"]
+      all: ["!functions/index.js"]
 images:
-- any: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg', '**/*.gif']
+    - any: ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.svg", "**/*.gif"]
 workflows:
-- any: ['.github/workflows/*']
+    - any: [".github/workflows/*"]
 front-end:
-- any: ['public/**/*']
+    - any: ["public/**/*"]
 back-end:
-- any: ['functions/**/*']
+    - any: ["functions/**/*"]
 dependencies:
-- any: ['functions/package.json', 'functions/package-lock.json']
+    - any: ["functions/package.json", "functions/package-lock.json"]
 documentation:
-- any: ['**/*.md']
+    - any: ["**/*.md"]

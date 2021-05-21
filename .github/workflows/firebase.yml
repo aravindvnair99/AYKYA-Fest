@@ -1,35 +1,35 @@
 name: Firebase CD
 on:
-  workflow_dispatch:
-#   push:
-#     paths:
-#       - 'functions/**'
-#       - 'public/**'
-#       - '.firebaserc'
-#       - 'firebase.json'
-#       - '.github/workflows/firebase.yml'
-#     branches:
-#       - main
+    workflow_dispatch:
+    push:
+        paths:
+            - "functions/**"
+            - "public/**"
+            - ".firebaserc"
+            - "firebase.json"
+            - ".github/workflows/firebase.yml"
+        branches:
+            - main
 
 jobs:
-  deploy:
-    name: Firebase Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Setup Node.js 14
-        uses: actions/setup-node@main
-        with:
-          node-version: v14.x
-      - name: Install Dependencies
-        run: |
-          cd functions/
-          sudo npm i -g npm
-          npm ci
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+    deploy:
+        name: Firebase Deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@main
+            - name: Setup Node.js 14
+              uses: actions/setup-node@main
+              with:
+                  node-version: v14.x
+            - name: Install Dependencies
+              run: |
+                  cd functions/
+                  sudo npm i -g npm
+                  npm ci
+            - name: Deploy to Firebase
+              uses: w9jds/firebase-action@master
+              with:
+                  args: deploy
+              env:
+                  FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
