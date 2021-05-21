@@ -1,7 +1,7 @@
 {
 	"name": "aykya",
 	"description": "AYKYA Fest",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"scripts": {
 		"lint": "eslint .",
 		"serve": "firebase emulators:start --only functions",
