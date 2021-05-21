@@ -3,21 +3,20 @@ name: Node CI
 on: push
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [10.x]
     steps:
-    - uses: actions/checkout@main
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout repository
+      uses: actions/checkout@main
+    - name: Setup Node.js 14
       uses: actions/setup-node@main
       with:
-        node-version: ${{ matrix.node-version }}
-    - name: Lint
+        node-version: v14.x
+    - name: Install Dependencies
       run: |
         cd functions/
-        npm i
+        sudo npm i -g npm
+        npm ci
         npm run lint
       env:
         CI: true
